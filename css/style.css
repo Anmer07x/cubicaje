@@ -16,6 +16,7 @@ body {
     position: relative;
     font-size: 14px;
 }
+
 .header {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 10px 20px;
@@ -38,7 +39,6 @@ body {
 .logo-container img {
     width: 70px;
     height: auto;
-    
 }
 
 .initials {
@@ -65,68 +65,85 @@ body {
     filter: blur(50px);
 }
 
-.container {
-    width: 400px;
-    max-width: 90%; /* Asegura que no exceda el ancho de la pantalla */
-    padding: 30px;
-    background-color: rgba(255, 255, 255, 0.8); /* Fondo opaco */
-    border-radius: 30px;
-    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
-    text-align: center;
-    z-index: 1;
+.containerLogin {
+    position: absolute;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.9); /* Ajusta la opacidad del fondo */
+    width: 400px;
+    height: 450px;
+    border-radius: 20px;
+    z-index: 1;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
 }
 
-.logo {
-    width: 75%;
-    height: auto;
-    object-fit: cover;
-    margin-bottom: 20px;
+
+.input {
+    width: 320px; /* Establece el ancho */
+    height: 50px; /* Establece el alto */
+    margin-top: 5%;
+    border: 1px solid black;
     border-radius: 10px;
+    margin-bottom: 20px; /* Agrega espacio entre los inputs */
+    padding-left: 10px;
 }
 
-.container form label {
-    display: block;
-    margin-bottom: 5px;
-}
-
-
-
-.container form input[type="submit"] {
-    background-color: #F4C005;
-    color: #000000;
-    padding: 10px;
-    border: none;
-    border-radius: 5px;
+.buttonSubmit {
+    position: relative;
+    top: 10px;
+    width: 330px;
+    height: 50px;
     cursor: pointer;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: 78px;
-    width: 60%;
-    margin-bottom: 15px; /* Incrementa el espacio entre los botones */
-}
-
-.container form input[type="button"] {
-    background-color: #F4C005;
-    color: #000000;
-    padding: 10px;
     border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-family:'Times New Roman', Times, serif;
-    font-weight: 78px;
-    width: 60%;
-    margin-bottom: 15px; /* Incrementa el espacio entre los botones */
+    border-radius: 10px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.466);
+    background-color: #F3BE00;
 }
 
+.buttonRegister {
+    width: 330px; /* Establece el ancho */
+    height: 50px; /* Establece el alto */
+    margin-top: 2;
+    /* border: 1px solid black; */
+    border-radius: 10px;
+    color: white;
+    background-color: black;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.7);
+    cursor: pointer;
+}
+
+.contenedor {
+    position: relative;
+    width: 100%;
+    display: flex;
+    margin-top: 20px;
+    font-size: 13px;
+}
+
+.izquierda {
+    position: absolute;
+    text-align: left; /* Alinea el texto a la izquierda */
+    flex: 1; /* Ocupa todo el espacio disponible a la izquierda */
+    left: 40px;
+    bottom: 10px;
+}
+
+.derecha {
+    position: absolute;
+    text-align: right; /* Alinea el texto a la derecha */
+    flex: 1; /* Ocupa todo el espacio disponible a la derecha */
+    right: 40px;
+    bottom: 10px;
+}
 
 .help-box {
     position: fixed;
     bottom: 20px;
     right: 20px;
-    
 }
 
 .help-box a {
@@ -148,112 +165,4 @@ body {
 .help-box a:hover {
     background-color: #FFD94D;
     transition: background-color 0.3s ease; /* Agrega una transición suave al cambio de color de fondo */
-}
-
-.containerLogin {
-    position: absolute;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    top: 50%; /* Ubica el contenedor de login en la mitad superior */
-    left: 50%; /* Ubica el contenedor de login en la mitad izquierda */
-    transform: translate(-50%, -50%); /* Centra el contenedor de login horizontal y verticalmente */
-    background-color: white;
-    width: 500px;
-    height: 550px;
-    /* border: 2px solid black; */
-    border-radius: 20px;
-    opacity: 90%;
-    z-index: 1; /* Asegura que el contenedor de login esté sobre el fondo difuminado */
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.466);
-
-}
-
-.input {
-    width: 320px; /* Establece el ancho */
-    height: 50px; /* Establece el alto */
-    margin-top: 5%;
-    border: 1px solid black;
-    border-radius: 10px;
-    margin-bottom: 20px; /* Agrega espacio entre los inputs */
-    padding-left: 10px;
-
-}
-
-.buttonSubmit{
-    position: relative;
-    top: 50px;
-    width: 330px;
-    height: 50px;
-    cursor: pointer;
-    border: none;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.466);
-    background-color: #F3BE00;
-    
-}
-.buttonRegister{
-    width: 330px; /* Establece el ancho */
-    height: 50px; /* Establece el alto */
-    margin-top: 2%;
-    /* border: 1px solid black; */
-    border-radius: 10px;
-    color: white;
-    background-color: black;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.466);
-    cursor: pointer;
-
-
-
-}
-.contenedor{
-    position: relative;
-    width: 100%;
-    display: flex;
-    margin-top: 20px;
-    font-size: 13px;
-}
-
-.izquierda{
-    position: absolute;
-    text-align: left; /* Alinea el texto a la izquierda */
-    flex: 1; /* Ocupa todo el espacio disponible a la izquierda */
-    left: 80px;
-    bottom: 10px;
-}
-
-.derecha{
-    position: absolute;
-    text-align: right; /* Alinea el texto a la derecha */
-    flex: 1; /* Ocupa todo el espacio disponible a la derecha */
-    right: 80px;
-    bottom: 10px;
-}
-
-
-
-
-/* Media queries para estilos responsivos */
-@media only screen and (max-width: 600px) {
-    /* Estilos para pantallas pequeñas */
-    .logo-container {
-        flex-direction: column;
-        align-items: center;
-    }
-
-    .logo-container img {
-        margin-bottom: 10px;
-    }
-
-    .initials::after {
-        display: none; /* Ocultar la barra en pantallas pequeñas */
-    }
-}
-
-@media only screen and (min-width: 601px) and (max-width: 1024px) {
-    /* Estilos para pantallas medianas */
-}
-
-@media only screen and (min-width: 1025px) {
-    /* Estilos para pantallas grandes */
 }
