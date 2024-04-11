@@ -1,0 +1,72 @@
+* {
+    box-sizing: border-box;
+}
+
+.body-background {
+    position: absolute;
+    top: 50px; /* Ajusta la posición vertical */
+    left: 0;
+    width: 100%;
+    height: calc(100% - 50px); /* Ajusta la altura */
+    background-image: url("../img/font.png");
+    background-size: 50%; /* Ajusta el tamaño de la imagen al 50% */
+    background-repeat: no-repeat;
+    background-position: center; /* Centra la imagen de fondo */
+    filter: blur(9px);
+    z-index: -1;
+}
+
+
+
+.help-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+}
+
+.help-box a {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el icono y el texto */
+    background-color: #E8E8E8;
+    color: #000000;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.7);
+}
+
+.help-box a i {
+    margin-right: 5px; /* Ajusta el espaciado entre el icono y el texto */
+}
+
+.help-box a:hover {
+    background-color: #FFD94D;
+    transition: background-color 0.3s ease; /* Agrega una transición suave al cambio de color de fondo */
+}
+
+
+/* Media queries para estilos responsivos */
+@media only screen and (max-width: 600px) {
+    /* Estilos para pantallas pequeñas */
+    .logo-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-container img {
+        margin-bottom: 10px;
+    }
+
+    .initials::after {
+        display: none; /* Ocultar la barra en pantallas pequeñas */
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Estilos para pantallas medianas */
+}
+
+@media only screen and (min-width: 1025px) {
+    /* Estilos para pantallas grandes */
+}
