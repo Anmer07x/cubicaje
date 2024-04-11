@@ -104,20 +104,18 @@ body {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
-.container form .submit-button {
+.container form input[type="submit"] {
     background-color: #F4C005;
     color: #000000;
     padding: 10px;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    font-family: 'Times New Roman', Times, serif;
-    font-weight: bold;
-    width: 100%; /* Cambiado el ancho al 100% para que ocupe todo el espacio disponible */
-    margin-bottom: 15px;
-    box-sizing: border-box; /* Ajuste del modelo de caja para incluir el padding en el ancho */
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 78px;
+    width: 60%;
+    margin-bottom: 15px; /* Incrementa el espacio entre los botones */
 }
-
 
 
 .help-box {

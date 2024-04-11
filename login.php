@@ -13,29 +13,27 @@
         <div class="logo-container">
             <div class="initials">SCU</div>
             <div class="bar"></div>
-            <img src="img/logoU.png" alt="Logo" >
-            
+            <img src="img/logoU.png" alt="Logo">
         </div>
     </div>
     <div class="body-background"></div>
     <div class="container">
         <img class="logo" src="img/logoU.png" alt="Uniclaretiana logo">
-        <form action="/login" method="post">
+        <form id="loginForm" method="post">
             <input type="text" id="username" name="username" placeholder="Correo:" style="margin-bottom: 15px;" required> <br>
-            <input type="password" id="password" name="password" placeholder="Contraseña:" style="margin-bottom: 15px;"required><br>
-            <a href="index.php" class="inicio-sesion">
-                  <button type="button">Iniciar Sesión</button>
-            </a>
-
-            
+            <input type="password" id="password" name="password" placeholder="Contraseña:" style="margin-bottom: 15px;" required><br>
+            <input type="submit" value="Iniciar Sesión" style="margin-bottom: 15px;">
         </form>
         <div class="forgot-password-link" style="margin-top: 15px;">
             ¿Olvidaste tu contraseña? <a href="reestablecer.php">Recuperar contraseña</a>
         </div>
     </div>
     <div class="help-box">
-    <a href="#">
-        <i class="fas fa-question-circle"></i> Ayuda
-    </a>
+        <a href="#">
+            <i class="fas fa-question-circle"></i> Ayuda
+        </a>
+    </div>
+
+    <script src="js/script.js"></script>
 </body>
 </html>
