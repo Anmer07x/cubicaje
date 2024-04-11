@@ -11,7 +11,7 @@
 <body>
     <div class="header">
         <div class="logo-container">
-            <div class="initials">SCU</div>
+            <div class="initials">SCUa</div>
             <div class="bar"></div>
             <img src="../img/logoU.png" alt="Logo">
         </div>
