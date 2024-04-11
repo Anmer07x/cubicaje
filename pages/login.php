@@ -4,21 +4,21 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Login</title>
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="stylesheet" href="css/style.css">
     <link rel="icon" type="image/x-icon" href="img/pila-de-cubos.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
     <div class="header">
         <div class="logo-container">
-            <div class="initials">SCU</div>
+            <div class="initials">SCUa</div>
             <div class="bar"></div>
-            <img src="../img/logoU.png" alt="Logo">
+            <img src="img/logoU.png" alt="Logo">
         </div>
     </div>
     <div class="body-background"></div>
         <form class="containerLogin" action="">
-            <img class="logoLogin" src="../img/logoU.png" alt=""> 
+            <img class="logoLogin" src="img/logoU.png" alt=""> 
             <input class="input" type="email" placeholder="Correo electrónico:">
             <input class="input" type="password" placeholder="Contraseña:">
             <div class="contenedor">
