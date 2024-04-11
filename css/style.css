@@ -1,0 +1,178 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("../img/font.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    overflow: hidden;
+    position: relative;
+    font-size: 14px;
+}
+.header {
+    background-color: rgba(255, 255, 255, 0.8);
+    padding: 10px 20px;
+    position: absolute;
+    top: 67px;
+    left: 238px;
+    z-index: 999;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+    color: #000;
+}
+
+.logo-container img {
+    width: 70px;
+    height: auto;
+    
+}
+
+.initials {
+    font-size: 25px;
+    font-weight: bold;
+    position: relative;
+    text-decoration: none; /* Evitar subrayado */
+}
+
+.bar {
+    width: 3px;
+    height: 20px;
+    background-color: #000;
+    margin: 0 20px;
+}
+
+.body-background {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(216, 216, 216, 0.8);
+    filter: blur(50px);
+}
+
+.container {
+    width: 400px;
+    max-width: 90%; /* Asegura que no exceda el ancho de la pantalla */
+    padding: 30px;
+    background-color: rgba(255, 255, 255, 0.8); /* Fondo opaco */
+    border-radius: 30px;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
+    text-align: center;
+    z-index: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo {
+    width: 75%;
+    height: auto;
+    object-fit: cover;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+
+.container form label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.container form input[type="text"],
+.container form input[type="password"] {
+    width: 100%; /* Ajusta el ancho de los campos de entrada */
+    padding: 10px;
+    border-radius: 10px;
+    border: 1px solid #6c6c6c;
+    margin-bottom: 15px; /* Incrementa el espacio entre los campos */
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container form .submit-button {
+    background-color: #F4C005;
+    color: #000000;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    width: 100%; /* Cambiado el ancho al 100% para que ocupe todo el espacio disponible */
+    margin-bottom: 15px;
+    box-sizing: border-box; /* Ajuste del modelo de caja para incluir el padding en el ancho */
+}
+
+
+
+.help-box {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    
+}
+
+.help-box a {
+    display: flex;
+    align-items: center; /* Alinea verticalmente el icono y el texto */
+    background-color: #E8E8E8;
+    color: #000000;
+    padding: 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.7);
+}
+
+.help-box a i {
+    margin-right: 5px; /* Ajusta el espaciado entre el icono y el texto */
+}
+
+.help-box a:hover {
+    background-color: #FFD94D;
+    transition: background-color 0.3s ease; /* Agrega una transición suave al cambio de color de fondo */
+}
+
+
+
+
+
+/* Media queries para estilos responsivos */
+@media only screen and (max-width: 600px) {
+    /* Estilos para pantallas pequeñas */
+    .logo-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .logo-container img {
+        margin-bottom: 10px;
+    }
+
+    .initials::after {
+        display: none; /* Ocultar la barra en pantallas pequeñas */
+    }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+    /* Estilos para pantallas medianas */
+}
+
+@media only screen and (min-width: 1025px) {
+    /* Estilos para pantallas grandes */
+}
