@@ -18,7 +18,7 @@
     </div>
     <div class="body-background"></div>
         <form class="containerLogin" action="">
-            <img class="logoLogin" src="../img/logoU.png" alt=""> 
+            <img class="logoLogin" src="img/logoU.png" alt=""> 
             <input class="input" type="email" placeholder="Correo electrónico:">
             <input class="input" type="password" placeholder="Contraseña:">
             <div class="contenedor">
