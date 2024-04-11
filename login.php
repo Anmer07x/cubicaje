@@ -17,17 +17,19 @@
         </div>
     </div>
     <div class="body-background"></div>
-    <div class="container">
-        <img class="logo" src="img/logoU.png" alt="Uniclaretiana logo">
-        <form id="loginForm" method="post">
-            <input type="text" id="username" name="username" placeholder="Correo:" style="margin-bottom: 15px;" required> <br>
-            <input type="password" id="password" name="password" placeholder="Contraseña:" style="margin-bottom: 15px;" required><br>
-            <input type="submit" value="Iniciar Sesión" style="margin-bottom: 15px;">
+        <form class="containerLogin" action="">
+            <img class="logoLogin" src="img/logoU.png" alt=""> 
+            <input class="input" type="email" placeholder="Correo electrónico:">
+            <input class="input" type="password" placeholder="Contraseña:">
+            <div class="contenedor">
+                <div class="izquierda">
+                    <input class="check" type="checkbox">Mantener sesión activa
+                </div>
+                <div class="derecha"><link rel="stylesheet" href=""> ¿Olvidaste tu contraseña?</div>   
+            </div>
+            <button class="buttonSubmit" type="submit">Iniciar sesión</button>
+
         </form>
-        <div class="forgot-password-link" style="margin-top: 15px;">
-            ¿Olvidaste tu contraseña? <a href="reestablecer.php">Recuperar contraseña</a>
-        </div>
-    </div>
     <div class="help-box">
         <a href="#">
             <i class="fas fa-question-circle"></i> Ayuda
