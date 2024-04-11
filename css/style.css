@@ -219,6 +219,7 @@ body {
     text-align: left; /* Alinea el texto a la izquierda */
     flex: 1; /* Ocupa todo el espacio disponible a la izquierda */
     left: 80px;
+    font-size: 15px;
     bottom: 10px;
 }
 
@@ -228,6 +229,8 @@ body {
     flex: 1; /* Ocupa todo el espacio disponible a la derecha */
     right: 80px;
     bottom: 10px;
+    font-size: 15px;
+
 }
 
 
