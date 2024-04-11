@@ -13,12 +13,12 @@
         <div class="logo-container">
             <div class="initials">SCU</div>
             <div class="bar"></div>
-            <img src="img/logoU.png" alt="Logo">
+            <img src="../img/logoU.png" alt="Logo">
         </div>
     </div>
     <div class="body-background"></div>
     <div class="container">
-        <img class="logo" src="img/logoU.png" alt="Uniclaretiana logo">
+        <img class="logo" src="../img/logoU.png" alt="Uniclaretiana logo">
         <form action="" method="post">
             <input type="text" id="username" name="username" placeholder="Numero de documento" style="margin-bottom: 15px;"> <br>
             <input type="submit" value="Verificar" style="margin-bottom: 15px;">
