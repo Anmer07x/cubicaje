@@ -117,6 +117,19 @@ body {
     margin-bottom: 15px; /* Incrementa el espacio entre los botones */
 }
 
+.container form input[type="button"] {
+    background-color: #F4C005;
+    color: #000000;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-family:'Times New Roman', Times, serif;
+    font-weight: 78px;
+    width: 60%;
+    margin-bottom: 15px; /* Incrementa el espacio entre los botones */
+}
+
 
 .help-box {
     position: fixed;
