@@ -29,7 +29,7 @@
             <a href="reestablecer.php">¿Olvidaste tu contraseña?</a> <!-- Corregido -->
         </div>   
     </div>
-    <button class="buttonSubmit" type="submit">Iniciar sesión</button>
+    <button class="buttonSubmit" type="submit" formaction="../index.php">Iniciar sesión</button>
 </form>
 
     <div class="help-box">

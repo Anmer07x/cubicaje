@@ -21,7 +21,7 @@
     <img class="logoLogin" src="../img/logoU.png" alt=""> 
     <input class="input" type="email" placeholder="Numero de documento:">
     <button class="buttonSubmit" type="submit">Verificar</button>
-    <button class="buttonCancel" type="cancel">Cancelar</button>
+    <button class="buttonCancel" type="cancel" formaction="login.php">Cancelar</button>
 </form>
 
     <div class="help-box">
