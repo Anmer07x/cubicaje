@@ -6,7 +6,7 @@
 }
 
 body {
-    background-image: url("../img/font.png");
+   background-image: url("../img/fuclafondo.png");
     background-size: contain;
     background-repeat: no-repeat;
     background-position: center;
@@ -28,7 +28,7 @@ body {
     left: 238px;
     z-index: 999;
     border-radius: 15px;
-    box-shadow: 0px 0px 10px rgba(0,0,0,0.5);
+    box-shadow: 0px 0px 10px rgba(0,0,0,0.8);
     display: flex;
     align-items: center;
 }
@@ -76,13 +76,30 @@ body {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    background-color: white;
-    width: 500px;
-    height: 550px;
+    background-color: rgba(255, 255, 255, 0.8); /* Ajusta la opacidad del fondo */
+    width: 400px;
+    height: 450px;
     border-radius: 20px;
     opacity: 0.9;
     z-index: 1;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.466);
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.containerRegister {
+    position: absolute;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgba(255, 255, 255, 0.8); /* Ajusta la opacidad del fondo */
+    width: 400px;
+    height: 400px;
+    border-radius: 20px;
+    opacity: 0.9;
+    z-index: 1;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
 }
 
 .input {
@@ -97,15 +114,35 @@ body {
 
 .buttonSubmit {
     position: relative;
-    top: 50px;
+    top: 8px;
     width: 330px;
     height: 50px;
     cursor: pointer;
     border: none;
-    border-radius: 10px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.466);
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
     background-color: #F3BE00;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    font-weight: bold;
 }
+
+.buttonCancel {
+    position: relative;
+    top: 25px;
+    width: 330px;
+    height: 50px;
+    cursor: pointer;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+    background-color: #000000;
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 15px;
+    font-weight: bold;
+    color: #FFFFFF; /* Cambia el color del texto a blanco */
+}
+
 
 .contenedor {
     position: relative;
@@ -119,7 +156,7 @@ body {
     position: absolute;
     text-align: left;
     flex: 1;
-    left: 80px;
+    left: 36px;
     bottom: 10px;
 }
 
@@ -127,7 +164,7 @@ body {
     position: absolute;
     text-align: right;
     flex: 1;
-    right: 80px;
+    right: 39px;
     bottom: 10px;
 }
 
