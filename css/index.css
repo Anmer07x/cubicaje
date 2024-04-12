@@ -8,7 +8,7 @@
     left: 0;
     width: 100%;
     height: calc(100% - 50px); /* Ajusta la altura */
-    background-image: url("../img/font.png");
+    background-image: url("../img/fuclafondo.png");
     background-size: 50%; /* Ajusta el tamaño de la imagen al 50% */
     background-repeat: no-repeat;
     background-position: center; /* Centra la imagen de fondo */

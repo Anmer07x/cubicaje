@@ -33,7 +33,7 @@
 </form>
 
     <div class="help-box">
-        <a href="#">
+        <a href="https://www.uniclaretiana.edu.co/#atencion">
             <i class="fas fa-question-circle"></i> Ayuda
         </a>
     </div>
