@@ -2,16 +2,22 @@
     box-sizing: border-box;
 }
 
+body{
+      font-family: 'DM Sans', sans-serif;
+      font-weight: 400;
+}
+
 .body-background {
     position: absolute;
     top: 50px; /* Ajusta la posición vertical */
     left: 0;
     width: 100%;
     height: calc(100% - 50px); /* Ajusta la altura */
-    background-image: url("../img/font.png");
+    background-image: url("../img/fuclafondo.png");
     background-size: 50%; /* Ajusta el tamaño de la imagen al 50% */
     background-repeat: no-repeat;
     background-position: center; /* Centra la imagen de fondo */
+    background-color: rgba(216, 216, 216, 0.8);
     filter: blur(9px);
     z-index: -1;
 }
@@ -44,6 +50,155 @@
     background-color: #FFD94D;
     transition: background-color 0.3s ease; /* Agrega una transición suave al cambio de color de fondo */
 }
+
+/* Menu del index*/
+    .sidebar {
+        position: fixed;
+        top: 0;
+        left: 0;
+        height: auto;
+        width: 320px;
+        background-color: #fff; /* Cambia el color de fondo del menú */
+        padding-top: 20px;
+        transition: width 0.3s; /* Agregamos transición para el ancho del menú */
+        border: 1px solid black;
+        border-radius: 0px 20px 20px 0px;
+    }
+    .collapsed {
+        width: 80px !important; /* Ancho del menú retraído */
+    }
+    .profile {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .profile img {
+        width: 80px;
+        height: 80px;
+        border-radius: 100%;
+        border: 3px solid gray;
+    }
+    .profile p {
+        color: #333; /* Cambia el color del texto del perfil */
+        margin-top: 5px;
+        font-weight: 700;
+    }
+    .search {
+        background-color: #f3f3f3; /* Cambia el color de fondo del campo de búsqueda */
+        padding: 10px;
+        margin-bottom: 20px;
+        display: block;
+    }
+    .search input[type="text"] {
+        width: 280px; /* Ajusta el ancho del campo de búsqueda para compensar el ancho del icono */
+        height: 50px;
+        padding: 8px;
+        padding-left: 40px;
+        border: none;
+        border-radius: 30px;
+    }
+    .search label {
+        position: relative;
+        display: inline-block;
+        width: 40px; /* Establece el ancho del contenedor del icono */
+        cursor: pointer;
+    }
+    .search label i {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: #888; /* Cambia el color del icono de búsqueda */
+    }
+    .search label i:hover {
+        color: #333; /* Cambia el color del icono de búsqueda al pasar el cursor sobre él */
+    }
+    .menu-item {
+        color: #333; /* Cambia el color del texto de los elementos del menú */
+        padding: 10px 20px;
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    .menu-item:hover {
+        background-color: #f3f3f3; /* Cambia el color de fondo al pasar el cursor sobre los elementos del menú */
+    }
+
+    .menu-item span{
+        padding-left: 20px;
+    }
+    .submenu {
+        display: none;
+        background-color: #f3f3f3; /* Cambia el color de fondo del submenu */
+    }
+    .submenu-item {
+        padding: 10px 40px;
+        color: #333; /* Cambia el color del texto del submenu */
+        cursor: pointer;
+        transition: background-color 0.3s;
+    }
+    .submenu-item:hover {
+        background-color: #ddd; /* Cambia el color de fondo al pasar el cursor sobre los elementos del submenu */
+    }
+    .show {
+        display: block;
+    }
+    .arrow-icon {
+        float: right;
+        margin-right: 10px;
+    }
+    .theme-buttons {
+        text-align: center;
+        margin-top: 230px; /* Alinea los botones al final del menú */
+        margin-bottom: 20px; /* Añade un margen inferior a los botones */
+        cursor: pointer;
+    }
+    .theme-buttons button {
+        margin: 5px;
+        padding: 5px 10px;
+        border: none;
+        border-radius: 5px;
+    }
+    .collapse-btn {
+        position: absolute;
+        top: 20px;
+        right: -50px; /* Ocultamos el botón de colapso por defecto */
+        background-color: orange;
+        padding: 10px;
+        border-radius: 5px;
+        cursor: pointer;
+        transition: right 0.3s; /* Agregamos transición para la posición del botón de colapso */
+    }
+
+    .collapsed .profile img{ /*Cuando el menu se retraiga encogera la imagen de perfil*/
+        width: 50px;
+        height: 50px;
+    }
+    .collapsed .collapse-btn {
+        right: -50px; /* Mostramos el botón de colapso cuando el menú esté retraído */
+    }
+    .collapse-btn i {
+        color: white;
+    }
+    .collapsed .search {
+        display: none; /* Ocultamos la barra de búsqueda cuando el menú está colapsado */
+    }
+    .collapsed .menu-item span {
+        display: none; /* Ocultamos los nombres de los elementos del menú cuando el menú está colapsado */
+    }
+    .collapsed .menu-item .arrow-icon {
+        display: none; /* Ocultamos los nombres de los elementos del menú cuando el menú está colapsado */
+    }
+    .collapsed .profile span {
+        display: none; /* Ocultamos los nombres de los elementos del menú cuando el menú está colapsado */
+    }
+    .collapsed .theme-buttons button .span {
+        display: none; /* Ocultamos los nombres de los elementos del menú cuando el menú está colapsado */
+    }
+    .collapsed .theme-buttons button span{
+        display: none;
+    }
+    .collapsed .menu-item:hover {
+        background-color: gray; /* Cambia el color de fondo al pasar el cursor sobre los elementos del menú */
+    }
 
 
 /* Media queries para estilos responsivos */
