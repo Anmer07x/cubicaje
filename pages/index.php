@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="icon" type="image/x-icon" href="../img/pila-de-cubos.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
+
 <body>
     <div class="header">
         <div class="logo-container">
@@ -18,19 +20,19 @@
     </div>
     <div class="body-background"></div>
     <form class="containerLogin" action="">
-    <img class="logoLogin" src="../img/logoU.png" alt=""> 
-    <input class="input" type="email" placeholder="Correo electrónico:" required>
-    <input class="input" type="password" placeholder="Contraseña:" required>
-    <div class="contenedor">
-        <div class="izquierda">
-            <input class="check" type="checkbox">Mantener sesión activa
+        <img class="logoLogin" src="../img/logoU.png" alt="">
+        <input class="input" type="email" placeholder="Correo electrónico:" required>
+        <input class="input" type="password" placeholder="Contraseña:" required>
+        <div class="contenedor">
+            <div class="izquierda">
+                <input class="check" type="checkbox">Mantener sesión activa
+            </div>
+            <div class="derecha">
+                <a href="reestablecer.php">¿Olvidaste tu contraseña?</a> <!-- Corregido -->
+            </div>
         </div>
-        <div class="derecha">
-            <a href="reestablecer.php">¿Olvidaste tu contraseña?</a> <!-- Corregido -->
-        </div>   
-    </div>
-    <button class="buttonSubmit" type="submit" formaction="../principal.php">Iniciar sesión</button>
-</form>
+        <button class="buttonSubmit" type="submit" formaction="../principal.php">Iniciar sesión</button>
+    </form>
 
     <div class="help-box">
         <a href="https://www.uniclaretiana.edu.co/#atencion">
@@ -40,4 +42,5 @@
 
     <script src="js/script.js"></script>
 </body>
+
 </html>

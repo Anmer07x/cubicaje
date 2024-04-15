@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,6 +9,7 @@
     <link rel="icon" type="image/x-icon" href="../img/pila-de-cubos.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
+
 <body>
     <div class="header">
         <div class="logo-container">
@@ -18,11 +20,11 @@
     </div>
     <div class="body-background"></div>
     <form class="containerRegister" action="">
-    <img class="logoLogin" src="../img/logoU.png" alt=""> 
-    <input class="input" type="email" placeholder="Numero de documento:">
-    <button class="buttonSubmit" type="submit">Verificar</button>
-    <button class="buttonCancel" type="cancel" formaction="index.php">Cancelar</button>
-</form>
+        <img class="logoLogin" src="../img/logoU.png" alt="">
+        <input class="input" type="email" placeholder="Numero de documento:">
+        <button class="buttonSubmit" type="submit">Verificar</button>
+        <button class="buttonCancel" type="cancel" formaction="index.php">Cancelar</button>
+    </form>
 
     <div class="help-box">
         <a href="https://www.uniclaretiana.edu.co/#atencion">
@@ -32,4 +34,5 @@
 
     <script src="js/script.js"></script>
 </body>
+
 </html>
