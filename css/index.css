@@ -12,9 +12,9 @@ body{
     top: 50px; /* Ajusta la posición vertical */
     left: 0;
     width: 100%;
-    height: calc(100% - 50px); /* Ajusta la altura */
+    height: 100%; /* Ajusta la altura */
     background-image: url("../img/fuclafondo.png");
-    background-size: 50%; /* Ajusta el tamaño de la imagen al 50% */
+    background-size: 60%; /* Ajusta el tamaño de la imagen al 50% */
     background-repeat: no-repeat;
     background-position: center; /* Centra la imagen de fondo */
     background-color: rgba(216, 216, 216, 0.8);
@@ -58,7 +58,7 @@ body{
         left: 0;
         height: 100%;
         width: 320px;
-        background-color: #fff; /* Cambia el color de fondo del menú */
+        background-color: #F5F7FA; /* Cambia el color de fondo del menú */
         padding-top: 20px;
         transition: width 0.3s; /* Agregamos transición para el ancho del menú */
         border: 1px solid rgb(179, 179, 179);
@@ -66,11 +66,17 @@ body{
         z-index: 1;
     }
     .collapsed {
+        text-align: center;
         width: 80px !important; /* Ancho del menú retraído */
+    }
+
+    .collapsed .profile img{
+       margin: auto;
     }
     .profile {
         position: relative; /* Agregamos posicionamiento relativo */
         display: flex;
+        padding-left: 15px;
         align-items: center;
         margin-bottom: 20px;
     }
@@ -93,12 +99,16 @@ body{
     }
     
     .search {
+        
         background-color: #f3f3f3; /* Cambia el color de fondo del campo de búsqueda */
         padding: 10px;
         margin-bottom: 20px;
         display: block;
     }
     .search input[type="text"] {
+        display: flex;
+        justify-content: center; /* Centra los elementos horizontalmente */
+        align-items: center; /* Centra los elementos verticalmente */
         width: 280px; /* Ajusta el ancho del campo de búsqueda para compensar el ancho del icono */
         height: 50px;
         padding: 8px;
@@ -129,7 +139,7 @@ body{
         transition: background-color 0.3s;
     }
     .menu-item:hover {
-        background-color: #f3f3f3; /* Cambia el color de fondo al pasar el cursor sobre los elementos del menú */
+        background-color: #e7e7e7; /* Cambia el color de fondo al pasar el cursor sobre los elementos del menú */
     }
 
     .menu-item span{
@@ -156,34 +166,75 @@ body{
         margin-right: 10px;
     }
     .theme-buttons {
-        text-align: center;
-        margin-top: 230px; /* Alinea los botones al final del menú */
+        display: flex;
+        justify-content: center; /* Centra los elementos horizontalmente */
+        align-items: center; /* Centra los elementos verticalmente */
+        background-color: #F0F3F7;
+        border: 2px solid #EBEFF5;
+        margin: auto;
+        width: 260px;
+        height: 50px;
+        /* box-shadow: inset 0 0 15px 10px red; añade sombra interior*/
+        border-radius: 25px ;
+        margin-top: 210px; /* Alinea los botones al final del menú */
         margin-bottom: 20px; /* Añade un margen inferior a los botones */
         cursor: pointer;
     }
     .theme-buttons button {
+        background-color: transparent;
+        border: none;
         margin: 5px;
         padding: 5px 10px;
-        border: none;
-        border-radius: 5px;
+        border-radius: 20px;
     }
+
+    .theme-buttons i{
+        width: 22px;
+        height: 22px;
+        color: #CFD9E6;
+    }
+
+    .theme-buttons span{
+        color: #7D96B3;
+        font-size: 10px;
+    }
+
+    /* estilo de seleccionado de botones*/
+
+    .theme-buttons .seleccionado {
+        background-color: rgb(0, 0, 0);
+        box-shadow: #8a9aab;
+        border: 2px solid rgb(255, 255, 255);
+        font-weight: bold;
+     }
+
+     .collapsed .menu-item:hover {
+        background-color: #e7e7e7; /* Cambia el color de fondo al pasar el cursor sobre los elementos del menú */
+    }
+
     .collapse-btn {
         position: absolute;
+        text-align: center;
+        width: 50px;
+        height: 50px;
         top: 50%; /* Posiciona el botón en el centro vertical */
         right: 0; /* Lo coloca en la esquina derecha */
         transform: translateY(-50%); /* Centra verticalmente respecto al padre */
         background-color: orange;
         padding: 10px;
-        border-radius: 5px;
+        border-radius: 100px 0px 0px 100px;
         cursor: pointer;
         transition: right 0.3s; /* Agregamos transición para el desplazamiento horizontal */
     }
-
+    
     .collapsed .profile img{ /*Cuando el menu se retraiga encogera la imagen de perfil*/
+        text-align: center;
         width: 50px;
         height: 50px;
     }
     .collapsed .collapse-btn {
+        text-align: center;
+        border-radius: 0px 100px 100px 0px;
         right: -50px; /* Mostramos el botón de colapso cuando el menú esté retraído */
     }
     .collapse-btn i {
@@ -201,19 +252,19 @@ body{
     .collapsed .profile span {
         display: none; /* Ocultamos los nombres de los elementos del menú cuando el menú está colapsado */
     }
-    .collapsed .theme-buttons button .span {
+    .collapsed .theme-buttons button span {
         display: none; /* Ocultamos los nombres de los elementos del menú cuando el menú está colapsado */
     }
-    .collapsed .theme-buttons button span{
-        display: none;
+    .collapsed .theme-buttons {
+        width: 60px;
+        height: 100px;
+        border-radius: 10px;
+        display: flex;
+        flex-direction: column;
     }
-    .collapsed .menu-item:hover {
-        background-color: gray; /* Cambia el color de fondo al pasar el cursor sobre los elementos del menú */
-    }
-   
     /* Agrega una clase para el perfil cuando el menú está colapsado */
-    .profile.collapsed .profile-name {
-    display: none; /* Oculta el nombre del perfil */
+    .collapsed .profile-name {
+        display: none; /* Oculta el nombre del perfil */
     }
 
     /* Cambia la rotación de la flecha cuando el menú está colapsado */
@@ -224,22 +275,42 @@ body{
 
  .banner {
     background-color: rgba(255, 255, 255, 0.92);
+    width: 70%;
+    max-width: 1270px;
+    margin: 0 auto;
+    color: rgb(0, 0, 0);
+    padding: 50px;
+    top: 100px;
+    left: 160px;
+    justify-content: space-between;
+    display: flex;
+    border-radius: 20px;
+    margin-bottom: 20px;
+    position: relative;
+    z-index: 0;
+    box-shadow: #0000003c 0px 0px 15px;
+    overflow: hidden;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.sidebar.collapsed + .banner {
+    background-color: rgba(255, 255, 255, 0.92);
     width: 100%;
     max-width: 1270px;
     margin: 0 auto;
     color: rgb(0, 0, 0);
     padding: 50px;
     top: 100px;
-    left: 120px;
+    left: 40px;
     justify-content: space-between;
     display: flex;
-    border-radius: 5px;
+    border-radius: 20px;
     margin-bottom: 20px;
     position: relative;
     z-index: 0;
-    box-shadow: #000000 0px 0px 15px;
+    box-shadow: #0000003c 0px 0px 15px;
     overflow: hidden;
-    font-family: Georgia, 'Times New Roman', Times, serif;
     font-weight: bold;
     font-size: 18px;
 }
@@ -280,6 +351,80 @@ body{
     right: -50px;
     border-radius: 0 0 50px 0; /* Ajusta el radio según lo necesites */
 }
+
+/* Estilo de las card*/
+ .container-card {
+    position: relative;
+    display: grid;
+    grid-template-columns: repeat(3, 33%);
+    grid-gap: 10px;
+    grid-auto-rows: minmax(200px, auto);
+    top: 100px;
+    margin-left: 385px;
+}
+
+.card {
+    position: relative;
+    width: 300px;
+    height: 170px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.066);
+}
+
+.card::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+    background-color: #E1E1E1;
+    opacity: 90%;
+
+    border-radius: 15px;
+    z-index: 1;
+}
+
+.card h2 {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 20px;
+    text-align: left;
+  transform: translate(-50%, -50%);
+  color: rgb(0, 0, 0);
+  z-index: 2;
+}
+.container-card.sidebar.collapsed{
+    position: relative;
+    left: 2070px;
+    width: 300px;
+    height: 170px;
+    background-color: white;
+    border-radius: 15px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.066);
+}
+
+/* Estilos de la linea*/
+.footer-line {
+    position: relative;
+    left: 180px;
+  width: 1120px;
+  height: 3px;
+  background-color: black;
+  margin: 260px auto 0 auto;
+}
+
+.collapsed .footer-line{
+    position: relative;
+    left: 180px;
+  width: 2020px;
+  height: 3px;
+  background-color: black;
+  margin: 260px auto 0 auto;
+}
+
 
 /* Media queries para estilos responsivos */
 @media only screen and (max-width: 600px) {

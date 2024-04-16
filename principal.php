@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css" rel="stylesheet">
 </head>
 
 <body>
@@ -21,7 +22,7 @@
             <div class="profile-info">
                 <p class="profile-name">Don Blader</p>
                 <div class="collapse-btn" onclick="toggleMenu()">
-                    <i class="fas fa-chevron-left"></i>
+                    <i class="bi-arrow-left"></i>
                 </div>
             </div>
         </div>
@@ -44,8 +45,8 @@
         <div class="menu-item"><i class="fas fa-calculator"></i><span>Calcular Cubicaje</span></div>
         <div class="menu-item"><i class="fas fa-search"></i><span>Acerca De</span></div>
         <div class="theme-buttons">
-            <button onclick="toggleLightMode()"><i class="fas fa-sun"></i> <span>Modo Claro</span></button>
-            <button onclick="toggleDarkMode()"><i class="fas fa-moon"></i> <span>Modo Oscuro</span></button>
+            <button class="light-mode" active onclick="toggleLightMode()"><i class="fas fa-sun"></i> <span>Modo Claro</span></button>
+            <button class="dark-mode" onclick="toggleDarkMode()"><i class="fas fa-moon"></i> <span>Modo Oscuro</span></button>
         </div>
 
     </div> 
@@ -60,20 +61,27 @@
     <img src="./img/banner.png" alt="Banner Image">
 </div>
 
-
-
-
-
-
+    <div class="container-card">
+    <div class="card">
+      <h2>Título de la Tarjeta 1</h2>
+    </div>
+    <div class="card">
+      <h2>Título de la Tarjeta 2</h2>
+    </div>
+    <div class="card">
+      <h2>Título de la Tarjeta 3</h2>
+    </div>
+    <!-- Repite esto para las otras tres tarjetas -->
+  </div>
     <div class="help-box">
         <a href="https://www.uniclaretiana.edu.co/#atencion">
             <i class="fas fa-question-circle"></i> Ayuda
         </a>
     </div>
 
-    <script src="./js/script.js"></script>
+    <div class="footer-line"></div>
 
-
+    <script src="./js/principal.js"></script>
 </body>
 
 </html>
