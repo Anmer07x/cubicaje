@@ -5,7 +5,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cubicaje</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="./css/index.css">
     <link rel="icon" type="image/x-icon" href="img/pila-de-cubos.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -22,7 +23,7 @@
             <div class="profile-info">
                 <p class="profile-name">Don Blader</p>
                 <div class="collapse-btn" onclick="toggleMenu()">
-                    <i class="bi-arrow-left"></i>
+                    <i class="fas fa-chevron-left"></i>
                 </div>
             </div>
         </div>
@@ -36,7 +37,8 @@
         <div class="menu-item"><i class="fas fa-box"></i><span>Mercancias</span></div>
         <div class="menu-item"><i class="fas fa-box-open"></i><span>Cajas</span></div>
         <div class="menu-item"><i class="fas fa-truck"></i><span>Vehiculos</span></div>
-        <div class="menu-item with-submenu"><i class="fas fa-cogs"></i><span>Funcionalidades</span> <i class="arrow-icon fas fa-chevron-down"></i></div>
+        <div class="menu-item with-submenu"><i class="fas fa-cogs"></i><span>Funcionalidades</span> <i
+                class="arrow-icon fas fa-chevron-down"></i></div>
         <div class="submenu">
             <div class="submenu-item">Opción 1</div>
             <div class="submenu-item">Opción 2</div>
@@ -45,34 +47,34 @@
         <div class="menu-item"><i class="fas fa-calculator"></i><span>Calcular Cubicaje</span></div>
         <div class="menu-item"><i class="fas fa-search"></i><span>Acerca De</span></div>
         <div class="theme-buttons">
-            <button class="light-mode" active onclick="toggleLightMode()"><i class="fas fa-sun"></i> <span>Modo Claro</span></button>
-            <button class="dark-mode" onclick="toggleDarkMode()"><i class="fas fa-moon"></i> <span>Modo Oscuro</span></button>
+            <button class="light-mode" active onclick="toggleLightMode()"><i class="fas fa-sun"></i> <span>Modo
+                    Claro</span></button>
+            <button class="dark-mode" onclick="toggleDarkMode()"><i class="fas fa-moon"></i> <span>Modo
+                    Oscuro</span></button>
         </div>
 
-    </div> 
+    </div>
 
     <div class="banner">
-    <div class="banner-content">
-        <h1>¡Bienvenido(a) Don Blader! 👋</h1>
-        <p>Aquí en nuestra plataforma, te damos la bienvenida a un <br>
-            espacio lleno de oportunidades para que des rienda suelta <br>
-            a tu creatividad y talento. </p>
+        <div class="banner-content">
+            <h1>¡Bienvenido(a) Don Blader! 👋</h1>
+            <p>Aquí en nuestra plataforma, te damos la bienvenida a un <br>
+                espacio lleno de oportunidades para que des rienda suelta <br>
+                a tu creatividad y talento. </p>
+        </div>
+        <img src="./img/banner.png" alt="Banner Image">
     </div>
-    <img src="./img/banner.png" alt="Banner Image">
-</div>
-
-    <div class="container-card">
-    <div class="card">
-      <h2>Título de la Tarjeta 1</h2>
+    <div class="card-container">
+        <div class="card">
+            <p>Tarjeta 1</p>
+        </div>
+        <div class="card">
+            <p>Tarjeta 2</p>
+        </div>
+        <div class="card">
+            <p>Tarjeta 3</p>
+        </div>
     </div>
-    <div class="card">
-      <h2>Título de la Tarjeta 2</h2>
-    </div>
-    <div class="card">
-      <h2>Título de la Tarjeta 3</h2>
-    </div>
-    <!-- Repite esto para las otras tres tarjetas -->
-  </div>
     <div class="help-box">
         <a href="https://www.uniclaretiana.edu.co/#atencion">
             <i class="fas fa-question-circle"></i> Ayuda
