@@ -219,11 +219,13 @@ body{
         margin-right: 10px;
     }
     .theme-buttons {
+        position: relative;
+        top: 40px;
         display: flex;
         justify-content: center; /* Centra los elementos horizontalmente */
         align-items: center; /* Centra los elementos verticalmente */
         background-color: #F0F3F7;
-        border: 2px solid #EBEFF5;
+        border: 2px solid #d1d1d1;
         margin: auto;
         width: 260px;
         height: 50px;
@@ -312,6 +314,8 @@ body{
         display: none; /* Ocultamos los nombres de los elementos del menú cuando el menú está colapsado */
     }
     .collapsed .theme-buttons {
+        position: relative;
+        top: 130px;
         width: 60px;
         height: 100px;
         border-radius: 10px;
@@ -351,6 +355,14 @@ body{
     font-size: 18px;
 }
 
+.banner h1 {
+    margin-top: 0;
+}
+
+.banner p{
+    font-weight: 400;
+      
+}
 .sidebar.collapsed + .banner {
     background-color: rgba(255, 255, 255, 0.92);
     width: 100%;
@@ -372,19 +384,65 @@ body{
     font-size: 18px;
 }
 
-
-.banner h1 {
+.collapsed + .banner h1 {
+    animation-duration: 0.8s;
+    animation-name: slidein;
     margin-top: 0;
 }
 
+.collapsed + .banner p{
+    animation-duration: 1.5s;
+    animation-name: slidein;
+    font-weight: 400;
+      
+}
 
+@keyframes side {
+    from{
+        width: 320px;
+    }
+
+    to {
+        width: 80px;
+    }
+}
+
+
+/*animaion de la letra*/
+@keyframes slidein {
+  from {
+    margin-left: 100%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
 
 .banner img {
     max-width: 300px;
     height: 200px;
     border-radius: 6px;
+    margin-right: 20px;   
+}
+
+
+.collapsed + .banner img {
+    max-width: 300px;
+    height: 200px;
+    border-radius: 6px;
     margin-right: 20px;
+    animation-duration: 3s;
+    animation-name: movie;
    
+}
+/*Animacion de la casa*/
+@keyframes movie {
+    0%, 50%, 100% { transform: scale(1.2, 1.2); }
+    30%, 80% { transform: scale(0.92, 0.95); }
+    
 }
 
 .banner::before,
@@ -420,7 +478,7 @@ body{
 
 .card {
   position: relative;
-  left: 385px;
+  left: 390px;
   width: 300px;
   height: 170px;
   border-radius: 15px;
@@ -451,20 +509,51 @@ body{
     z-index: 2;
 }
 
-.sidebar.collapsed + .card {
+.centrado{
     position: relative;
-    left: 385px;
-    width: 100%;
-    height: 170px;
-    border-radius: 15px;
-    background-color: #f0f0f0;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
-    overflow: hidden;
     display: flex;
+    top: 80px;
     justify-content: center;
     align-items: center;
-    flex: 1;
-    transition: all 0.3s ease;
+}
+
+/*Estilo del boton de cerrar sesion*/
+.cerrar-sesion {
+    position: relative;
+    color: black; /* Color del texto */
+    font-weight: 700;
+    background-color: white;
+    border: none;
+    padding: 10px 20px; /* Ajusta el espaciado del botón */
+    font-size: 16px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+/* Estilos para el icono */
+.cerrar-sesion i {
+    padding-left: 20px;
+    color: red;
+    margin-left: 5px; /* Espacio entre el texto y el icono */
+
+}
+
+.collapsed .cerrar-sesion{
+    position: relative;
+    top: 60px;
+    width: 60px;
+}
+
+.collapsed .cerrar-sesion i{
+    position: relative;
+    right: 120%;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.collapsed span{
+    display: none;
 }
 
 
