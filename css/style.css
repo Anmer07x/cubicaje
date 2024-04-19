@@ -19,7 +19,22 @@ body {
     position: relative;
     font-size: 14px;
 }
+.password-container {
+    position: relative;
+    display: inline-block;
+}
 
+.password-container input {
+    padding-right: 30px; /* Ajusta el espacio para el ícono */
+}
+
+.password-container .toggle-password {
+    position: absolute;
+    top: 50%;
+    right: 15px;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
 .header {
     background-color: rgba(255, 255, 255, 0.8);
     padding: 10px 20px;
@@ -195,6 +210,7 @@ body {
     background-color: #FFD94D;
     transition: background-color 0.3s ease;
 }
+
 
 /* Media queries para estilos responsivos */
 @media only screen and (max-width: 600px) {

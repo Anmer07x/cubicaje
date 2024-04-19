@@ -18,14 +18,18 @@
     <div class="body-background"></div>
     <div class="sidebar">
         <div class="profile">
-            <img src="../img/profile.jpg" alt="Profile Image">
-            <div class="profile-info">
-                <p class="profile-name">Don Blader</p>
-                <div class="collapse-btn" onclick="toggleMenu()">
-                    <i class="fas fa-chevron-left"></i>
-                </div>
-            </div>
+    <img src="../img/profile.jpg" alt="Profile Image" onclick="toggleLogoutMenu()">
+    <div class="profile-info">
+        <p class="profile-name">Don Blader</p>
+        <div class="collapse-btn" onclick="toggleMenu()">
+            <i class="fas fa-chevron-left"></i>
         </div>
+    </div>
+    <!-- Menú de cierre de sesión -->
+    <div class="logout-menu hidden" id="logoutMenu">
+        <button onclick="logout()">Cerrar sesión</button>
+    </div>
+</div>
 
         <div class="search">
             <label>
@@ -64,20 +68,20 @@
     </div>
     <div class="card-container">
         <div class="card">
-            <p>Total de mercancias</p>
+            <p>Total de m</p>
         </div>
         <div class="card">
             <p>Total de cajas</p>
         </div>
         <div class="card">
-            <p>Total de vehiculos</p>
+            <p>Total de v</p>
         </div>
-        
     </div>
+    <audio id="hover-sound">
+        <source src="../sound/pick-92276.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
 
-
-
-    
     <div class="help-box">
         <a href="https://www.uniclaretiana.edu.co/#atencion">
             <i class="fas fa-question-circle"></i> Ayuda

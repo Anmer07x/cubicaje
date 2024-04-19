@@ -55,19 +55,19 @@ body{
 }
 
 /* Menu del index*/
-    .sidebar {
-        position: fixed;
-        top: 0;
-        left: 0;
-        height: 100%;
-        width: 320px;
-        background-color: #F5F7FA; /* Cambia el color de fondo del menú */
-        padding-top: 20px;
-        transition: width 0.3s; /* Agregamos transición para el ancho del menú */
-        border: 1px solid rgb(179, 179, 179);
-        border-radius: 0px 20px 20px 0px;
-        z-index: 1;
-    }
+.sidebar {
+    position: fixed; /* Para que el menú esté siempre visible incluso al hacer scroll */
+    top: 0; /* Ubica el menú en la parte superior */
+    left: 0; /* Lo coloca en el extremo izquierdo */
+    height: 100%; /* Ocupa toda la altura disponible */
+    width: 320px; /* Define el ancho del menú */
+    background-color: #F5F7FA; /* Cambia el color de fondo del menú según sea necesario */
+    padding-top: 20px; /* Añade un espacio en la parte superior */
+    transition: width 0.3s; /* Agrega una transición suave para cambios de ancho */
+    border: 1px solid rgb(179, 179, 179); /* Añade un borde */
+    border-radius: 0px 20px 20px 0px; /* Agrega bordes redondeados en el lado derecho */
+    z-index: 999; /* Asegura que el menú esté encima de otros elementos */
+}
     .collapsed {
         text-align: center;
         width: 80px !important; /* Ancho del menú retraído */
@@ -164,6 +164,10 @@ body{
         cursor: pointer;
         transition: background-color 0.3s;
     }
+
+    .submenu span {
+        padding-left: 20px;
+    }
     .submenu-item:hover {
         background-color: #ddd; /* Cambia el color de fondo al pasar el cursor sobre los elementos del submenu */
     }
@@ -185,7 +189,7 @@ body{
         height: 50px;
         /* box-shadow: inset 0 0 15px 10px red; añade sombra interior*/
         border-radius: 25px ;
-        margin-top: 210px; /* Alinea los botones al final del menú */
+        margin-top: 50px; /* Alinea los botones al final del menú */
         margin-bottom: 20px; /* Añade un margen inferior a los botones */
         cursor: pointer;
     }
@@ -286,6 +290,7 @@ body{
  .mi-tabla {
     width: 100%; /* Ancho completo de la tabla */
     max-width: 1000px;
+    height: 50px;
     margin: 0 auto; /* Centrar la tabla */
     border: 1px solid #ddd; /* Borde de la tabla */
     border-collapse: collapse; /* Colapsar los bordes de la tabla */
