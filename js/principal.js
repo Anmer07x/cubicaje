@@ -143,3 +143,43 @@ function toggleDarkMode() {
   document.querySelector(".help-box a").style.color = "black";
   document.querySelector(".footer-line").style.backgroundColor = "#fff";
 }
+
+function ajustarAnchoTitulo() {
+  var menu = document.querySelector('.sidebar');
+  var titulo = document.getElementById('titulo');
+
+  if (menu.classList.contains('collapsed')) {
+      titulo.style.width = 'calc(100% - 60px)'; // Ajusta el ancho del título cuando el menú está colapsado
+  } else {
+      titulo.style.width = 'calc(100% - 50px)'; // Ajusta el ancho del título cuando el menú está abierto
+  }
+}
+
+// Llama a la función para ajustar el ancho del título al cargar la página
+ajustarAnchoTitulo();
+
+// Llama a la función para ajustar el ancho del título cuando se hace clic en el botón de colapsar el menú
+document.querySelector('.collapse-btn').addEventListener('click', ajustarAnchoTitulo);
+
+// Llama a la función para ajustar el ancho del título cuando cambia la clase del menú (cuando se colapsa o se expande)
+document.querySelector('.sidebar').addEventListener('transitionend', ajustarAnchoTitulo);
+
+// Función para ajustar el margen izquierdo de la tabla cuando el menú se expanda o se colapse
+// Función para ajustar el margen de la tabla dependiendo del estado del menú (abierto o colapsado)
+function adjustTableMargin() {
+  const sidebar = document.querySelector('.sidebar');
+  const table = document.getElementById('datatablesSimple');
+  const collapsed = sidebar.classList.contains('collapsed');
+
+  if (collapsed) {
+      // Si el menú está colapsado, ajusta el margen izquierdo de la tabla para centrarla
+      table.style.marginLeft = '880px';
+  } else {
+      // Si el menú está abierto, ajusta el margen izquierdo de la tabla para dejar espacio al menú
+      table.style.marginLeft = '320px'; // Ajusta este valor según sea necesario para adaptarse al ancho del menú
+  }
+}
+
+// Llama a la función para ajustar el margen de la tabla cuando la página se carga y cuando el menú se expande o colapsa
+window.onload = adjustTableMargin;
+

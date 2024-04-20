@@ -288,68 +288,69 @@ body{
     }
 
  /* Tabla */
-
- .mi-tabla {
-    width: 100%; /* Ancho completo de la tabla */
-    max-width: 1000px;
-    height: 50px;
-    margin: 0 auto; /* Centrar la tabla */
-    border: 1px solid #ddd; /* Borde de la tabla */
-    border-collapse: collapse; /* Colapsar los bordes de la tabla */
-}
-
-.mi-tabla td {
-    padding: 10px; /* Espaciado interno de las celdas */
-    border: 1px solid #ddd; /* Borde de las celdas */
-    text-align: center; /* Alineación del texto al centro */
-}
-
-.mi-tabla tr:nth-child(even) {
-    background-color: #f2f2f2; /* Color de fondo para filas pares */
-}
-
-.mi-tabla tr:hover {
-    background-color: #ddd; /* Color de fondo al pasar el cursor sobre la fila */
-}
-
-/*estilo de la tabla*/
-.tabla {
+ .table-container {
     position: relative;
-    text-align: center;
-    left: 420px;
-    top: 20px;
-    border-collapse: collapse;
-    border-spacing: 5px;
-    background-color: white;
-    width: 70%;
-    border: 2px solid rgba(0, 0, 0, 0.7);
-    border-radius: 5px;
     overflow: hidden;
 }
 
-.fila {
-    border: 0.5px solid black;
-    display: table-row;
+.table-container:after {
+    content: "";
+    position: absolute;
+    top: -50px;
+    right: -50px;
+    width: 200px;
+    height: 200px;
+    background-color: rgba(255, 255, 0, 0.5); /* Color amarillo con opacidad */
+    border-radius: 50%;
+    z-index: -2;
+    transform: rotate(45deg);
 }
 
-.celda{
-    border-right: 2px solid black;
-    border: 1px 0px 0px 0px solid black;
+.table-container::after {
+    top: 150px;
+    right: -50px;
+    border-radius: 0 0 0 50px;
 }
 
-.collapsed + .tabla{
-    position: relative;
-    text-align: center;
-    left: 190px;
-    top: 20px;
+/* Resto del estilo de la tabla */
+#datatablesSimple {
+    width: 100%;
     border-collapse: collapse;
-    border-spacing: 5px;
-    background-color: white;
-    width: 80%;
-    border: 2px solid rgba(0, 0, 0, 0.7);
-    border-radius: 5px;
+    max-width: 1270px;
     overflow: hidden;
 }
+
+#datatablesSimple th,
+#datatablesSimple td {
+    border: 1px solid #e6e6e6;
+    padding: 12px;
+    text-align: center;
+}
+
+#datatablesSimple th {
+    background-color: #f8f9fa;
+    font-weight: bold;
+}
+
+#datatablesSimple tbody tr:nth-child(even) {
+    background-color: #f2f2f2;
+}
+
+#datatablesSimple tbody tr:hover {
+    background-color: #e6f7ff;
+}
+
+/* Estilo para el texto dentro de las celdas de la tabla */
+#datatablesSimple td {
+    font-size: 14px;
+    color: #333333;
+}
+
+/* Estilo para resaltar el texto en celdas */
+#datatablesSimple td.highlight {
+    background-color: #ffeeba;
+}
+
 
 .cerrar-sesion {
     position: relative;
@@ -398,14 +399,28 @@ body{
     display: none;
 }
 
-
-
-@media (max-width: 768px) {
-    .celda {
-        width: 120px; /* Aumenta el tamaño de las celdas cuando el menú colapse */
-        height: 120px;
-    }
+.titulo {
+    text-align: center;
+    margin-top: 90px; /* Ajusta según sea necesario */
+    
+    margin-bottom: 20px; /* Ajusta según sea necesario */
 }
+
+.titulo h1 {
+    font-size: 56px; /* Tamaño de fuente del título */
+    color: #ceab00; /* Color del texto */
+    font-family: Arial, sans-serif; /* Fuente del texto */
+    text-transform: uppercase; /* Transforma el texto a mayúsculas */
+    letter-spacing: 2px; /* Espaciado entre letras */
+    border-bottom: 2px solid #000000; /* Línea de separación */
+    padding-bottom: 10px; /* Espaciado en la parte inferior del título */
+    margin: 0; /* Elimina el margen predeterminado */
+    font-weight: bold;
+}
+
+
+
+
 
 
 
