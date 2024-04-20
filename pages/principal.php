@@ -73,13 +73,13 @@
     </div>
     <div class="card-container">
         <div class="card">
-            <p>Total de m</p>
+            <p>Total de mercancia</p>
         </div>
         <div class="card">
             <p>Total de cajas</p>
         </div>
         <div class="card">
-            <p>Total de v</p>
+            <p>Total de vehiculos</p>
         </div>
     </div>
     <audio id="hover-sound">

@@ -34,6 +34,7 @@
                 <i class="fas fa-search"></i>
             </label>
         </div>
+        <div class="menu-item"> <a href="principal.php"><i class="fas fa-reply"></i><span>Inicio</span></a></div>
         <div class="menu-item"> <a href="mercancias.php"><i class="fas fa-box"></i><span>Mercancias</span></a></div>
         <div class="menu-item"><a href="cajas.php"><i class="fas fa-box-open"></i><span>Cajas</span></a></div>
         <div class="menu-item"><a href="vehiculos.php"><i class="fas fa-truck"></i><span>Vehiculos</span></a></div>
@@ -52,6 +53,13 @@
                     Claro</span></button>
             <button class="dark-mode" onclick="toggleDarkMode()"><i class="fas fa-moon"></i> <span>Modo
                     Oscuro</span></button>
+        </div>
+
+        <div class="centrado">
+            <button class="cerrar-sesion" onclick="logout()">
+                <span>Cerrar Sesión</span>
+                <i class="fas fa-sign-out-alt"></i> <!-- Icono de cerrar sesión -->
+            </button>
         </div>
 
     </div>

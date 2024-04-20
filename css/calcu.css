@@ -195,6 +195,7 @@ body{
         margin-bottom: 20px; /* Añade un margen inferior a los botones */
         cursor: pointer;
     }
+    
     .theme-buttons button {
         background-color: transparent;
         border: none;
@@ -287,69 +288,7 @@ body{
     transform: rotate(180deg); /* Rota la flecha hacia afuera */
     }
 
- /* Tabla */
 
- .mi-tabla {
-    width: 100%; /* Ancho completo de la tabla */
-    max-width: 1000px;
-    height: 50px;
-    margin: 0 auto; /* Centrar la tabla */
-    border: 1px solid #ddd; /* Borde de la tabla */
-    border-collapse: collapse; /* Colapsar los bordes de la tabla */
-}
-
-.mi-tabla td {
-    padding: 10px; /* Espaciado interno de las celdas */
-    border: 1px solid #ddd; /* Borde de las celdas */
-    text-align: center; /* Alineación del texto al centro */
-}
-
-.mi-tabla tr:nth-child(even) {
-    background-color: #f2f2f2; /* Color de fondo para filas pares */
-}
-
-.mi-tabla tr:hover {
-    background-color: #ddd; /* Color de fondo al pasar el cursor sobre la fila */
-}
-
-/*estilo de la tabla*/
-.tabla {
-    position: relative;
-    text-align: center;
-    left: 420px;
-    top: 20px;
-    border-collapse: collapse;
-    border-spacing: 5px;
-    background-color: white;
-    width: 70%;
-    border: 2px solid rgba(0, 0, 0, 0.7);
-    border-radius: 5px;
-    overflow: hidden;
-}
-
-.fila {
-    border: 0.5px solid black;
-    display: table-row;
-}
-
-.celda{
-    border-right: 2px solid black;
-    border: 1px 0px 0px 0px solid black;
-}
-
-.collapsed + .tabla{
-    position: relative;
-    text-align: center;
-    left: 190px;
-    top: 20px;
-    border-collapse: collapse;
-    border-spacing: 5px;
-    background-color: white;
-    width: 80%;
-    border: 2px solid rgba(0, 0, 0, 0.7);
-    border-radius: 5px;
-    overflow: hidden;
-}
 
 .cerrar-sesion {
     position: relative;
