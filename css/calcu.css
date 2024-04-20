@@ -180,7 +180,7 @@ body{
     }
     .theme-buttons {
         position: relative;
-        top: 40px;
+        top: 0px;
         display: flex;
         justify-content: center; /* Centra los elementos horizontalmente */
         align-items: center; /* Centra los elementos verticalmente */
@@ -306,7 +306,7 @@ body{
 .centrado{
     position: relative;
     display: flex;
-    top: 80px;
+    top: 20px;
     justify-content: center;
     align-items: center;
 }
@@ -337,7 +337,97 @@ body{
     display: none;
 }
 
+/* estilo  de los datos de la caja*/
+.container-inputs {
+    position: relative;
+    top: 20px;
+    border-radius: 10px;
+    left: 160px;
+    background-color: white;
+    height: 640px;
+    width: 75%;
+    margin: 20px auto;
+    padding: 0 20px;
+    opacity: 90%;
+}
 
+.collapsed + .container-inputs {
+    position: relative;
+    top: 20px;
+    border-radius: 10px;
+    left: 40px;
+    background-color: white;
+    height: 640px;
+    width: 90%;
+    margin: 20px auto;
+    padding: 0 20px;
+    opacity: 90%;
+}
+
+.block {
+    margin-bottom: 20px;
+}
+
+.column {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
+}
+
+h2{
+    font-weight: 700;
+}
+
+.collapsed + .container-inputs .block  h2{
+    animation-duration: 0.8s;
+    animation-name: slidein;
+}
+.collapsed + .container-inputs .block  label{
+    animation-duration: 0.8s;
+    animation-name: slidein;
+}
+/*animaion de la letra*/
+@keyframes slidein {
+  from {
+    margin-left: 20%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+label {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #000000a2;
+    border-radius: 8px !important;
+}
+
+.btn-calcular {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: orange;
+    font-weight: 700;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-calcular:hover {
+    background-color: rgb(220, 143, 0);
+}
 
 @media (max-width: 768px) {
     .celda {

@@ -63,15 +63,89 @@
         </div>
 
     </div>
+    <div class="container-inputs">
+        <div class="block">
+            <h2>Datos de la caja</h2>
+            <div class="column">
+                <div class="input-group">
+                    <label for="codigo">Código:</label>
+                    <input type="text" id="codigo" name="codigo">
+                </div>
+                <div class="input-group">
+                    <label for="tipo-caja">Tipo de caja:</label>
+                    <input type="text" id="tipo-caja" name="tipo-caja">
+                </div>
+                <div class="input-group">
+                    <label for="mercancia">Mercancía:</label>
+                    <input type="text" id="mercancia" name="mercancia">
+                </div>
+                <div class="input-group">
+                    <label for="capacidad">Capacidad de la caja:</label>
+                    <input type="text" id="capacidad" name="capacidad">
+                </div>
+                <div class="input-group">
+                    <label for="alto">Alto/m:</label>
+                    <input type="text" id="alto" name="alto">
+                </div>
+                <div class="input-group">
+                    <label for="largo">Largo/m:</label>
+                    <input type="text" id="largo" name="largo">
+                </div>
+                <div class="input-group">
+                    <label for="ancho">Ancho/m:</label>
+                    <input type="text" id="ancho" name="ancho">
+                </div>
+                <div class="input-group">
+                    <label for="cantidad-elementos">Cantidad de elementos:</label>
+                    <input type="text" id="cantidad-elementos" name="cantidad-elementos">
+                </div>
+                <div class="input-group">
+                    <label for="cantidad-cajas">Cantidad de cajas:</label>
+                    <input type="text" id="cantidad-cajas" name="cantidad-cajas">
+                </div>
+                <div class="input-group">
+                    <label for="peso-caja">Peso de caja en kg:</label>
+                    <input type="text" id="peso-caja" name="peso-caja">
+                </div>
+                <div class="input-group">
+                    <label for="factor-riesgo">Factor de riesgo:</label>
+                    <input type="text" id="factor-riesgo" name="factor-riesgo">
+                </div>
+            </div>
+        </div>
 
-  
+        <div class="block">
+            <h2>Datos del vehículo</h2>
+            <div class="column">
+                <div class="input-group">
+                    <label for="volumen">Volumen/m3:</label>
+                    <input type="text" id="volumen" name="volumen">
+                </div>
+                <div class="input-group">
+                    <label for="peso-total">Peso total/kg:</label>
+                    <input type="text" id="peso-total" name="peso-total">
+                </div>
+                <div class="input-group">
+                    <label for="vehiculo">Vehículo:</label>
+                    <input type="text" id="vehiculo" name="vehiculo">
+                </div>
+                <div class="input-group">
+                    <label for="tipo-vehiculo">Tipo de vehículo:</label>
+                    <input type="text" id="tipo-vehiculo" name="tipo-vehiculo">
+                </div>
+                <div class="input-group">
+                    <label for="empresa">Empresa:</label>
+                    <input type="text" id="empresa" name="empresa">
+                </div>
+                <div class="input-group">
+                    <label for="clasificacion">Clasificación:</label>
+                    <input type="text" id="clasificacion" name="clasificacion">
+                </div>
+            </div>
+        </div>
 
-
-
-
-
-
-
+        <button class="btn-calcular" type="button" id="calcular">Calcular</button>
+    </div>
 
     <div class="help-box">
         <a href="https://www.uniclaretiana.edu.co/#atencion">

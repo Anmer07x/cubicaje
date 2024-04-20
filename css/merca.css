@@ -180,7 +180,7 @@ body{
     }
     .theme-buttons {
         position: relative;
-        top: 40px;
+        top: 0px;
         display: flex;
         justify-content: center; /* Centra los elementos horizontalmente */
         align-items: center; /* Centra los elementos verticalmente */
@@ -368,7 +368,7 @@ body{
 .centrado{
     position: relative;
     display: flex;
-    top: 80px;
+    top: 40px;
     justify-content: center;
     align-items: center;
 }
@@ -417,9 +417,6 @@ body{
     margin: 0; /* Elimina el margen predeterminado */
     font-weight: bold;
 }
-
-
-
 
 
 
