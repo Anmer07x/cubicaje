@@ -154,6 +154,11 @@ body{
         padding-left: 20px;
         
     }
+
+    .submenu-item a {
+        text-decoration: none !important; /* Quita el subrayado del enlace */
+        color: inherit; /* Hereda el color del texto de su contenedor */
+    }
     .submenu {
         display: none;
         background-color: #f3f3f3; /* Cambia el color de fondo del submenu */

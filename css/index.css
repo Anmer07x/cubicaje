@@ -178,6 +178,10 @@ body{
         cursor: pointer;
         transition: background-color 0.3s;
     }
+    .submenu-item a {
+        text-decoration: none !important; /* Quita el subrayado del enlace */
+        color: inherit; /* Hereda el color del texto de su contenedor */
+    }
     .submenu span {
         padding-left: 20px;
     }

@@ -15,7 +15,7 @@ body{
     left: 0;
     width: 100%;
     height: 100%; /* Ajusta la altura */
-    background-color: #d1d1d1;
+    background-image: url("../img/fuclafondo.png");
     background-size: 60%; /* Ajusta el tamaño de la imagen al 50% */
     background-repeat: no-repeat;
     background-position: center; /* Centra la imagen de fondo */
@@ -168,7 +168,6 @@ body{
         text-decoration: none !important; /* Quita el subrayado del enlace */
         color: inherit; /* Hereda el color del texto de su contenedor */
     }
-    
 
     .submenu span {
         padding-left: 20px;
@@ -200,6 +199,7 @@ body{
         margin-bottom: 20px; /* Añade un margen inferior a los botones */
         cursor: pointer;
     }
+    
     .theme-buttons button {
         background-color: transparent;
         border: none;
@@ -293,6 +293,7 @@ body{
     }
 
 
+
 .cerrar-sesion {
     position: relative;
     color: black; /* Color del texto */
@@ -309,7 +310,7 @@ body{
 .centrado{
     position: relative;
     display: flex;
-    top: 40px;
+    top: 20px;
     justify-content: center;
     align-items: center;
 }
@@ -340,38 +341,49 @@ body{
     display: none;
 }
 
+/* estilo  de los datos de la caja*/
 .container-inputs {
     position: relative;
-    top: 20px;
+    top: 70px;
     border-radius: 10px;
     left: 160px;
-    height: 640px;
+    background-color: white;
+    height: 340px;
     width: 75%;
     margin: 20px auto;
     padding: 0 20px;
-    overflow: hidden; /* Para ocultar el desbordamiento de la imagen */
-    background-image: url("../img/fuclafondo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 40%;
-    z-index: 0;
-    box-shadow: #000000 0px 0px 9px 0px;
+    box-shadow: #000000 0px 0px 7px 0px;
+    opacity: 90%;
 }
 
-.container-inputs:before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    background-image: url("../img/fuclafondo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 50%;
-    z-index: -1;
-    filter: blur(5px); /* Aplicar filtro de desenfoque */
+.container-inputs h2 {
+    text-align: center;
+    color: #ffc400;
+    font-size: 30px;
+    padding: 30px;
+    font-size: 54px;
+    font-weight: bold;
+    text-transform: uppercase;
 }
+
+.container-inputs .input-container {
+    width: 100%;
+    margin-bottom: 10px;
+}
+
+.container-inputs .input-container input {
+    width: 100%;
+    padding: 10px;
+    border-radius: 5px;
+    border: 1px solid #000000;
+}
+
+.input-container input:focus {
+    outline: none;
+    border: 1px solid transparent;
+    box-shadow: #ffc400 0px 0px 7px 0px;
+}
+
 
 
 .collapsed + .container-inputs {
@@ -379,67 +391,77 @@ body{
     top: 20px;
     border-radius: 10px;
     left: 40px;
-    height: 670px;
+    background-color: white;
+    height: 640px;
     width: 90%;
     margin: 20px auto;
     padding: 0 20px;
-    background-image: url("../img/fuclafondo.png");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: 40%;
-    box-shadow: #000000 0px 0px 9px 0px;
-  
+    opacity: 90%;
 }
 
-
-.container-inputs h2 {
-    font-weight: 700;
-    text-align: center;
-    font-size: 46px;
-    text-transform: uppercase;
-    z-index: 999;
-    top: 20px;
-    position: relative;
-}
-
-.table-container {
-    overflow-x: auto;
-}
-
-table {
-    width: 100%;
-    border-collapse: collapse;
-    border-spacing: 0;
+.block {
     margin-bottom: 20px;
-    font-size: 14px;
-    line-height: 1.5;
-    color: #333;
-    background-color: #fff;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-    border-radius: 5px;
-    overflow: hidden;
-    margin-top: 50px;
-    z-index: 1;
 }
 
-thead {
-    background-color: #f5f5f5;
+.column {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 10px;
 }
 
-th,
-td {
+h2{
+    font-weight: 700;
+}
+
+
+
+.collapsed + .container-inputs .block  h2{
+    animation-duration: 0.8s;
+    animation-name: slidein;
+}
+.collapsed + .container-inputs .block  label{
+    animation-duration: 0.8s;
+    animation-name: slidein;
+}
+/*animaion de la letra*/
+@keyframes slidein {
+  from {
+    margin-left: 20%;
+    width: 300%;
+  }
+
+  to {
+    margin-left: 0%;
+    width: 100%;
+  }
+}
+
+label {
+    font-weight: 500;
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="text"] {
+    width: 100%;
     padding: 8px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+    border: 1px solid #000000a2;
+    border-radius: 8px !important;
 }
 
-th {
-    font-weight: bold;
+
+
+@media (max-width: 768px) {
+    .celda {
+        width: 120px; /* Aumenta el tamaño de las celdas cuando el menú colapse */
+        height: 120px;
+    }
 }
 
-tbody tr:hover {
-    background-color: #f2f2f2;
-}
+
+
+
 
 /* Media queries para estilos responsivos */
 @media only screen and (max-width: 600px) {

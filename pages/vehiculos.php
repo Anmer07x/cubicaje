@@ -5,8 +5,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cubicaje</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
     <link rel="stylesheet" href="../css/merca.css">
     <link rel="icon" type="image/x-icon" href="../img/pila-de-cubos.png">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
@@ -34,16 +33,15 @@
                 <i class="fas fa-search"></i>
             </label>
         </div>
-        <div class="menu-item"> <a href="principal.php"><i class="fas fa-reply"></i><span>Inicio</span></a></div>
-        <div class="menu-item"> <a href="mercancias.php"><i class="fas fa-box"></i><span>Mercancias</span></a></div>
+        <div class="menu-item"> <a href="principal.php"><i class="fas fa-home"></i><span>Inicio</span></a></div>
+        <div class="menu-item"> <a href="productos.php"><i class="fas fa-box"></i><span>Mercancias</span></a></div>
         <div class="menu-item"><a href="cajas.php"><i class="fas fa-box-open"></i><span>Cajas</span></a></div>
         <div class="menu-item"><a href="vehiculos.php"><i class="fas fa-truck"></i><span>Vehiculos</span></a></div>
-        <div class="menu-item with-submenu"><i class="fas fa-cogs"></i><span>Sugerencias</span> <i
-                class="arrow-icon fas fa-chevron-down"></i></div>
+        <div class="menu-item with-submenu"><i class="fas fa-cogs"></i><span>Sugerencias</span> <i class="arrow-icon fas fa-chevron-down"></i></div>
         <div class="submenu">
-            <div class="submenu-item"><i class="fas fa-search"></i><span>Consultar Mercancias</span></div>
-            <div class="submenu-item"><i class="fas fa-search"></i><span>Consultar Cajas</span></div>
-            <div class="submenu-item"><i class="fas fa-search"></i><span>Consultar Vehiculos</span></div>
+            <div class="submenu-item"><a href="./sugerencias/nuevo.php"><i class="fas fa-search"></i><span>Consultar Mercancias</span></a></div>
+            <div class="submenu-item"><a href="./sugerencias/sugerencia.php"><i class="fas fa-search"></i><span>Consultar Cajas</span></a></div>
+            <div class="submenu-item"><a href="./sugerencias/eliminados.php"><i class="fas fa-search"></i><span>Consultar Vehiculos</span></a></div>
         </div>
         <div class="menu-item"><a href="calcular.php"><i class="fas fa-calculator"></i><span>Calcular
                     Cubicaje</span></a></div>
@@ -61,60 +59,64 @@
                 <i class="fas fa-sign-out-alt"></i> <!-- Icono de cerrar sesión -->
             </button>
         </div>
+    </div>
+    <div class="container-inputs">
+        <div class="block">
+            <h2>Vehiculos</h2>
+            <div class="column">
+                <div class="table-container">
+                    <div class="table-responsive">
+                        <table id="datatablesSimple">
+                            <thead>
+                                <tr>
+                                    <th>Id</th>
+                                    <th>Código Cajas</th>
+                                    <th>Tipo</th>
+                                    <th>Cantidad</th>
+                                    <th>Capacidad</th>
+                                    <th>Alto</th>
+                                    <th>Largo</th>
+                                    <th>Ancho</th>
+                                    <th>Cantidad elementos</th>
+                                    <th>Peso/Piezas/kg</th>
+                                    <th>Imagen</th>
+                                    <th>Editar</th>
+                                    <th>Eliminar</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                    </div>
+                </div>
+                <!--
+                <?php /*foreach ($datos as $dato) { */ ?>
+                <tr>
+                    <td><?php /*echo $dato['id'];*/ ?></td>
+                    <td><?php /*echo $dato['codigo_cajas'];*/ ?></td>
+                    <td><?php /*echo $dato['tipo'];*/ ?></td>
+                    <td><?php /*echo $dato['cantidad'];*/ ?></td>
+                    <td><?php /*echo $dato['capacidad'];*/ ?></td>
+                    <td><?php /*echo $dato['alto'];*/ ?></td>
+                    <td><?php /*echo $dato['largo'];*/ ?></td>
+                    <td><?php /*echo $dato['ancho'];*/ ?></td>
+                    <td><?php /*echo $dato['piezas_caja'];*/ ?></td>
+                    <td><?php /*echo $dato['peso_piezas_kg'];*/ ?></td>
+                </tr>
+                <?php /*} */ ?>
+                -->
+                </tbody>
 
+                </table>
+            </div>
+        </div>
     </div>
 
-    <table class="tabla">
-        <tr class="fila">
-            <td class="celda">1</td>
-            <td class="celda">2</td>
-            <td class="celda">3</td>
-            <td class="celda">4</td>
-            <td class="celda">5</td>
-            <td class="celda">6</td>
-        </tr>
-        <tr class="fila">
-            <td class="celda">10</td>
-            <td class="celda">20</td>
-            <td class="celda">30</td>
-            <td class="celda">40</td>
-            <td class="celda">50</td>
-            <td class="celda">60</td>
-        </tr>
-        <tr class="fila">
-            <td class="celda">10</td>
-            <td class="celda">20</td>
-            <td class="celda">30</td>
-            <td class="celda">40</td>
-            <td class="celda">50</td>
-            <td class="celda">60</td>
-        </tr>
-        <tr class="fila">
-            <td class="celda">10</td>
-            <td class="celda">20</td>
-            <td class="celda">30</td>
-            <td class="celda">40</td>
-            <td class="celda">50</td>
-            <td class="celda">60</td>
-        </tr>
-        <!-- Repite las filas según sea necesario -->
-    </table>
-
-
-
-
-
-
-
+    <script src="../js/principal.js"></script>
 
     <div class="help-box">
         <a href="https://www.uniclaretiana.edu.co/#atencion">
             <i class="fas fa-question-circle"></i> Ayuda
         </a>
     </div>
-
-
-    <script src="../js/principal.js"></script>
 </body>
 
 </html>
