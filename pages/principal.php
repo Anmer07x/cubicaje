@@ -33,7 +33,7 @@
                 <i class="fas fa-search"></i>
             </label>
         </div>
-        <div class="menu-item"> <a href="mercancias.php"><i class="fas fa-box"></i><span>Mercancias</span></a></div>
+        <div class="menu-item"> <a href="productos.php"><i class="fas fa-box"></i><span>Mercancias</span></a></div>
         <div class="menu-item"><a href="cajas.php"><i class="fas fa-box-open"></i><span>Cajas</span></a></div>
         <div class="menu-item"><a href="vehiculos.php"><i class="fas fa-truck"></i><span>Vehiculos</span></a></div>
         <div class="menu-item with-submenu"><i class="fas fa-cogs"></i><span>Sugerencias</span> <i class="arrow-icon fas fa-chevron-down"></i></div>

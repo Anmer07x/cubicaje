@@ -3,10 +3,10 @@
 }
 
 body{
-      font-family: 'DM Sans', sans-serif;
-      font-weight: 400;
-      overflow-y: hidden;
-      margin: 0%;
+    font-size: 16px; /* Ajusta el tamaño de fuente base */
+    margin: 0; /* Quita el margen predeterminado */
+    padding: 0; /* Quita el relleno predeterminado */
+    overflow: hidden; /* Quita el desbordamiento */
 }
 
 .body-background {
@@ -196,7 +196,7 @@ body{
         height: 50px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 25px ;
-        margin-top: 50px; /* Alinea los botones al final del menú */
+        margin-top: 10px; /* Alinea los botones al final del menú */
         margin-bottom: 20px; /* Añade un margen inferior a los botones */
         cursor: pointer;
     }
@@ -311,7 +311,7 @@ body{
 .centrado{
     position: relative;
     display: flex;
-    top: 20px;
+    top: 5px;
     justify-content: center;
     align-items: center;
 }
@@ -349,7 +349,7 @@ body{
     border-radius: 10px;
     left: 160px;
     background-color: white;
-    height: 640px;
+    height: 617px;
     width: 75%;
     margin: 20px auto;
     padding: 0 20px;
@@ -362,8 +362,8 @@ body{
     border-radius: 10px;
     left: 40px;
     background-color: white;
-    height: 640px;
-    width: 90%;
+    height: 617px;
+    width: 80%;
     margin: 20px auto;
     padding: 0 20px;
     opacity: 90%;

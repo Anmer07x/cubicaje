@@ -143,13 +143,6 @@
         <button class="btn-calcular" type="button" id="calcular">Calcular</button>
     </div>
 
-    <div class="help-box">
-        <a href="https://www.uniclaretiana.edu.co/#atencion">
-            <i class="fas fa-question-circle"></i> Ayuda
-        </a>
-    </div>
-
-
     <script src="../js/principal.js"></script>
 </body>
 

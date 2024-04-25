@@ -3,9 +3,10 @@
 }
 
 body{
-      font-family: 'DM Sans', sans-serif;
-      font-weight: 400;
-      overflow-y: hidden;
+    font-size: 16px; /* Ajusta el tamaño de fuente base */
+    margin: 0; /* Quita el margen predeterminado */
+    padding: 0; /* Quita el relleno predeterminado */
+    overflow: hidden; /* Quita el desbordamiento */
 }
 
 .body-background {
@@ -208,7 +209,7 @@ body{
         height: 50px;
         box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
         border-radius: 25px ;
-        margin-top: 50px; /* Alinea los botones al final del menú */
+        margin-top: -30px; /* Alinea los botones al final del menú */
         margin-bottom: 20px; /* Añade un margen inferior a los botones */
         cursor: pointer;
     }
@@ -318,7 +319,7 @@ body{
     margin: 0 auto;
     color: rgb(0, 0, 0);
     padding: 50px;
-    top: 100px;
+    top: 70px;
     left: 160px;
     justify-content: space-between;
     display: flex;
@@ -347,7 +348,7 @@ body{
     margin: 0 auto;
     color: rgb(0, 0, 0);
     padding: 50px;
-    top: 100px;
+    top: 70px;
     left: 40px;
     justify-content: space-between;
     display: flex;
@@ -448,7 +449,7 @@ body{
 .card-container {
     position: relative;
     display: grid;
-    top: 100px;
+    top: 70px;
     grid-template-columns: repeat(3, 24.6%);
     grid-gap: 10px;
 }
@@ -489,7 +490,7 @@ body{
 .centrado{
     position: relative;
     display: flex;
-    top: 80px;
+    top: 40px;
     justify-content: center;
     align-items: center;
 }
@@ -518,7 +519,7 @@ body{
 
 .collapsed .cerrar-sesion{
     position: relative;
-    top: 60px;
+    top: 100px;
     width: 60px;
 }
 
