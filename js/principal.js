@@ -81,33 +81,92 @@ cards.forEach((card) => {
     hoverSound.play();
   });
 });
+/*funcion original de modo claro */
+// function toggleLightMode() {
+//   document.body.style.backgroundColor = "#f0f0f0";
+//   document.querySelector(".light-mode").classList.add("seleccionado");
+//   document.querySelector(".dark-mode").classList.remove("seleccionado");
+//   document.querySelector(".sidebar").style.backgroundColor = "#fff";
+//   document
+//     .querySelectorAll(
+//       ".profile p, .menu-item, .submenu-item, .footer-line, .card-container"
+//     )
+//     .forEach((element) => {
+//       element.style.color = "#333";
+//     });
+//   document.querySelectorAll(".search, .submenu").forEach((element) => {
+//     element.style.backgroundColor = "#f3f3f3";
+//   });
+//   document.querySelector(".banner").style.backgroundColor = "white";
+//   document.querySelector(".banner-content").style.color = "#000";
+//   document
+//     .querySelectorAll(".card-container .card, .card p")
+//     .forEach((card) => {
+//       card.style.backgroundColor = "#fff";
+//       card.style.color = "#333";
+//     });
+//   document.querySelector(".help-box").style.backgroundColor = "#f0f0f0";
+//   document.querySelector(".help-box a").style.color = "#000";
+//   document.querySelector(".footer-line").style.backgroundColor = "#333";
+// }
 
+/*Funcion modificada del modo claro */
 function toggleLightMode() {
   document.body.style.backgroundColor = "#f0f0f0";
   document.querySelector(".light-mode").classList.add("seleccionado");
   document.querySelector(".dark-mode").classList.remove("seleccionado");
-  document.querySelector(".sidebar").style.backgroundColor = "#fff";
-  document
-    .querySelectorAll(
-      ".profile p, .menu-item, .submenu-item, .footer-line, .card-container"
-    )
-    .forEach((element) => {
-      element.style.color = "#333";
-    });
-  document.querySelectorAll(".search, .submenu").forEach((element) => {
+
+  const sidebar = document.querySelector(".sidebar");
+  if (sidebar) {
+    sidebar.style.backgroundColor = "#fff";
+  }
+
+  const banner = document.querySelector(".banner");
+  if (banner) {
+    banner.style.backgroundColor = "white";
+  }
+
+  const helpBox = document.querySelector(".help-box");
+  if (helpBox) {
+    helpBox.style.backgroundColor = "#f0f0f0";
+    const helpBoxLink = helpBox.querySelector("a");
+    if (helpBoxLink) {
+      helpBoxLink.style.color = "#000";
+    }
+  }
+
+  const footerLine = document.querySelector(".footer-line");
+  if (footerLine) {
+    footerLine.style.backgroundColor = "#333";
+  }
+
+  const elementsToColor = document.querySelectorAll(
+    ".profile p, .menu-item, .submenu-item, .footer-line,  .search, .submenu"
+  );
+  elementsToColor.forEach((element) => {
+    element.style.color = "#333";
     element.style.backgroundColor = "#f3f3f3";
   });
-  document.querySelector(".banner").style.backgroundColor = "white";
+
+  const cards = document.querySelectorAll(" .card, .card p");
+  cards.forEach((card) => {
+    card.style.backgroundColor = "#fff";
+    card.style.color = "#333";
+  });
+
+  const table = document.querySelectorAll(".container-inputs, .block");
+  table.forEach((s) => {
+    s.style.backgroundColor = "white";
+    s.style.color = "black";
+  });
+  const inputs = document.querySelectorAll(".container-inputs input");
+  inputs.forEach((input) => {
+    input.style.backgroundColor = "white"; // Cambia el color de fondo del input a gris
+    input.style.color = "black"; // Cambia el color del texto del input a blanco
+    input.setAttribute("placeholderStyle", "color: gray"); // Establece el color del placeholder
+  });
+
   document.querySelector(".banner-content").style.color = "#000";
-  document
-    .querySelectorAll(".card-container .card, .card p")
-    .forEach((card) => {
-      card.style.backgroundColor = "#fff";
-      card.style.color = "#333";
-    });
-  document.querySelector(".help-box").style.backgroundColor = "#f0f0f0";
-  document.querySelector(".help-box a").style.color = "#000";
-  document.querySelector(".footer-line").style.backgroundColor = "#333";
 }
 
 function toggleLogoutMenu() {
@@ -118,44 +177,104 @@ function toggleLogoutMenu() {
 function logout() {
   window.location.href = "../index.php";
 }
+/*funcion original del modo oscuro */
+// function toggleDarkMode() {
+//   document.body.style.backgroundColor = "black";
+//   document.querySelector(".dark-mode").classList.add("seleccionado");
+//   document.querySelector(".light-mode").classList.remove("seleccionado");
+//   document.querySelector(".sidebar").style.backgroundColor = "#333";
+//   document
+//     .querySelectorAll(
+//       ".profile p, .menu-item, .submenu-item, .footer-line, .card-container"
+//     )
+//     .forEach((element) => {
+//       element.style.color = "#fff";
+//     });
+//   document.querySelectorAll(".search, .submenu").forEach((element) => {
+//     element.style.backgroundColor = "#444";
+//   });
+//   document.querySelector(".banner").style.backgroundColor = "#222";
+//   document.querySelector(".banner-content").style.color = "#fff";
+//   document
+//     .querySelectorAll(".card-container .card, .card p")
+//     .forEach((card) => {
+//       card.style.backgroundColor = "#333";
+//       card.style.color = "#fff";
+//     });
+//   document.querySelector(".help-box").style.backgroundColor = "#222";
+//   document.querySelector(".help-box a").style.color = "black";
+//   document.querySelector(".footer-line").style.backgroundColor = "#fff";
+// }
 
+/*funcion copia del modo oscuro modificada */
 function toggleDarkMode() {
   document.body.style.backgroundColor = "black";
   document.querySelector(".dark-mode").classList.add("seleccionado");
   document.querySelector(".light-mode").classList.remove("seleccionado");
-  document.querySelector(".sidebar").style.backgroundColor = "#333";
-  document
-    .querySelectorAll(
-      ".profile p, .menu-item, .submenu-item, .footer-line, .card-container"
-    )
-    .forEach((element) => {
-      element.style.color = "#fff";
-    });
-  document.querySelectorAll(".search, .submenu").forEach((element) => {
+
+  const sidebar = document.querySelector(".sidebar");
+  if (sidebar) {
+    sidebar.style.backgroundColor = "#333";
+  }
+
+  const banner = document.querySelector(".banner");
+  if (banner) {
+    banner.style.backgroundColor = "#222";
+  }
+
+  const helpBox = document.querySelector(".help-box");
+  if (helpBox) {
+    helpBox.style.backgroundColor = "#222";
+    const helpBoxLink = helpBox.querySelector("a");
+    if (helpBoxLink) {
+      helpBoxLink.style.color = "black";
+    }
+  }
+
+  const footerLine = document.querySelector(".footer-line");
+  if (footerLine) {
+    footerLine.style.backgroundColor = "#fff";
+  }
+
+  const elementsToColor = document.querySelectorAll(
+    ".profile p, .menu-item, .submenu-item, .footer-line, .search, .submenu"
+  );
+  elementsToColor.forEach((element) => {
+    element.style.color = "#fff";
     element.style.backgroundColor = "#444";
   });
-  document.querySelector(".banner").style.backgroundColor = "#222";
-  document.querySelector(".banner-content").style.color = "#fff";
-  document
-    .querySelectorAll(".card-container .card, .card p")
-    .forEach((card) => {
-      card.style.backgroundColor = "#333";
-      card.style.color = "#fff";
-    });
-  document.querySelector(".help-box").style.backgroundColor = "#222";
-  document.querySelector(".help-box a").style.color = "black";
-  document.querySelector(".footer-line").style.backgroundColor = "#fff";
-}
 
+  const cards = document.querySelectorAll(" .card, .card p");
+  cards.forEach((card) => {
+    card.style.backgroundColor = "#333";
+    card.style.color = "#fff";
+  });
+
+  const table = document.querySelectorAll(".container-inputs, .block");
+  table.forEach((s) => {
+    s.style.backgroundColor = "#333";
+    s.style.color = "white";
+  });
+  const inputs = document.querySelectorAll(".container-inputs input");
+  inputs.forEach((input) => {
+    input.style.backgroundColor = "gray"; // Cambia el color de fondo del input a gris
+    input.style.color = "white"; // Cambia el color del texto del input a blanco
+    input.setAttribute("placeholderStyle", "color: white"); // Establece el color del placeholder
+  });
+
+  document.querySelector(".banner-content").style.color = "#fff";
+}
 function ajustarAnchoTitulo() {
   var menu = document.querySelector(".sidebar");
   var titulo = document.getElementById("titulo");
 
-  if (menu.classList.contains("collapsed")) {
-    titulo.style.width = "calc(100% - 60px)"; // Ajusta el ancho del título cuando el menú está colapsado
-  } else {
-    titulo.style.width = "calc(100% - 50px)"; // Ajusta el ancho del título cuando el menú está abierto
-  }
+  // if (menu.classList.contains("collapsed")) {
+  //   titulo.style.width = "calc(100% - 60px)"; // Ajusta el ancho del título cuando el menú está colapsado
+  // } else {
+  //   titulo.style.width = "calc(100% - 50px)"; // Ajusta el ancho del título cuando el menú está abierto
+  // }
+  const menuCollapsed = menu.classList.contains("collapsed");
+  titulo.style.width = `calc(100% - ${menuCollapsed ? 60 : 50}px)`;
 }
 
 // Llama a la función para ajustar el ancho del título al cargar la página

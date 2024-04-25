@@ -349,10 +349,10 @@ body{
     border-radius: 10px;
     left: 160px;
     background-color: white;
-    height: 617px;
+    height: 660px;
     width: 75%;
     margin: 20px auto;
-    padding: 0 20px;
+    padding: 20px 20px;
     opacity: 90%;
 }
 
@@ -362,10 +362,10 @@ body{
     border-radius: 10px;
     left: 40px;
     background-color: white;
-    height: 617px;
+    height: 660px;
     width: 80%;
     margin: 20px auto;
-    padding: 0 20px;
+    padding: 20px 20px;
     opacity: 90%;
 }
 
