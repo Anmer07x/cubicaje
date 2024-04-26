@@ -68,8 +68,9 @@ function adjustCardPosition() {
 }
 /* */
 document.addEventListener("DOMContentLoaded", function () {
-  toggleLightMode();
-  toggleDarkMode();
+  toggleLightMode(); // Por defecto, carga el modo claro
+  const darkModeButton = document.querySelector(".dark-mode");
+  darkModeButton.addEventListener("click", toggleDarkMode); // Agrega el evento click para alternar al modo oscuro
 });
 /* */
 const cards = document.querySelectorAll(".card");
@@ -145,8 +146,11 @@ function toggleLightMode() {
   );
   elementsToColor.forEach((element) => {
     element.style.color = "#333";
-    element.style.backgroundColor = "#f3f3f3";
+    // element.style.backgroundColor = "#f3f3f3";
   });
+
+  document.querySelector(".submenu").style.backgroundColor = "#f3f3f3";
+  document.querySelector(".search").style.backgroundColor = "#fff";
 
   const cards = document.querySelectorAll(" .card, .card p");
   cards.forEach((card) => {
@@ -237,12 +241,14 @@ function toggleDarkMode() {
   }
 
   const elementsToColor = document.querySelectorAll(
-    ".profile p, .menu-item, .submenu-item, .footer-line, .search, .submenu"
+    ".profile p, .menu-item, .submenu-item, .footer-line"
   );
   elementsToColor.forEach((element) => {
     element.style.color = "#fff";
-    element.style.backgroundColor = "#444";
+    // element.style.backgroundColor = "#444";
   });
+  document.querySelector(".submenu").style.backgroundColor = "#272727";
+  document.querySelector(".search").style.backgroundColor = "#333";
 
   const cards = document.querySelectorAll(" .card, .card p");
   cards.forEach((card) => {

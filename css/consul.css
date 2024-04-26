@@ -417,11 +417,11 @@ h2{
 
 
 .collapsed + .container-inputs .block  h2{
-    animation-duration: 0.8s;
+    animation-duration: 0.4s;
     animation-name: slidein;
 }
 .collapsed + .container-inputs .block  label{
-    animation-duration: 0.8s;
+    animation-duration: 0.4s;
     animation-name: slidein;
 }
 /*animaion de la letra*/
@@ -436,6 +436,8 @@ h2{
     width: 100%;
   }
 }
+
+
 
 label {
     font-weight: 500;
