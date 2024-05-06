@@ -1,0 +1,73 @@
+CRITICAL - 2024-05-05 22:25:19 --> Undefined variable $user_session
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-05 22:26:05 --> Undefined variable $username
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-05 22:26:05 --> Undefined variable $username
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-05 22:26:06 --> Undefined variable $username
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-05 22:26:51 --> Undefined variable $user_session
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 20)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2024-05-05 23:27:33 --> Invalid file: calcular/calcular.php
+#0 C:\xampp\htdocs\cubicacion\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('calcular/calcul...')
+#1 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('calcular/calcul...', Array, true)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Calcular.php(24): view('calcular/calcul...', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Calcular->index()
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calcular))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2024-05-05 23:27:37 --> Invalid file: calcular/calcular.php
+#0 C:\xampp\htdocs\cubicacion\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('calcular/calcul...')
+#1 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('calcular/calcul...', Array, true)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Calcular.php(24): view('calcular/calcul...', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Calcular->index()
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calcular))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

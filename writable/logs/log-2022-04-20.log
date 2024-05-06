@@ -1,0 +1,140 @@
+CRITICAL - 2022-04-20 07:25:22 --> Invalid file: 1footer.php
+#0 C:\xampp\htdocs\gileos_del_pasifico2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('1footer.php')
+#1 C:\xampp\htdocs\gileos_del_pasifico2\system\Common.php(1089): CodeIgniter\View\View->render('1footer', Array, true)
+#2 C:\xampp\htdocs\gileos_del_pasifico2\app\Controllers\Categorias.php(32): view('1footer')
+#3 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(832): App\Controllers\Categorias->eliminados()
+#4 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
+#5 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gileos_del_pasifico2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-20 11:03:04 --> Invalid file: productos/productos.php
+#0 C:\xampp\htdocs\gileos_del_pasifico2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('productos/produ...')
+#1 C:\xampp\htdocs\gileos_del_pasifico2\system\Common.php(1089): CodeIgniter\View\View->render('productos/produ...', Array, true)
+#2 C:\xampp\htdocs\gileos_del_pasifico2\app\Controllers\productos.php(22): view('productos/produ...', Array)
+#3 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(832): App\Controllers\Productos->index()
+#4 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#5 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\gileos_del_pasifico2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-04-20 12:37:26 --> Undefined variable $datos
+#0 C:\xampp\htdocs\gileos_del_pasifico2\app\Views\productos\editar.php(8): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 8)
+#1 C:\xampp\htdocs\gileos_del_pasifico2\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\gileos_del_pasifico2\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\gileos_del_pasifico2\system\Common.php(1089): CodeIgniter\View\View->render('productos/edita...', Array, true)
+#4 C:\xampp\htdocs\gileos_del_pasifico2\app\Controllers\productos.php(79): view('productos/edita...', Array)
+#5 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(832): App\Controllers\Productos->editar('1')
+#6 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gileos_del_pasifico2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-20 19:43:50 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-04-20 19:43:50 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\gileos_del_pasifico2\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\gileos_del_pasifico2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\gileos_del_pasifico2\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\gileos_del_pasifico2\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\gileos_del_pasifico2\app\Controllers\productos.php(22): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(832): App\Controllers\Productos->index()
+#6 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gileos_del_pasifico2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-20 19:53:36 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-04-20 19:53:36 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\gileos_del_pasifico2\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\gileos_del_pasifico2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\gileos_del_pasifico2\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\gileos_del_pasifico2\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\gileos_del_pasifico2\app\Controllers\productos.php(22): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(832): App\Controllers\Productos->index()
+#6 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gileos_del_pasifico2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-04-20 19:56:02 --> Class "CodeIgniter\Database\mongodb\Connection" not found
+#0 C:\xampp\htdocs\gileos_del_pasifico2\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mongodb', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\gileos_del_pasifico2\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\gileos_del_pasifico2\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\gileos_del_pasifico2\app\Controllers\productos.php(15): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(809): App\Controllers\Productos->__construct()
+#5 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\gileos_del_pasifico2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-04-20 19:56:06 --> Class "CodeIgniter\Database\mongodb\Connection" not found
+#0 C:\xampp\htdocs\gileos_del_pasifico2\system\Database\Database.php(56): CodeIgniter\Database\Database->initDriver('mongodb', 'CodeIgniter\\Dat...', Array)
+#1 C:\xampp\htdocs\gileos_del_pasifico2\system\Database\Config.php(78): CodeIgniter\Database\Database->load(Array, 'default')
+#2 C:\xampp\htdocs\gileos_del_pasifico2\system\Model.php(97): CodeIgniter\Database\Config::connect('default')
+#3 C:\xampp\htdocs\gileos_del_pasifico2\app\Controllers\productos.php(15): CodeIgniter\Model->__construct()
+#4 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(809): App\Controllers\Productos->__construct()
+#5 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#6 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\gileos_del_pasifico2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-04-20 20:03:59 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-04-20 20:03:59 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\gileos_del_pasifico2\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\gileos_del_pasifico2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\gileos_del_pasifico2\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\gileos_del_pasifico2\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\gileos_del_pasifico2\app\Controllers\productos.php(22): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(832): App\Controllers\Productos->index()
+#6 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gileos_del_pasifico2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-20 20:24:15 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-04-20 20:24:15 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\gileos_del_pasifico2\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\gileos_del_pasifico2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\gileos_del_pasifico2\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\gileos_del_pasifico2\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\gileos_del_pasifico2\app\Controllers\productos.php(22): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(832): App\Controllers\Productos->index()
+#6 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gileos_del_pasifico2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-20 20:26:58 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-04-20 20:26:58 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\gileos_del_pasifico2\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\gileos_del_pasifico2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\gileos_del_pasifico2\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\gileos_del_pasifico2\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\gileos_del_pasifico2\app\Controllers\productos.php(22): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(832): App\Controllers\Productos->index()
+#6 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gileos_del_pasifico2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-20 20:34:44 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-04-20 20:34:44 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\gileos_del_pasifico2\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\gileos_del_pasifico2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\gileos_del_pasifico2\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\gileos_del_pasifico2\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\gileos_del_pasifico2\app\Controllers\productos.php(22): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(832): App\Controllers\Productos->index()
+#6 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gileos_del_pasifico2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+ERROR - 2022-04-20 20:43:31 --> Error connecting to the database: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+CRITICAL - 2022-04-20 20:43:31 --> Unable to connect to the database.
+Main connection [MySQLi]: No se puede establecer una conexión ya que el equipo de destino denegó expresamente dicha conexión
+#0 C:\xampp\htdocs\gileos_del_pasifico2\system\Database\BaseConnection.php(577): CodeIgniter\Database\BaseConnection->initialize()
+#1 C:\xampp\htdocs\gileos_del_pasifico2\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#2 C:\xampp\htdocs\gileos_del_pasifico2\system\Model.php(183): CodeIgniter\Database\BaseBuilder->get()
+#3 C:\xampp\htdocs\gileos_del_pasifico2\system\BaseModel.php(584): CodeIgniter\Model->doFindAll(0, 0)
+#4 C:\xampp\htdocs\gileos_del_pasifico2\app\Controllers\Unidades.php(18): CodeIgniter\BaseModel->findAll()
+#5 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(832): App\Controllers\Unidades->index()
+#6 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Unidades))
+#7 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\gileos_del_pasifico2\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

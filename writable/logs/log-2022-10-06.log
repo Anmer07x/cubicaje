@@ -1,0 +1,159 @@
+CRITICAL - 2022-10-06 14:41:37 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(79): CodeIgniter\Model->update('3', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar('3')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-06 14:47:08 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(79): CodeIgniter\Model->update('3', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar('3')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-06 14:47:49 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(79): CodeIgniter\Model->update('3', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar('3')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-06 15:54:49 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(79): CodeIgniter\Model->update('3', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar('3')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-06 15:56:35 --> Too few arguments to function App\Controllers\Cajas::eliminar(), 0 passed in C:\xampp\htdocs\cubicacion\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar()
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 15:57:42 --> Too few arguments to function App\Controllers\Cajas::eliminar(), 0 passed in C:\xampp\htdocs\cubicacion\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar()
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 16:01:56 --> Too few arguments to function App\Controllers\Cajas::eliminar(), 0 passed in C:\xampp\htdocs\cubicacion\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar()
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 16:02:03 --> Too few arguments to function App\Controllers\Cajas::eliminar(), 0 passed in C:\xampp\htdocs\cubicacion\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar()
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 16:05:13 --> Too few arguments to function App\Controllers\Cajas::eliminar(), 0 passed in C:\xampp\htdocs\cubicacion\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar()
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 16:05:14 --> Too few arguments to function App\Controllers\Cajas::eliminar(), 0 passed in C:\xampp\htdocs\cubicacion\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar()
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 16:05:17 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(79): CodeIgniter\Model->update('3', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar('3')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-06 16:05:36 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(79): CodeIgniter\Model->update('3', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar('3')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-06 16:09:39 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(79): CodeIgniter\Model->update('3', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar('3')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-06 16:10:05 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(79): CodeIgniter\Model->update('3', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar('3')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-06 16:17:42 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(79): CodeIgniter\Model->update('3', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar('3')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-06 16:17:43 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(79): CodeIgniter\Model->update('3', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar('3')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-06 16:17:45 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(79): CodeIgniter\Model->update('3', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar('3')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-06 16:30:24 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(79): CodeIgniter\Model->update('3', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar('3')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-06 16:32:58 --> Class "App\Models\UnidadesModel" not found
+#0 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(809): App\Controllers\Productos->__construct()
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(410): CodeIgniter\CodeIgniter->createController()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2022-10-06 16:37:59 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Vehiculos.php(67): CodeIgniter\Model->update('1', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Vehiculos->eliminar('1')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehiculos))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

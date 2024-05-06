@@ -1,0 +1,624 @@
+CRITICAL - 2023-05-19 07:39:17 --> Undefined variable $datos
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 07:40:13 --> Undefined variable $ids
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 07:40:48 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 07:40:50 --> foreach() argument must be of type array|object, null given
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argum...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 07:41:11 --> Undefined variable $datos
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 07:41:12 --> Undefined variable $datos
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 07:41:38 --> Undefined variable $dato
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(94): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 94)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 07:44:28 --> Undefined variable $datos
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 07:44:31 --> Undefined variable $datos
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 07:45:07 --> Undefined variable $datos
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(91): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 91)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 07:57:05 --> Undefined variable $img
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 07:57:52 --> Undefined variable $id
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 07:58:30 --> Undefined variable $id
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 08:21:02 --> Undefined variable $id
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 08:21:11 --> Undefined variable $id
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 08:30:19 --> Call to undefined function App\Controllers\mysql_query()
+#0 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-19 09:06:41 --> Undefined constant "cajas"
+#0 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#3 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-19 09:06:51 --> Undefined constant "cajas"
+#0 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#3 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-19 09:07:13 --> Undefined constant "cajas"
+#0 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#3 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-19 09:07:15 --> Undefined constant "cajas"
+#0 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#3 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-19 09:07:44 --> Undefined variable $id
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(217): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 217)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 09:07:45 --> Undefined variable $id
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(217): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 217)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 09:07:52 --> Undefined variable $id
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(217): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 217)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 09:07:54 --> Undefined variable $id
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(217): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 217)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 10:03:44 --> Undefined variable $resultado
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 10:04:14 --> Undefined variable $img_caja
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 10:04:22 --> Undefined variable $img_caja
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 10:04:22 --> Undefined variable $img_caja
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 10:04:23 --> Undefined variable $img_caja
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 10:04:56 --> Undefined variable $img_caja
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 10:04:57 --> Undefined variable $img_caja
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 10:05:12 --> Undefined variable $img_caja
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 15:15:15 --> Call to undefined method CodeIgniter\Session\Session::fntSaveCaja()
+#0 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('cajas/cajas', Array, true)
+#3 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(95): view('cajas/cajas', Array)
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->index()
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2023-05-19 15:47:42 --> Undefined array key "cajas"
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 166)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 15:48:41 --> Undefined array key "img_caja"
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 166)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 15:49:02 --> Undefined array key "cajas"
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 166)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 15:50:48 --> Undefined array key "cajas"
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 166)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 15:53:38 --> Undefined array key "cajas"
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(166): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 166)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 16:51:23 --> Undefined variable $foto
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(130): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 130)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 16:52:21 --> Undefined variable $foto
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(133): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 133)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 16:52:39 --> Undefined variable $directorio_destino
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 17:02:02 --> Undefined variable $directorio_destino
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 17:07:07 --> Undefined variable $directorio_destino
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 17:11:22 --> Undefined variable $directorio_destino
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 17:11:30 --> Undefined variable $directorio_destino
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 17:13:36 --> Undefined variable $directorio_destino
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 17:14:06 --> Undefined variable $directorio_destino
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 17:15:06 --> Undefined variable $directorio_destino
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 17:17:29 --> Undefined variable $directorio_destino
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 17:34:33 --> Undefined variable $directorio_destino
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 17:43:03 --> Undefined variable $directorio_destino
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 17:49:54 --> Undefined variable $directorio_destino
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 17:50:13 --> Undefined variable $img_caja
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 17:50:15 --> Undefined variable $img_caja
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 17:51:18 --> Undefined variable $img_caja
+#0 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(85): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 85)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-19 17:54:48 --> Undefined variable $directorio_destino
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 17:54:52 --> Undefined variable $directorio_destino
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 17:55:14 --> Undefined variable $directorio_destino
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 17:55:56 --> Undefined variable $directorio
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 17:56:00 --> Undefined variable $directorio
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 17:56:13 --> Undefined variable $directorio_destino
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 18:00:51 --> Undefined variable $id
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 131)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 18:01:18 --> Array to string conversion
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(131): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 131)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 18:01:31 --> Undefined variable $directorio_destino
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 18:02:49 --> Undefined variable $directorio_destino
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 18:09:01 --> Undefined variable $directorio_destino
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(140): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 140)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 18:11:22 --> Undefined variable $con
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 141)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 18:11:25 --> Undefined variable $con
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 141)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 18:16:06 --> Undefined variable $con
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(141): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 141)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-19 18:17:48 --> Array to string conversion
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(142): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 142)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

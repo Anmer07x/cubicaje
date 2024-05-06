@@ -1,0 +1,8 @@
+CRITICAL - 2024-03-18 21:26:56 --> mail(): Failed to connect to mailserver at &quot;localhost&quot; port 25, verify your &quot;SMTP&quot; and &quot;smtp_port&quot; setting in php.ini or use ini_set()
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'mail(): Failed ...', 'C:\\xampp\\htdocs...', 219)
+#1 C:\xampp\htdocs\cubicacion\app\Controllers\Usuarios.php(219): mail('usuario', 'Recuperar contr...', 'Para recuperar ...', 'From: cristobap...')
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Usuarios->recovery()
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#5 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#6 {main}

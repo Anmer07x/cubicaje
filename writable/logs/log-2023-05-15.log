@@ -1,0 +1,148 @@
+CRITICAL - 2023-05-15 18:25:51 --> Undefined variable $caja
+#0 C:\xampp\htdocs\cubicacion\app\Views\sugerencias\sugerencias.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('sugerencias/sug...', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Sugerencias.php(24): view('sugerencias/sug...', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Sugerencias->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sugerencias))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-15 18:26:23 --> Array to string conversion
+#0 C:\xampp\htdocs\cubicacion\app\Views\sugerencias\sugerencias.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('sugerencias/sug...', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Sugerencias.php(24): view('sugerencias/sug...', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Sugerencias->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sugerencias))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-15 18:26:25 --> Array to string conversion
+#0 C:\xampp\htdocs\cubicacion\app\Views\sugerencias\sugerencias.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('sugerencias/sug...', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Sugerencias.php(24): view('sugerencias/sug...', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Sugerencias->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sugerencias))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-15 18:26:26 --> Array to string conversion
+#0 C:\xampp\htdocs\cubicacion\app\Views\sugerencias\sugerencias.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('sugerencias/sug...', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Sugerencias.php(24): view('sugerencias/sug...', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Sugerencias->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sugerencias))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-15 18:30:51 --> syntax error, unexpected single-quoted string "", expecting "," or ";"
+#0 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('sugerencias/sug...', Array, true)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Sugerencias.php(24): view('sugerencias/sug...', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Sugerencias->index()
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sugerencias))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-15 18:32:34 --> Undefined variable $img_caja
+#0 C:\xampp\htdocs\cubicacion\app\Views\sugerencias\sugerencias.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('sugerencias/sug...', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Sugerencias.php(24): view('sugerencias/sug...', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Sugerencias->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sugerencias))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-15 18:32:50 --> Undefined variable $img_caja
+#0 C:\xampp\htdocs\cubicacion\app\Views\sugerencias\sugerencias.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('sugerencias/sug...', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Sugerencias.php(24): view('sugerencias/sug...', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Sugerencias->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sugerencias))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-15 18:32:52 --> Undefined variable $img_caja
+#0 C:\xampp\htdocs\cubicacion\app\Views\sugerencias\sugerencias.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('sugerencias/sug...', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Sugerencias.php(24): view('sugerencias/sug...', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Sugerencias->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sugerencias))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-15 18:32:57 --> Undefined variable $img_caja
+#0 C:\xampp\htdocs\cubicacion\app\Views\sugerencias\sugerencias.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('sugerencias/sug...', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Sugerencias.php(24): view('sugerencias/sug...', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Sugerencias->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sugerencias))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-15 18:33:59 --> Undefined variable $id
+#0 C:\xampp\htdocs\cubicacion\app\Views\sugerencias\sugerencias.php(45): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 45)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('sugerencias/sug...', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Sugerencias.php(24): view('sugerencias/sug...', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Sugerencias->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sugerencias))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-15 18:37:17 --> Undefined variable $id
+#0 C:\xampp\htdocs\cubicacion\app\Views\sugerencias\sugerencias.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('sugerencias/sug...', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Sugerencias.php(24): view('sugerencias/sug...', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Sugerencias->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sugerencias))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-15 18:37:19 --> Undefined variable $id
+#0 C:\xampp\htdocs\cubicacion\app\Views\sugerencias\sugerencias.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 46)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('sugerencias/sug...', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Sugerencias.php(24): view('sugerencias/sug...', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Sugerencias->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Sugerencias))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2023-05-15 19:17:47 --> syntax error, unexpected token "if"
+#0 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2023-05-15 19:18:03 --> syntax error, unexpected token "}"
+#0 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#1 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

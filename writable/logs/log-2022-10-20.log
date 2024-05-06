@@ -1,0 +1,201 @@
+CRITICAL - 2022-10-20 08:36:54 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(1574): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\BaseModel.php(832): CodeIgniter\BaseModel->transformDataToArray(NULL, 'update')
+#2 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, NULL)
+#3 C:\xampp\htdocs\cubicacion\app\Controllers\productos.php(92): CodeIgniter\Model->update(Array)
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Productos->actualizar()
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2022-10-20 08:53:04 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(79): CodeIgniter\Model->update('3', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar('3')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-20 09:00:02 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(79): CodeIgniter\Model->update('3', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar('3')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-20 09:00:07 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(79): CodeIgniter\Model->update('3', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar('3')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-20 09:08:13 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(79): CodeIgniter\Model->update('3', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar('3')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-20 09:08:25 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(79): CodeIgniter\Model->update('3', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar('3')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-20 09:09:28 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(79): CodeIgniter\Model->update('3', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar('3')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-20 09:12:36 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(79): CodeIgniter\Model->update('3', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar('3')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-20 09:20:22 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(81): CodeIgniter\Model->update('3', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar('3')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-20 09:20:26 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(81): CodeIgniter\Model->update('3', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar('3')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-20 09:26:05 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(84): CodeIgniter\Model->update('5', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar('5')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-20 11:22:49 --> Object of type CodeIgniter\Validation\Validation is not callable
+#0 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include()
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#2 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('cajas/nuevo', Array, true)
+#3 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(105): view('cajas/nuevo', Array)
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#8 {main}
+ERROR - 2022-10-20 12:19:38 --> Duplicate entry '34454' for key 'codigo'
+CRITICAL - 2022-10-20 12:19:38 --> Duplicate entry '34454' for key 'codigo'
+#0 C:\xampp\htdocs\cubicacion\system\Database\MySQLi\Connection.php(292): mysqli->query('INSERT INTO `pr...', 0)
+#1 C:\xampp\htdocs\cubicacion\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `pr...')
+#2 C:\xampp\htdocs\cubicacion\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `pr...')
+#3 C:\xampp\htdocs\cubicacion\system\Database\BaseBuilder.php(1771): CodeIgniter\Database\BaseConnection->query('INSERT INTO `pr...', Array, false)
+#4 C:\xampp\htdocs\cubicacion\system\Model.php(239): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\cubicacion\system\BaseModel.php(738): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\cubicacion\system\Model.php(625): CodeIgniter\BaseModel->insert(Array, false)
+#7 C:\xampp\htdocs\cubicacion\system\BaseModel.php(658): CodeIgniter\Model->insert(Array, false)
+#8 C:\xampp\htdocs\cubicacion\app\Controllers\productos.php(115): CodeIgniter\BaseModel->save(Array)
+#9 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Productos->insertar()
+#10 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#11 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+CRITICAL - 2022-10-20 12:23:02 --> Undefined variable $cajas
+#0 C:\xampp\htdocs\cubicacion\app\Views\productos\nuevo.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('productos/nuevo', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\productos.php(121): view('productos/nuevo', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Productos->insertar()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-20 13:45:35 --> Undefined variable $cajas
+#0 C:\xampp\htdocs\cubicacion\app\Views\clientes\nuevo.php(35): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 35)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('clientes/nuevo', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Clientes.php(94): view('clientes/nuevo', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Clientes->nuevo()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-20 14:11:12 --> Undefined variable $cliente
+#0 C:\xampp\htdocs\cubicacion\app\Views\clientes\nuevo.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('clientes/nuevo', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Clientes.php(51): view('clientes/nuevo', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Clientes->nuevo()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-20 14:11:48 --> Undefined variable $cliente
+#0 C:\xampp\htdocs\cubicacion\app\Views\clientes\nuevo.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 25)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('clientes/nuevo', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Clientes.php(51): view('clientes/nuevo', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Clientes->nuevo()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-20 14:12:56 --> Undefined array key "codigo"
+#0 C:\xampp\htdocs\cubicacion\app\Views\clientes\eliminados.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('clientes/elimin...', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Clientes.php(43): view('clientes/elimin...', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Clientes->eliminados()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-20 15:07:05 --> Undefined variable $totalTime
+#0 C:\xampp\htdocs\cubicacion\system\Debug\Toolbar\Views\toolbar.tpl.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 40)
+#1 C:\xampp\htdocs\cubicacion\system\Debug\Toolbar.php(501): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\Debug\Toolbar.php(464): CodeIgniter\Debug\Toolbar->format(Array, 'html')
+#3 C:\xampp\htdocs\cubicacion\app\Config\Events.php(48): CodeIgniter\Debug\Toolbar->respond()
+#4 C:\xampp\htdocs\cubicacion\system\Events\Events.php(149): CodeIgniter\Events\Events::Config\{closure}()
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(308): CodeIgniter\Events\Events::trigger('pre_system')
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2022-10-20 15:59:44 --> Undefined variable $datos
+#0 C:\xampp\htdocs\cubicacion\app\Views\configuracion\configuracion.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 30)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('configuracion/c...', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Configuracion.php(34): view('configuracion/c...')
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Configuracion->index()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Configuracion))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}

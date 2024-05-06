@@ -1,0 +1,236 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+body {
+  background-image: url("<?php echo base_url('images/fuclafondo.png'); ?>");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+  overflow: hidden;
+  position: relative;
+  font-size: 14px;
+}
+.password-container {
+  position: relative;
+  display: inline-block;
+}
+
+.password-container input {
+  padding-right: 30px; /* Ajusta el espacio para el ícono */
+}
+
+.password-container .toggle-password {
+  position: absolute;
+  top: 50%;
+  right: 15px;
+  transform: translateY(-50%);
+  cursor: pointer;
+}
+.header {
+  background-color: rgba(255, 255, 255, 0.8);
+  padding: 10px 20px;
+  position: absolute;
+  top: 67px;
+  left: 238px;
+  z-index: 999;
+  border-radius: 15px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.8);
+  display: flex;
+  align-items: center;
+}
+
+.logo-container {
+  display: flex;
+  align-items: center;
+  color: #000;
+}
+
+.logo-container img {
+  width: 70px;
+  height: auto;
+}
+
+.initials {
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  text-decoration: none;
+}
+
+.bar {
+  width: 3px;
+  height: 20px;
+  background-color: #000;
+  margin: 0 20px;
+  overflow-y: hidden;
+}
+
+.body-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(186, 186, 186, 0.8);
+  filter: blur(50px);
+}
+
+.containerLogin {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8); /* Ajusta la opacidad del fondo */
+  width: 400px;
+  height: 450px;
+  border-radius: 20px;
+  opacity: 0.9;
+  z-index: 1;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.containerRegister {
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(255, 255, 255, 0.8); /* Ajusta la opacidad del fondo */
+  width: 400px;
+  height: 400px;
+  border-radius: 20px;
+  opacity: 0.9;
+  z-index: 1;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+}
+
+.input {
+  width: 320px;
+  height: 50px;
+  margin-top: 5%;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding-left: 10px;
+}
+
+.buttonSubmit {
+  position: relative;
+  top: 8px;
+  width: 330px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  background-color: #f3be00;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 15px;
+  font-weight: bold;
+}
+
+.buttonCancel {
+  position: relative;
+  top: 25px;
+  width: 330px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.8);
+  background-color: #000000;
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  font-size: 15px;
+  font-weight: bold;
+  color: #ffffff; /* Cambia el color del texto a blanco */
+}
+
+.contenedor {
+  position: relative;
+  width: 100%;
+  display: flex;
+  margin-top: 20px;
+  font-size: 13px;
+}
+
+.izquierda {
+  position: absolute;
+  text-align: left;
+  flex: 1;
+  left: 36px;
+  bottom: 10px;
+}
+
+.derecha {
+  position: absolute;
+  text-align: right;
+  flex: 1;
+  right: 39px;
+  bottom: 10px;
+}
+
+.help-box {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+
+.help-box a {
+  display: flex;
+  align-items: center;
+  background-color: #e8e8e8;
+  color: #000000;
+  padding: 15px;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+  box-shadow: 0px 0px 10px 0px rgba(0, 0, 0, 0.7);
+}
+
+.help-box a i {
+  margin-right: 5px;
+}
+
+.help-box a:hover {
+  background-color: #ffd94d;
+  transition: background-color 0.3s ease;
+}
+
+/* Media queries para estilos responsivos */
+@media only screen and (max-width: 600px) {
+  /* Estilos para pantallas pequeñas */
+  .logo-container {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .logo-container img {
+    margin-bottom: 10px;
+  }
+
+  .initials::after {
+    display: none; /* Ocultar la barra en pantallas pequeñas */
+  }
+}
+
+@media only screen and (min-width: 601px) and (max-width: 1024px) {
+  /* Estilos para pantallas medianas */
+}
+
+@media only screen and (min-width: 1025px) {
+  /* Estilos para pantallas grandes */
+}

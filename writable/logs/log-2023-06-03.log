@@ -1,0 +1,14 @@
+CRITICAL - 2023-06-03 08:07:23 --> Undefined variable $clientes
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Clientes.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Clientes->actualizar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-06-03 08:07:48 --> Undefined variable $clientes
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Clientes.php(89): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 89)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Clientes->actualizar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Clientes))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

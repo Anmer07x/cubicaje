@@ -1,0 +1,9 @@
+CRITICAL - 2022-10-13 08:39:34 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Vehiculos.php(67): CodeIgniter\Model->update('1', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Vehiculos->eliminar('1')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Vehiculos))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

@@ -1,0 +1,114 @@
+CRITICAL - 2023-05-20 10:22:28 --> Undefined array key "descripcion"
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(127): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 127)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-20 10:23:27 --> Array to string conversion
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(143): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 143)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-20 10:44:50 --> Undefined array key "descripcion"
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(158): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 158)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-20 10:45:21 --> Call to undefined function App\Controllers\basetipo()
+#0 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-20 10:50:51 --> Call to undefined function App\Controllers\basetipo()
+#0 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-20 10:53:00 --> Call to undefined function App\Controllers\basetipo()
+#0 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-20 10:53:45 --> Call to undefined function App\Controllers\basetipo()
+#0 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-20 10:58:41 --> Call to undefined function App\Controllers\basetipo()
+#0 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2023-05-20 11:08:38 --> syntax error, unexpected token "public"
+#0 C:\xampp\htdocs\cubicacion\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cajas/insertar')
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cajas/insertar')
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-20 11:09:19 --> Undefined array key "tmp_tipo"
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 192)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-20 11:10:11 --> Undefined array key "tmp_tipo"
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(192): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 192)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-20 11:32:08 --> Array to string conversion
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 195)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-20 11:35:39 --> Array to string conversion
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 195)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-20 11:36:14 --> Array to string conversion
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(195): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 195)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-20 11:43:05 --> Array to string conversion
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 196)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-20 11:45:35 --> Array to string conversion
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(196): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 196)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2023-05-20 11:53:33 --> Array to string conversion
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(197): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string...', 'C:\\xampp\\htdocs...', 197)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

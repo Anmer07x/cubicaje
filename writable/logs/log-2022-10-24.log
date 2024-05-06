@@ -1,0 +1,27 @@
+CRITICAL - 2022-10-24 09:45:16 --> Undefined property: App\Controllers\Usuarios::$usuario
+#0 C:\xampp\htdocs\cubicacion\app\Controllers\Usuarios.php(219): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined prope...', 'C:\\xampp\\htdocs...', 219)
+#1 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Usuarios->cambia_password()
+#2 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2022-10-24 09:46:51 --> Undefined variable $cajas
+#0 C:\xampp\htdocs\cubicacion\app\Views\usuarios\cambia_password.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 32)
+#1 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('usuarios/cambia...', Array, true)
+#4 C:\xampp\htdocs\cubicacion\app\Controllers\Usuarios.php(223): view('usuarios/cambia...', Array)
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Usuarios->cambia_password()
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2022-10-24 11:31:20 --> There is no data to update.
+#0 C:\xampp\htdocs\cubicacion\system\BaseModel.php(846): CodeIgniter\Database\Exceptions\DataException::forEmptyDataset('update')
+#1 C:\xampp\htdocs\cubicacion\system\Model.php(651): CodeIgniter\BaseModel->update(Array, Array)
+#2 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(144): CodeIgniter\Model->update('5', Array)
+#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->eliminar('5')
+#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#7 {main}

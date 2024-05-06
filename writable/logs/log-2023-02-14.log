@@ -1,0 +1,34 @@
+ERROR - 2023-02-14 11:00:27 --> Unknown column 'codigo' in 'where clause'
+CRITICAL - 2023-02-14 11:00:27 --> Unknown column 'codigo' in 'where clause'
+#0 C:\xampp\htdocs\cubicacion\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\cubicacion\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\cubicacion\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\cubicacion\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cubicacion\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cubicacion\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('100000001', 'codigo', Array, NULL)
+#6 C:\xampp\htdocs\cubicacion\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('codigo_cajas', 'codigo_cajas', '100000001', Array, Array)
+#7 C:\xampp\htdocs\cubicacion\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(92): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#10 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#11 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}
+ERROR - 2023-02-14 11:02:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`cajas` = '100000001'
+ LIMIT 1' at line 3
+CRITICAL - 2023-02-14 11:02:00 --> You have an error in your SQL syntax; check the manual that corresponds to your MariaDB server version for the right syntax to use near '`cajas` = '100000001'
+ LIMIT 1' at line 3
+#0 C:\xampp\htdocs\cubicacion\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT 1\nFROM `...', 0)
+#1 C:\xampp\htdocs\cubicacion\system\Database\BaseConnection.php(670): CodeIgniter\Database\MySQLi\Connection->execute('SELECT 1\nFROM `...')
+#2 C:\xampp\htdocs\cubicacion\system\Database\BaseConnection.php(598): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT 1\nFROM `...')
+#3 C:\xampp\htdocs\cubicacion\system\Database\BaseBuilder.php(1455): CodeIgniter\Database\BaseConnection->query('SELECT 1\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\cubicacion\system\Validation\Rules.php(142): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\cubicacion\system\Validation\Validation.php(292): CodeIgniter\Validation\Rules->is_unique('100000001', 'codigo cajas', Array, NULL)
+#6 C:\xampp\htdocs\cubicacion\system\Validation\Validation.php(157): CodeIgniter\Validation\Validation->processRules('codigo_cajas', 'codigo_cajas', '100000001', Array, Array)
+#7 C:\xampp\htdocs\cubicacion\system\Controller.php(160): CodeIgniter\Validation\Validation->run()
+#8 C:\xampp\htdocs\cubicacion\app\Controllers\Cajas.php(92): CodeIgniter\Controller->validate(Array)
+#9 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Cajas->insertar()
+#10 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Cajas))
+#11 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#12 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#13 {main}

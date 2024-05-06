@@ -1,0 +1,12 @@
+CRITICAL - 2023-05-10 17:23:40 --> date_default_timezone_set(): Timezone ID 'America/Colombia' is invalid
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(8, 'date_default_ti...', 'C:\\xampp\\htdocs...', 23)
+#1 C:\xampp\htdocs\cubicacion\app\Views\inicio.php(23): date_default_timezone_set('America/Colombi...')
+#2 C:\xampp\htdocs\cubicacion\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\cubicacion\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#4 C:\xampp\htdocs\cubicacion\system\Common.php(1089): CodeIgniter\View\View->render('inicio', Array, true)
+#5 C:\xampp\htdocs\cubicacion\app\Controllers\Inicio.php(28): view('inicio', Array)
+#6 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(832): App\Controllers\Inicio->index()
+#7 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Inicio))
+#8 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#10 {main}
