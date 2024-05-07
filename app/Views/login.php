@@ -63,7 +63,7 @@ $user_session = session();
         <input type="text" id="usuario" name="usuario" class="input" placeholder="Correo electrónico:" required />
 
         <div class="password-container">
-            <input type="password" id="password" name="password" class="input" placeholder="Contraseña" required />
+            <input type="password" id="passwordField" name="password" class="input" placeholder="Contraseña" required />
 
             <span class="toggle-password" onclick="togglePasswordVisibility()">
                 <i class="fas fa-eye"></i>
@@ -77,7 +77,7 @@ $user_session = session();
                 <a href="recovery">¿Olvidaste tu contraseña?</a> <!-- Corregido -->
             </div>
         </div>
-        <button class="buttonSubmit" id="entrar" type="button"> Iniciar Sesion</button>
+        <button class="buttonSubmit" id="entrar" type="submit"> Iniciar Sesion</button>
 
 
         <?php if (isset($validation)) { ?>

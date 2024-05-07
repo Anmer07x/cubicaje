@@ -200,7 +200,7 @@ class Cajas extends BaseController //llamamos la clase cajas
 
 
                         // Mover el img_caja a la carpeta de destino
-                        $destino = "http://localhost/cubicacion/public/cajas/'/'.$img_file";
+                        $destino = "http://localhost/cubicaje/public/cajas/'/'.$img_file";
                         echo 2;
                             $sql = "INSERT INTO cajas (codigo_cajas, img_caja, tipo, mercancia, cantidad, capacidad,
                         alto, largo, ancho, piezas_caja, peso_piezas_kg, factor_de_riesgo) 

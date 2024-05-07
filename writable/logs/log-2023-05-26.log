@@ -1,9 +1,0 @@
-CRITICAL - 2023-05-26 11:16:00 --> Undefined variable $piezas_caja
-#0 C:\xampp\htdocs\cubicacion\app\Controllers\cantidad.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 2)
-#1 C:\xampp\htdocs\cubicacion\system\Router\Router.php(518): include_once('C:\\xampp\\htdocs...')
-#2 C:\xampp\htdocs\cubicacion\system\Router\Router.php(175): CodeIgniter\Router\Router->autoRoute('cantidad')
-#3 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(726): CodeIgniter\Router\Router->handle('cantidad')
-#4 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
-#5 C:\xampp\htdocs\cubicacion\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#6 C:\xampp\htdocs\cubicacion\public\index.php(37): CodeIgniter\CodeIgniter->run()
-#7 {main}

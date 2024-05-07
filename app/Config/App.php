@@ -23,7 +23,7 @@ class App extends BaseConfig
      *
      * @var string
      */
-    public $baseURL = 'http://localhost/cubicacion/public/';//localhost/gileos_del_pasifico2/public//
+    public $baseURL = 'http://localhost/cubicaje/public/';//localhost/gileos_del_pasifico2/public//
 
     /**
      * --------------------------------------------------------------------------

@@ -1,9 +1,0 @@
-CRITICAL - 2022-04-28 11:00:08 --> Invalid file: 1footer.php
-#0 C:\xampp\htdocs\gileos_del_pasifico2\system\View\View.php(198): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('1footer.php')
-#1 C:\xampp\htdocs\gileos_del_pasifico2\system\Common.php(1089): CodeIgniter\View\View->render('1footer', Array, true)
-#2 C:\xampp\htdocs\gileos_del_pasifico2\app\Controllers\Categorias.php(32): view('1footer')
-#3 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(832): App\Controllers\Categorias->eliminados()
-#4 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Categorias))
-#5 C:\xampp\htdocs\gileos_del_pasifico2\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
-#6 C:\xampp\htdocs\gileos_del_pasifico2\public\index.php(37): CodeIgniter\CodeIgniter->run()
-#7 {main}
