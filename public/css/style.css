@@ -6,7 +6,7 @@
 }
 
 body {
-  background-image: url("<?php echo base_url(); ?>/images/logoU.png");
+  background-image: url("../images/fuclafondo.png");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

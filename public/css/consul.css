@@ -16,7 +16,7 @@ body {
     left: 0;
     width: 100%;
     height: 100%; /* Ajusta la altura */
-    background-image: url("../img/fuclafondo.png");
+    background-image: url("../images/fuclafondo.png");
     background-size: 60%; /* Ajusta el tamaño de la imagen al 50% */
     background-repeat: no-repeat;
     background-position: center; /* Centra la imagen de fondo */
