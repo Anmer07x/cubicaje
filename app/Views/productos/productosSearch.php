@@ -11,13 +11,12 @@
                             <div class="search">
                                 <form method="get" action="<?= base_url('productos/buscar') ?>">
                                     <div class="row-search">
-                                        <input type="text" name="search" autocomplete="off" class="form-control" placeholder="Buscar...">
+                                        <input type="text" name="search" class="form-control" autocomplete="off" placeholder="Buscar...">
                                         <button type="submit"><i class="fas fa-search"></i></button>
                                         <a href="<?php echo base_url(); ?>/productos/nuevo" class="btn
                                           btn-warning">+</a>
                                     </div>
                                 </form>
-
                             </div>
                           
                             <div class="column">
@@ -40,24 +39,23 @@
                                             </thead>
 
                                             <tbody>
-                                                <?php foreach ($datos as $dato) { ?>
+                                            <?php foreach ($productos as $producto) { ?>
+                                                <tr>
+                                                    <td><?php echo $producto['id']; ?></td>
+                                                    <td><?php echo $producto['codigo']; ?></td>
+                                                    <td><?php echo $producto['nombre']; ?></td>
+                                                    <td><?php echo $producto['tipo']; ?></td>
+                                                    <td><?php echo $producto['cantidad']; ?></td>
+                                                    <td><?php echo $producto['vol_m']; ?></td>
+                                                    <td><?php echo $producto['peso_total']; ?></td>
 
-                                                    <tr>
-                                                        <td><?php echo $dato['id']; ?></td>
-                                                        <td><?php echo $dato['codigo']; ?></td>
-                                                        <td><?php echo $dato['nombre']; ?></td>
-                                                        <td><?php echo $dato['tipo']; ?></td>
-                                                        <td><?php echo $dato['cantidad']; ?></td>
-                                                        <td><?php echo $dato['vol_m']; ?></td>
-                                                        <td><?php echo $dato['peso_total']; ?></td>
+                                                    <td><img src="<?php echo base_url() . '/images/productos/' . $producto['id'] . '.jpg'; ?>" width="100" /></td>
 
-                                                        <td><img src="<?php echo base_url() . '/images/productos/' . $dato['id'] . '.jpg'; ?>" width="100" /></td>
+                                                    <td><a href="<?php echo base_url() . '/productos/editar/' . $producto['id']; ?>" class="btn btn-warning"><i class="fa-solid fa-pen-to-square"></i></a></td>
 
-                                                        <td><a href="<?php echo base_url() . '/productos/editar/' . $dato['id']; ?>" class="btn btn-warning"><i class="fa-solid fa-pen-to-square"></i></a></td>
-
-                                                        <td><a href="#" data-href="<?php echo base_url() . '/productos/eliminar/' . $dato['id']; ?>" data-bs-toggle="modal" data-bs-target="#modal-confirma" data-bs-placement="top" title="Eliminar Registro" class="btn btn-dark"><i class="fa-solid fa-trash-can"></i></a> </td>
-                                                    </tr>
-                                                <?php } ?>
+                                                    <td><a href="#" data-href="<?php echo base_url() . '/productos/eliminar/' . $producto['id']; ?>" data-bs-toggle="modal" data-bs-target="#modal-confirma" data-bs-placement="top" title="Eliminar Registro" class="btn btn-dark"><i class="fa-solid fa-trash-can"></i></a> </td>
+                                                </tr>
+                                            <?php } ?>
                                             </tbody>
                                         </table>
                                     </div>
@@ -95,3 +93,4 @@
             <i class="fas fa-question-circle"></i> Ayuda
         </a>
     </div>
+</div>

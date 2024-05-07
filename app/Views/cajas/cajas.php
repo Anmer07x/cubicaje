@@ -17,16 +17,13 @@
                         <div class="block">
                             <h2>Cajas</h2>
                             <div class="search">
-                                <label>
-                                    <input type="text" placeholder="Buscar...">
-                                    <i class="fas fa-search"></i>
-                                </label>
-
-                                <p>
-                                    <a href="<?php echo base_url(); ?>/productos/nuevo" class="btn
-                                  btn-warning">+</a>
-
-                                </p>
+                                <form method="get" action="<?= base_url('cajas/buscar') ?>">
+                                    <div class="row-search">
+                                        <input type="text" name="search" autocomplete="off" class="form-control" placeholder="Buscar...">
+                                        <button type="submit"><i class="fas fa-search"></i></button>
+                                    </div>
+                                </form>
+                            </div>
                             </div>
                             <div class="column">
                                 <div class="table-container">

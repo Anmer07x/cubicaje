@@ -47,27 +47,27 @@
                             </thead>
 
                             <tbody>
-                                <?php foreach ($datos as $dato) { ?>
+                                <?php foreach ($vehiculos as $vehiculo) { ?>
 
                                     <tr>
-                                        <td><?php echo $dato['id']; ?></td>
-                                        <td><?php echo $dato['vehiculos']; ?></td>
-                                        <td><?php echo $dato['maximo']; ?></td>
-                                        <td><?php echo $dato['tipo_vehiculos']; ?></td>
-                                        <td><?php echo $dato['empresa']; ?></td>
-                                        <td><?php echo $dato['clasificacion']; ?></td>
+                                        <td><?php echo $vehiculo['id']; ?></td>
+                                        <td><?php echo $vehiculo['vehiculos']; ?></td>
+                                        <td><?php echo $vehiculo['maximo']; ?></td>
+                                        <td><?php echo $vehiculo['tipo_vehiculos']; ?></td>
+                                        <td><?php echo $vehiculo['empresa']; ?></td>
+                                        <td><?php echo $vehiculo['clasificacion']; ?></td>
 
-                                        <td><img src="<?php echo base_url() . '/images/vehiculos/' . $dato['id'] . '.jpg'; ?>"
+                                        <td><img src="<?php echo base_url() . '/images/vehiculos/' . $vehiculo['id'] . '.jpg'; ?>"
                                                 width="100" /></td>
 
-                                        <td><a href="<?php echo base_url() . '/vehiculos/editar/' . $dato['id']; ?>"
-                                                class="btn btn-warning"><i class="fa fa-pencil-square-o"></i></a></td>
+                                        <td><a href="<?php echo base_url() . '/vehiculos/editar/' . $vehiculo['id']; ?>"
+                                                class="btn btn-warning"><i class="fa-solid fa-pen-to-square"></i></a></td>
 
                                         <td><a href="#"
-                                                data-href="<?php echo base_url() . '/vehiculos/eliminar/' . $dato['id']; ?>"
+                                                data-href="<?php echo base_url() . '/vehiculos/eliminar/' . $vehiculo['id']; ?>"
                                                 data-bs-toggle="modal" data-bs-target="#modal-confirma"
                                                 data-bs-placement="top" title="Eliminar Registro" class="btn btn-dark"><i
-                                                    class="fas fa-trash-can"></i></a> </td>
+                                                    class="fa-solid fa-trash-can"></i></a> </td>
                                     </tr>
                                 <?php } ?>
                             </tbody>

@@ -284,33 +284,24 @@ class Cajas extends BaseController //llamamos la clase cajas
         return redirect()->to(base_url().'/cajas');
     }
 
-    public function buscarPorCodigo($codigo_cajas){
-        $this->cajas->select('*');
-        $this->cajas->where('codigo_cajas', $codigo_cajas);
-        $this->cajas->where('activo',1);
-        
-        $datos = $this->cajas->get()->getRow();
-
-        $res['existe'] = false;
-        $res['datos'] = '';
-        $res['error'] = '';
-        
-        if($datos){
-            $res['datos'] = $datos ;
-            $res['existe'] = true;
-            //$datos = $this->cajas->get()->getRow($files/$_POST['id']);
-        }else {
-            $res['error'] = 'No existe la caja';
-            $res['existe'] = false;
-        }
-        echo json_encode($res);
-    }
-
     public function buscar(){
-        $model = new VehiculosModel();
-        $request =\Config\Services::request();
-        $id = $request->getPost('id');
-        echo json_encode($model->find($id));
-    }
+        $search = $this->request->getVar('search'); // Obtén el valor del campo de búsqueda
 
+        if ($search == null) {
+            return redirect()->to(base_url().'/cajas');
+        }else{
+            // Consulta la base de datos para buscar cajas por código
+            $cajaModel = new CajasModel();
+            $cajas = $cajaModel->like('codigo_cajas', $search)->findAll();
+            
+            if (empty($cajas)) {
+                // Si no se encuentran resultados, busca por tipo
+                $cajas = $cajaModel->like('tipo', $search)->findAll();}
+
+            // Pasa los resultados a la vista
+            echo view('header');
+            echo view('cajas/cajasSearch', ['cajas' => $cajas]);
+            echo view('footer');
+        }
+    }
 }

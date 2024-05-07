@@ -1,0 +1,252 @@
+CRITICAL - 2024-05-06 20:18:31 --> Undefined array key "token"
+#0 C:\xampp\htdocs\cubicaje\app\Controllers\Usuarios.php(346): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 346)
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-06 20:56:43 --> Undefined array key "token"
+#0 C:\xampp\htdocs\cubicaje\app\Controllers\Usuarios.php(346): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 346)
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-06 20:57:54 --> Undefined array key "token"
+#0 C:\xampp\htdocs\cubicaje\app\Controllers\Usuarios.php(346): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 346)
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-06 20:58:10 --> Undefined array key "token"
+#0 C:\xampp\htdocs\cubicaje\app\Controllers\Usuarios.php(346): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 346)
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-06 21:10:32 --> Undefined array key "token"
+#0 C:\xampp\htdocs\cubicaje\app\Controllers\Usuarios.php(346): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 346)
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-06 21:12:36 --> Undefined array key "token"
+#0 C:\xampp\htdocs\cubicaje\app\Controllers\Usuarios.php(346): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array...', 'C:\\xampp\\htdocs...', 346)
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2024-05-06 23:47:01 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:47:01 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:47:02 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:47:03 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:47:04 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:47:04 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:47:05 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:47:06 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:47:06 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:47:07 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:47:07 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:47:07 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:47:08 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:49:17 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:49:18 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:49:19 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:49:19 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:49:21 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:49:21 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:49:21 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:49:22 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:49:22 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:49:32 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:49:40 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:49:40 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:49:41 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:49:42 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:49:43 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:49:43 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:49:43 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:49:44 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:50:09 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:58:00 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:58:04 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2024-05-06 23:58:48 --> Too few arguments to function App\Controllers\Productos::buscarPorCodigo(), 0 passed in C:\xampp\htdocs\cubicaje\system\CodeIgniter.php on line 832 and exactly 1 expected
+#0 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Productos->buscarPorCodigo()
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Productos))
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#4 {main}

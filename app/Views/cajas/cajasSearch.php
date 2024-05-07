@@ -1,38 +1,45 @@
-
 <link rel="stylesheet" href="<?php echo base_url(); ?>/css/merca.css">
 <div id="layoutSidenav_content">
     <main>
         <div class="container-fluid px-4">
+
+            <?php if (session('message')) : ?>
+                <h4><?= session('message') ?></h4>
+            <?php endif ?>
+
+
+
             <div>
+
+
                 <div>
                     <div class="container-inputs">
                         <div class="block">
-                            <h2>MERCANCIA</h2>
+                            <h2>Cajas</h2>
                             <div class="search">
-                                <form method="get" action="<?= base_url('productos/buscar') ?>">
+                                <form method="get" action="<?= base_url('cajas/buscar') ?>">
                                     <div class="row-search">
-                                        <input type="text" name="search" autocomplete="off" class="form-control" placeholder="Buscar...">
+                                        <input type="text" name="search" class="form-control" autocomplete="off" placeholder="Buscar...">
                                         <button type="submit"><i class="fas fa-search"></i></button>
-                                        <a href="<?php echo base_url(); ?>/productos/nuevo" class="btn
-                                          btn-warning">+</a>
                                     </div>
                                 </form>
-
                             </div>
-                          
+                            </div>
                             <div class="column">
                                 <div class="table-container">
-                                    <div class="table-responsive">
-                                        <table id="datatablesSimple">
+                                <table id="datatablesSimple">
                                             <thead>
                                                 <tr>
-                                                    <th>Id</th>
-                                                    <th>Código</th>
-                                                    <th>Nombre</th>
+                                                <th>Id</th>
+                                                    <th>Código Cajas</th>
                                                     <th>Tipo</th>
                                                     <th>Cantidad</th>
-                                                    <th>Vol.m3</th>
-                                                    <th>Peso/total</th>
+                                                    <th>Capacidad</th>
+                                                    <th>Alto</th>
+                                                    <th>Largo</th>
+                                                    <th>Ancho</th>
+                                                    <th>Cantidad elementos</th>
+                                                    <th>Peso/Piezas/kg</th>
                                                     <th>Imagen</th>
                                                     <th>Editar</th>
                                                     <th>Eliminar</th>
@@ -40,24 +47,25 @@
                                             </thead>
 
                                             <tbody>
-                                                <?php foreach ($datos as $dato) { ?>
+                                            <?php foreach ($cajas as $caja) { ?>
+                                                <tr>
+                                                    <td><?php echo $caja['id']; ?></td>
+                                                    <td><?php echo $caja['codigo_cajas']; ?></td>
+                                                    <td><?php echo $caja['tipo']; ?></td>
+                                                    <td><?php echo $caja['cantidad']; ?></td>
+                                                    <td><?php echo $caja['capacidad']; ?></td>
+                                                    <td><?php echo $caja['alto']; ?></td>
+                                                    <td><?php echo $caja['largo']; ?></td>
+                                                    <td><?php echo $caja['ancho']; ?></td>
+                                                    <td><?php echo $caja['piezas_caja']; ?></td>
+                                                    <td><?php echo $caja['peso_piezas_kg']; ?></td>
+                                                    <td><img src="<?php echo base_url() . '/images/cajas/' . $caja['id'] . '.jpg'; ?>" width="100" /></td>
 
-                                                    <tr>
-                                                        <td><?php echo $dato['id']; ?></td>
-                                                        <td><?php echo $dato['codigo']; ?></td>
-                                                        <td><?php echo $dato['nombre']; ?></td>
-                                                        <td><?php echo $dato['tipo']; ?></td>
-                                                        <td><?php echo $dato['cantidad']; ?></td>
-                                                        <td><?php echo $dato['vol_m']; ?></td>
-                                                        <td><?php echo $dato['peso_total']; ?></td>
+                                                    <td><a href="<?php echo base_url() . '/cajas/editar/' . $caja['id']; ?>" class="btn btn-warning"><i class="fa-solid fa-pen-to-square"></i></a></td>
 
-                                                        <td><img src="<?php echo base_url() . '/images/productos/' . $dato['id'] . '.jpg'; ?>" width="100" /></td>
-
-                                                        <td><a href="<?php echo base_url() . '/productos/editar/' . $dato['id']; ?>" class="btn btn-warning"><i class="fa-solid fa-pen-to-square"></i></a></td>
-
-                                                        <td><a href="#" data-href="<?php echo base_url() . '/productos/eliminar/' . $dato['id']; ?>" data-bs-toggle="modal" data-bs-target="#modal-confirma" data-bs-placement="top" title="Eliminar Registro" class="btn btn-dark"><i class="fa-solid fa-trash-can"></i></a> </td>
-                                                    </tr>
-                                                <?php } ?>
+                                                    <td><a href="#" data-href="<?php echo base_url() . '/cajas/eliminar/' . $caja['id']; ?>" data-bs-toggle="modal" data-bs-target="#modal-confirma" data-bs-placement="top" title="Eliminar Registro" class="btn btn-dark"><i class="fa-solid fa-trash-can"></i></a> </td>
+                                                </tr>
+                                            <?php } ?>
                                             </tbody>
                                         </table>
                                     </div>

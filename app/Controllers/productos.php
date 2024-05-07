@@ -196,24 +196,28 @@ class Productos extends BaseController
         return redirect()->to(base_url().'/productos');
     }
 
-    public function buscarPorCodigo($codigo){
-        $this->productos->select('*');
-        $this->productos->where('codigo', $codigo);
-       // $this->productos->where('activo',1);
-        $datos = $this->productos->get()->getRow();
+    public function buscar(){
+        $search = $this->request->getVar('search'); // Obtén el valor del campo de búsqueda
 
-        $res['existe'] = false;
-        $res['datos'] = '';
-        $res['error'] = '';
-        
-        if($datos){
-            $res['datos'] = $datos ;
-            $res['existe'] = true;
-        }else {
-            $res['error'] = 'No existe el producto';
-            $res['existe'] = false;
+        if ($search == null) {
+            return redirect()->to(base_url().'/productos');
+        }else{
+            // Consulta la base de datos para buscar productos por código
+            $productoModel = new ProductosModel();
+            $productos = $productoModel->like('codigo', $search)->findAll();
+
+            if (empty($productos)) {
+                $productos = $productoModel->like('nombre', $search)->findAll();}
+            
+            if (empty($productos)) {
+                $productos = $productoModel->like('tipo', $search)->findAll();}
+
+            // Pasa los resultados a la vista
+            echo view('header');
+            echo view('productos/productosSearch', ['productos' => $productos]);
+            echo view('footer');
         }
-        echo json_encode($res);
+        
     }
 
     public function eliminar($id)

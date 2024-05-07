@@ -1,8 +1,3 @@
-<?php
-
-$user_session = session();
-
-?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -77,7 +72,7 @@ $user_session = session();
                 <a href="recovery">¿Olvidaste tu contraseña?</a> <!-- Corregido -->
             </div>
         </div>
-        <button class="buttonSubmit" id="entrar" type="submit"> Iniciar Sesion</button>
+        <button class="buttonSubmit" id="entrar" type="button"> Iniciar Sesion</button>
 
 
         <?php if (isset($validation)) { ?>
