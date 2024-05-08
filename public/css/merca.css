@@ -389,6 +389,8 @@ body{
     background-size: 40%;
     z-index: 0;
     box-shadow: #000000 0px 0px 9px 0px;
+    overflow-x: auto;
+    overflow-y: auto; /* Agregado para habilitar el desplazamiento vertical */
 }
 
 .container-inputs:before {
@@ -404,6 +406,7 @@ body{
     background-size: 50%;
     z-index: -1;
     filter: blur(5px); /* Aplicar filtro de desenfoque */
+    
 }
 
 
