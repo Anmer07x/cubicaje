@@ -22,7 +22,3 @@ function togglePasswordVisibility() {
         icon.classList.add("fa-eye");
     }
 }
-
-var codMerca = document.getElementById("codigoMerc").value;
-const codigoQRDiv = document.getElementById('codigo-qr');
-new QRCode(codigoQRDiv, codMerca);

@@ -18,6 +18,7 @@ $user_session = session();
 </head>
 
 <body>
+<div class="body-background"></div>
     <div id="layoutSidenav_content">
         <main>
             <div class="banner">
