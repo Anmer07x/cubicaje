@@ -9,7 +9,7 @@
                         <div class="block">
                             <h2>MERCANCIA</h2>
                             <div class="search">
-                                <form method="get" action="<?= base_url('productos/buscar') ?>">
+                                <form method="get" action="<?= base_url('productos/buscarInput') ?>">
                                     <div class="row-search">
                                         <input type="text" name="search" class="form-control" autocomplete="off" placeholder="Buscar...">
                                         <button type="submit"><i class="fas fa-search"></i></button>

@@ -36,9 +36,9 @@ $routes->get('/', 'Usuarios::login');
 $routes->get('/recovery', 'Usuarios::recovery');
 $routes->get('recuperar', 'Usuarios::recuperar');
 $routes->get('/', 'actualizar_password::index');
-$routes->get('productos/buscar', 'Productos::buscar');
-$routes->get('cajas/buscar', 'Cajas::buscar');
-$routes->get('vehiculos/buscar', 'Vehiculos::buscar');
+$routes->get('productos/buscarInput', 'Productos::buscarInput');
+$routes->get('cajas/buscarInput', 'Cajas::buscarInput');
+$routes->get('vehiculos/buscarInput', 'Vehiculos::buscarInput');
 
 /*
  * --------------------------------------------------------------------

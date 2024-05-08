@@ -132,7 +132,28 @@ class Vehiculos extends BaseController //llamamos la clase cajas
         echo json_encode($res);
     }
 
-    public function buscar()
+    public function buscarPorMaximo($maximo)
+    {
+        $this->vehiculos->select('*');
+        $this->vehiculos->where('maximo>=', $maximo - 1);
+        $this->vehiculos->where('maximo<=', $maximo + 1);
+        // $this->vehiculos->where('activo',1);
+        $datos = $this->vehiculos->get()->getRow();
+
+        $res['existe'] = false;
+        $res['datos'] = '';
+        $res['error'] = '';
+
+        if ($datos) {
+            $res['datos'] = $datos;
+            $res['existe'] = true;
+        } else {
+            $res['error'] = 'No existe el vehiculo';
+            $res['existe'] = false;
+        }
+        echo json_encode($res);
+    }
+    public function buscarInput()
     {
         $search = $this->request->getVar('search'); // Obtén el valor del campo de búsqueda
 

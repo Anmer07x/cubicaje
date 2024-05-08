@@ -20,7 +20,7 @@
         <div class="block">
             <h2>Vehiculos</h2>
             <div class="search">
-                <form method="get" action="<?= base_url('vehiculos/buscar') ?>">
+                <form method="get" action="<?= base_url('vehiculos/buscarInput') ?>">
                     <div class="row-search">
                         <input type="text" name="search" class="form-control" autocomplete="off"
                             placeholder="Buscar...">

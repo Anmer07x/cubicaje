@@ -17,7 +17,7 @@
                         <div class="block">
                             <h2>Cajas</h2>
                             <div class="search">
-                                <form method="get" action="<?= base_url('cajas/buscar') ?>">
+                                <form method="get" action="<?= base_url('cajas/buscarInput') ?>">
                                     <div class="row-search">
                                         <input type="text" name="search" autocomplete="off" class="form-control" placeholder="Buscar...">
                                         <button type="submit"><i class="fas fa-search"></i></button>
