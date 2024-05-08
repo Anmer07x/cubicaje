@@ -1,51 +1,37 @@
-<!DOCTYPE html>
-<html lang="en">
+<?php
 
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Login</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="icon" type="image/x-icon" href="img/pila-de-cubos.png">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-</head>
+// Path to the front controller (this file)
+define('FCPATH', __DIR__ . DIRECTORY_SEPARATOR);
 
-<body>
-    <div class="header">
-        <div class="logo-container">
-            <div class="initials">SCU</div>
-            <div class="bar"></div>
-            <img src="img/logoU.png" alt="Logo">
-        </div>
-    </div>
-    <div class="body-background"></div>
-    <form class="containerLogin" action="">
-        <img class="logoLogin" src="img/logoU.png" alt="">
-        <input class="input" type="email" placeholder="Correo electrónico:" required>
-        <div class="password-container">
-            <input class="input" type="password" placeholder="Contraseña:" id="passwordField" required>
-            <span class="toggle-password" onclick="togglePasswordVisibility()">
-                <i class="fas fa-eye"></i>
-            </span>
-        </div>
-        <div class="contenedor">
-            <div class="izquierda">
-                <input class="check" type="checkbox">Mantener sesión activa
-            </div>
-            <div class="derecha">
-                <a href="../cubicaje/pages/reestablecer.php">¿Olvidaste tu contraseña?</a> <!-- Corregido -->
-            </div>
-        </div>
-        <button class="buttonSubmit" type="submit" formaction="../cubicaje/pages/principal.php">Iniciar sesión</button>
-    </form>
+/*
+ *---------------------------------------------------------------
+ * BOOTSTRAP THE APPLICATION
+ *---------------------------------------------------------------
+ * This process sets up the path constants, loads and registers
+ * our autoloader, along with Composer's, loads our constants
+ * and fires up an environment-specific bootstrapping.
+ */
 
-    <div class="help-box">
-        <a href="https://www.uniclaretiana.edu.co/#atencion">
-            <i class="fas fa-question-circle"></i> Ayuda
-        </a>
-    </div>
+// Ensure the current directory is pointing to the front controller's directory
+chdir(__DIR__);
 
-    <script src="js/script.js"></script>
-</body>
+// Load our paths config file
+// This is the line that might need to be changed, depending on your folder structure.
+$pathsConfig = FCPATH . '/app/Config/Paths.php';
+// ^^^ Change this if you move your application folder
+require realpath($pathsConfig) ?: $pathsConfig;
 
-</html>
+$paths = new Config\Paths();
+
+// Location of the framework bootstrap file.
+$bootstrap = rtrim($paths->systemDirectory, '\\/ ') . DIRECTORY_SEPARATOR . 'bootstrap.php';
+$app       = require realpath($bootstrap) ?: $bootstrap;
+
+/*
+ *---------------------------------------------------------------
+ * LAUNCH THE APPLICATION
+ *---------------------------------------------------------------
+ * Now that everything is setup, it's time to actually fire
+ * up the engines and make this app do its thang.
+ */
+$app->run();
