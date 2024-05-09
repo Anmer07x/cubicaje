@@ -44,6 +44,7 @@ function adjustCardPosition() {
   const sidebar = document.querySelector(".sidebar");
   const containerCard = document.querySelector(".card-container");
   const cards = document.querySelectorAll(".card-container .card");
+  const ban = document.querySelector(".banner");
 
   if (sidebar.classList.contains("collapsed")) {
     // Si el menú está colapsado
@@ -53,6 +54,8 @@ function adjustCardPosition() {
       card.style.width = "310px"; // Ajusta el ancho de las tarjetas si es necesario
       card.style.marginLeft = "160px"; // Ajusta el ancho de la posicion de las tarjetas
     });
+    ban.style.width = "100%";
+    ban.style.marginLeft = "10px";
   } else {
     // Si el menú no está colapsado
     if (originalCardMarginLeft) {
@@ -64,6 +67,8 @@ function adjustCardPosition() {
       card.style.width = ""; // Restablece el ancho de las tarjetas a su valor por defecto
       card.style.marginLeft = "0px";
     });
+    ban.style.width = "70%";
+    ban.style.marginLeft = "230px";
   }
 }
 /* */
@@ -125,6 +130,7 @@ function toggleLightMode() {
   const banner = document.querySelector(".banner");
   if (banner) {
     banner.style.backgroundColor = "white";
+    banner.style.color = "black";
   }
 
   const helpBox = document.querySelector(".help-box");
@@ -152,7 +158,7 @@ function toggleLightMode() {
   document.querySelector(".submenu").style.backgroundColor = "#f3f3f3";
   document.querySelector(".search").style.backgroundColor = "#fff";
 
-  const cards = document.querySelectorAll(" .card, .card p");
+  const cards = document.querySelectorAll(".card-cotainer .card");
   cards.forEach((card) => {
     card.style.backgroundColor = "#fff";
     card.style.color = "#333";
@@ -224,6 +230,7 @@ function toggleDarkMode() {
   const banner = document.querySelector(".banner");
   if (banner) {
     banner.style.backgroundColor = "#222";
+    banner.style.color = "white";
   }
 
   const helpBox = document.querySelector(".help-box");
@@ -250,11 +257,11 @@ function toggleDarkMode() {
   document.querySelector(".submenu").style.backgroundColor = "#272727";
   document.querySelector(".search").style.backgroundColor = "#333";
 
-  const cards = document.querySelectorAll(" .card, .card p");
-  cards.forEach((card) => {
-    card.style.backgroundColor = "#333";
-    card.style.color = "#fff";
-  });
+  // const cards = document.querySelectorAll(".dark-mode .card-container, .card");
+  // cards.forEach((card) => {
+  //   card.style.backgroundColor = "#333";
+  //   card.style.color = "#fff";
+  // });
 
   const table = document.querySelectorAll(".container-inputs, .block");
   table.forEach((s) => {
@@ -314,4 +321,3 @@ function adjustTableMargin() {
 
 // Llama a la función para ajustar el margen de la tabla cuando la página se carga y cuando el menú se expande o colapsa
 window.onload = adjustTableMargin;
-
