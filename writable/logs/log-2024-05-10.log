@@ -1,0 +1,11 @@
+CRITICAL - 2024-05-10 22:25:16 --> Undefined variable $dato
+#0 C:\xampp\htdocs\cubicaje\app\Views\calcular\calcular.php(188): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined varia...', 'C:\\xampp\\htdocs...', 188)
+#1 C:\xampp\htdocs\cubicaje\system\View\View.php(210): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\cubicaje\system\View\View.php(213): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+#3 C:\xampp\htdocs\cubicaje\system\Common.php(1089): CodeIgniter\View\View->render('calcular/calcul...', Array, true)
+#4 C:\xampp\htdocs\cubicaje\app\Controllers\Calcular.php(24): view('calcular/calcul...', Array)
+#5 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Calcular->index()
+#6 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Calcular))
+#7 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#9 {main}
