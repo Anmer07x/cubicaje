@@ -1,3 +1,4 @@
+<link rel="stylesheet" href="<?php echo base_url(); ?>/css/merca.css">
 <div id="layoutSidenav_content">
     <main>
         <div class="container-fluid px-4">

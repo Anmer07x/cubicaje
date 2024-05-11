@@ -12,8 +12,7 @@
                             <div class="search">
                                 <form method="get" action="<?= base_url('productos/buscarInput') ?>">
                                     <div class="row-search">
-                                        <input type="text" name="search" autocomplete="off" class="form-control"
-                                            placeholder="Buscar...">
+                                        <input type="text" name="search" autocomplete="off" class="form-control" placeholder="Buscar...">
                                         <button type="submit"><i class="fas fa-search"></i></button>
                                         <a href="<?php echo base_url(); ?>/productos/nuevo" class="btn
                                           btn-warning">+</a>
@@ -54,11 +53,11 @@
             </div>
         </div>
         <script>
-            document.addEventListener('DOMContentLoaded', function () {
+            document.addEventListener('DOMContentLoaded', function() {
                 var datos = <?php echo json_encode($datos); ?>; // Asigna tus datos PHP aquí
                 var tableBody = document.querySelector('#datatablesSimple tbody');
 
-                datos.forEach(function (dato) {
+                datos.forEach(function(dato) {
                     var row = document.createElement('tr');
                     row.innerHTML = `
                 <td>${dato.id}</td>
@@ -70,8 +69,10 @@
                 <td>${dato.peso_total}</td>
                 <td><img src="<?php echo base_url(); ?>/images/productos/${dato.id}.jpg" width="100" /></td>
                 <td><img class="imgQR" id="codigo-${dato.id}" /></td>
-                <td><a href="<?php echo base_url(); ?>/productos/editar/${dato.id}" class="btn btn-warning"><i class="fa-solid fa-pen-to-square"></i></a></td>
-                <td><a href="#" data-href="<?php echo base_url(); ?>/productos/eliminar/${dato.id}" data-bs-toggle="modal" data-bs-target="#modal-confirma" data-bs-placement="top" title="Eliminar Registro" class="btn btn-dark"><i class="fa-solid fa-trash-can"></i></a></td>
+                <td><a href="<?php echo base_url(); ?>/productos/editar/${dato.id}" class="btn btn-warning">
+                                            <i class="fa-solid fa-pen-to-square"></i> Editar</i></a></td>
+                
+                <td><a href="#" data-href="<?php echo base_url(); ?>/productos/eliminar/${dato.id}" data-bs-toggle="modal" data-bs-target="#modal-confirma" data-bs-placement="top" title="Eliminar Registro" class="btn btn-dark"><i class="fa-solid fa-trash-can">Eliminar</i></a></td>
             `;
                     tableBody.appendChild(row);
 
@@ -96,8 +97,7 @@
         </script>
     </main>
     < !--Modal -->
-        <div class="modal fade" id="modal-confirma" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
-            aria-hidden="true">
+        <div class="modal fade" id="modal-confirma" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
             <div class="modal-dialog modal-sm" role="document">
                 <div class="modal-content">
                     <div class="modal-header">

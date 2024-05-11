@@ -1,4 +1,5 @@
 <link rel="stylesheet" href="<?php echo base_url(); ?>/css/merca.css">
+
 <script src="https://unpkg.com/qrious@4.0.2/dist/qrious.js"></script>
 <div id="layoutSidenav_content">
     <main>
