@@ -143,6 +143,91 @@ tbody tr:hover {
   background-color: #ffed96;
 }
 
+/* estilo del modal*/
+
+.modal-dialog {
+  position: relative;
+  top: 20%;
+  max-width: 400px; /* Ancho máximo del modal */
+  width: 90%; /* Ancho del modal en porcentaje */
+  max-height: 400px;
+  height: 90%;
+}
+/* Estilo para el fondo oscuro detrás del modal */
+.modal-backdrop {
+    background-color: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad según tus preferencias */
+}
+
+/* Estilo para el modal */
+.modal-content {
+    background-color: #fff; /* Color de fondo del modal */
+    border-radius: 10px; /* Borde redondeado */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra */
+}
+
+.modal-header {
+    background-color: #f0f0f0; /* Color de fondo del encabezado del modal */
+    border-bottom: none; /* Sin borde inferior */
+}
+
+.modal-body {
+    padding: 20px; /* Espaciado interno del cuerpo del modal */
+}
+
+.modal-footer {
+    background-color: #f0f0f0; /* Color de fondo del pie del modal */
+    border-top: none; /* Sin borde superior */
+}
+
+.canc{
+  position: relative;
+  right: 121px;
+}
+
+.s {
+  background-color: white;
+  border: 2px solid rgba(255, 0, 0, 0.44);
+  width: 100px;
+  height: 30px;
+  color: black;
+  border-radius: 5px;
+}
+.no{
+background-color: white;
+  border: 2px solid rgba(255, 0, 0, 0.44);
+  width: 50px;
+  height: 30px;
+  color: black;
+  border-radius: 5px;
+}
+.si{
+  font-weight: 700;
+  text-align: center;
+  background-color: rgb(255, 81, 81);
+  border: 1px solid rgb(255, 255, 255);
+  width: 80px;
+  height: 30px;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+.close{
+  text-align: center;
+  border: 2px solid black;
+  border-radius: 10px;
+  position: relative;
+  left: 200px;
+}
+
+
+/* Estilo para los botones dentro del modal */
+.modal-footer .btn {
+    margin-right: 10px; /* Margen derecho entre los botones */
+    border-radius: 5px; /* Borde redondeado para los botones */
+}
+
+/**/
 /* Media queries para estilos responsivos */
 @media only screen and (max-width: 600px) {
   /* Estilos para pantallas pequeñas */
