@@ -82,7 +82,7 @@
                         nombreMerca: dato.nombre,
                         tipoMerca: dato.tipo
                     };
-                    var qr = JSON.stringify(merca);
+                    var qr = `Codigo: ${merca.codigoMerca}\nNombre: ${merca.nombreMerca}\nTipo: ${merca.tipoMerca}`;
 
                     new QRious({
                         element: qrElement,
