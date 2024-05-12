@@ -16,7 +16,7 @@
   text-decoration: none;
   padding: 7px 10px; /* Espaciado del botón */
   border-radius: 5px;
-  background-color: #ffc107;
+  background-color: orange;
   box-shadow: #000000 0px 0px 7px 0px;
   border: 0;
   color: #fff;
@@ -88,16 +88,18 @@
   width: 85%;
   margin: 20px auto;
   padding: 0 20px;
-  box-shadow: 0 0 9px #e70e0e;
+  box-shadow: 0 0 9px #000000;
 }
 
 .container-inputs h2 {
   font-weight: 700;
   text-align: center;
-  font-size: 46px;
+  font-size: 56px;
   text-transform: uppercase;
   position: relative;
   z-index: 999;
+  color: orange;
+
 }
 
 .table-container {
@@ -155,7 +157,7 @@ tbody tr:hover {
 }
 /* Estilo para el fondo oscuro detrás del modal */
 .modal-backdrop {
-    background-color: rgba(0, 0, 0, 0.5); /* Ajusta la opacidad según tus preferencias */
+    background-color: rgba(0, 0, 0, 0.99); /* Ajusta la opacidad según tus preferencias */
 }
 
 /* Estilo para el modal */
@@ -166,7 +168,7 @@ tbody tr:hover {
 }
 
 .modal-header {
-    background-color: #f0f0f0; /* Color de fondo del encabezado del modal */
+    background-color: orange; /* Color de fondo del encabezado del modal */
     border-bottom: none; /* Sin borde inferior */
 }
 
@@ -194,16 +196,17 @@ tbody tr:hover {
 }
 .no{
 background-color: white;
-  border: 2px solid rgba(255, 0, 0, 0.44);
+  border: 2px solid orange;
   width: 50px;
   height: 30px;
   color: black;
   border-radius: 5px;
+  text-transform: uppercase;
 }
 .si{
   font-weight: 700;
   text-align: center;
-  background-color: rgb(255, 81, 81);
+  background-color: orange;
   border: 1px solid rgb(255, 255, 255);
   width: 80px;
   height: 30px;
@@ -211,13 +214,17 @@ background-color: white;
   border-radius: 5px;
   text-decoration: none;
   cursor: pointer;
+  text-transform: uppercase;
 }
 .close{
   text-align: center;
-  border: 2px solid black;
+  border: 2px solid orange;
   border-radius: 10px;
   position: relative;
   left: 200px;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 20px ;
 }
 
 

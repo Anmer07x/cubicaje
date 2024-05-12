@@ -71,8 +71,8 @@
                 <td>${producto.peso_total}</td>
                 <td><img src="<?php echo base_url(); ?>/images/productos/${producto.id}.jpg" width="100" /></td>
                 <td><img class="imgQR" id="codigo-${producto.id}" /></td>
-                <td><a href="<?php echo base_url(); ?>/productos/editar/${producto.id}" class="btn btn-warning"><i class="fa-solid fa-pen-to-square"></i></a></td>
-                <td><a href="#" data-href="<?php echo base_url(); ?>/productos/eliminar/${producto.id}" data-bs-toggle="modal" data-bs-target="#modal-confirma" data-bs-placement="top" title="Eliminar Registro" class="btn btn-dark"><i class="fa-solid fa-trash-can"></i></a></td>
+                <td><a href="<?php echo base_url(); ?>/productos/editar/${producto.id}" class="btn btn-warning"><i class="fa-solid fa-pen-to-square">Editar</i></a></td>
+                <td><a href="#" data-href="<?php echo base_url(); ?>/productos/eliminar/${producto.id}" data-bs-toggle="modal" data-bs-target="#modal-confirma" data-bs-placement="top" title="Eliminar Registro" class="btn btn-dark"><i class="fa-solid fa-trash-can">Eliminar</i></a></td>
             `;
                     tableBody.appendChild(row);
 

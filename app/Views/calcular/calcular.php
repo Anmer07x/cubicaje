@@ -1,20 +1,4 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Cubicaje</title>
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
-    <link href="<?php echo base_url(); ?>/css/calcu.css" rel="stylesheet" />
-    <link rel="icon" href="<?php echo base_url(); ?> public/images/pila-de-cubos.png" />
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.0/font/bootstrap-icons.css" rel="stylesheet">
-</head>
-
+<link href="<?php echo base_url(); ?>/css/calcu.css" rel="stylesheet" />
 <body>
     <div class="container-inputs">
         <div class="block">
@@ -22,9 +6,7 @@
             <div class="column">
                 <div class="input-group">
                     <label for="codigo">Código:</label>
-                    <input class="form-control" id="codigo_cajas" name="codigo_cajas" type="number"
-                        placeholder="Escribe el codigo y enter" onkeyup="buscarProducto(event, this, this.value)"
-                        autofocus />
+                    <input class="form-control" id="codigo_cajas" name="codigo_cajas" type="number" placeholder="Escribe el codigo y enter" onkeyup="buscarProducto(event, this, this.value)" autofocus />
 
                     <label for="codigo_cajas" id="resultado_error" style="color: red">
                 </div>
@@ -34,48 +16,39 @@
                 </div>
                 <div class="input-group">
                     <label for="mercancia">Mercancía:</label>
-                    <input class="form-control" id="mercancia" name="mercancia" type="text" value="" oninput="treal()"
-                        disabled />
+                    <input class="form-control" id="mercancia" name="mercancia" type="text" value="" oninput="treal()" disabled />
                 </div>
                 <div class="input-group">
                     <label for="capacidad">Capacidad de la caja:</label>
-                    <input class="form-control" id="capacidad" name="capacidad" type="number" value="" oninput="treal()"
-                        disabled />
+                    <input class="form-control" id="capacidad" name="capacidad" type="number" value="" oninput="treal()" disabled />
                 </div>
                 <div class="input-group">
                     <label for="alto">Alto/m:</label>
-                    <input class="form-control" id="alto" name="alto" type="number" value="" sted="0.001"
-                        oninput="treal()()" disabled />
+                    <input class="form-control" id="alto" name="alto" type="number" value="" sted="0.001" oninput="treal()()" disabled />
                 </div>
                 <div class="input-group">
                     <label for="largo">Largo/m:</label>
-                    <input class="form-control" id="largo" name="largo" type="number" sted="0.001" value=""
-                        oninput="treal()()" disabled />
+                    <input class="form-control" id="largo" name="largo" type="number" sted="0.001" value="" oninput="treal()()" disabled />
                 </div>
                 <div class="input-group">
                     <label for="ancho">Ancho/m:</label>
-                    <input class="form-control" id="ancho" name="ancho" type="number" sted="0.001" value=""
-                        oninput="treal()" disabled />
+                    <input class="form-control" id="ancho" name="ancho" type="number" sted="0.001" value="" oninput="treal()" disabled />
                 </div>
                 <div class="input-group">
                     <label for="cantidad-elementos">Cantidad de elementos:</label>
-                    <input class="form-control" id="piezas_caja" name="piezas_caja" sted="0.001" type="number" value=""
-                        oninput="treal()" disabled />
+                    <input class="form-control" id="piezas_caja" name="piezas_caja" sted="0.001" type="number" value="" oninput="treal()" disabled />
                 </div>
                 <div class="input-group">
                     <label for="cantidad-cajas">Cantidad de cajas:</label>
-                    <input class="form-control" id="cantidad" name="cantidad" type="number" value="" oninput="treal()"
-                        disabled />
+                    <input class="form-control" id="cantidad" name="cantidad" type="number" value="" oninput="treal()" disabled />
                 </div>
                 <div class="input-group">
                     <label for="peso-caja">Peso de caja en kg:</label>
-                    <input class="form-control" id="peso_piezas_kg" name="peso_piezas_kg" sted="0.001" type="number"
-                        value="" oninput="treal()" disabled />
+                    <input class="form-control" id="peso_piezas_kg" name="peso_piezas_kg" sted="0.001" type="number" value="" oninput="treal()" disabled />
                 </div>
                 <div class="input-group">
                     <label for="factor-riesgo">Factor de riesgo:</label>
-                    <input class="form-control" id="factor_de_riesgo" name="factor_de_riesgo" sted="0.001" type="number"
-                        value="" oninput="treal()" disabled />
+                    <input class="form-control" id="factor_de_riesgo" name="factor_de_riesgo" sted="0.001" type="number" value="" oninput="treal()" disabled />
                 </div>
             </div>
         </div>
@@ -85,24 +58,20 @@
             <div class="column">
                 <div class="input-group">
                     <label for="volumen">Volumen/m3:</label>
-                    <input class="form-control" id="num_vol" name="num_vol" type="number" sted="0.001" value=""
-                        oninput="treal()" disabled />
+                    <input class="form-control" id="num_vol" name="num_vol" type="number" sted="0.001" value="" oninput="treal()" disabled />
                 </div>
                 <div class="input-group">
                     <label for="peso-total">Peso total/kg:</label>
-                    <input class="form-control" id="peso_total" name="peso_total" sted="0.001" type="number" value=""
-                        oninput="treal()" disabled />
+                    <input class="form-control" id="peso_total" name="peso_total" sted="0.001" type="number" value="" oninput="treal()" disabled />
                 </div>
                 <div class="input-group">
                     <label for="vehiculo">Vehículo:</label>
-                    <input class="form-control" id="vehiculos" name="vehiculos" sted="0.001" type="tex" value=""
-                        oninput="treal()" disabled />
+                    <input class="form-control" id="vehiculos" name="vehiculos" sted="0.001" type="tex" value="" oninput="treal()" disabled />
 
                 </div>
                 <div class="input-group">
                     <label for="tipo-vehiculo">Tipo de vehículo:</label>
-                    <input class="form-control" id="tipo_vehiculos" name="tipo_vehiculos" type="text" value=""
-                        oninput="treal()" disabled />
+                    <input class="form-control" id="tipo_vehiculos" name="tipo_vehiculos" type="text" value="" oninput="treal()" disabled />
                 </div>
                 <div class="input-group">
                     <label for="empresa">Empresa:</label>
@@ -126,14 +95,13 @@
 </body>
 
 <script>
-    
     var images = $(".image");
 
-    $(images).on("error", function (event) {
+    $(images).on("error", function(event) {
         $(event.target).css("display", "none");
     });
 
-    $(document).ready(function () {
+    $(document).ready(function() {
 
     });
 
@@ -146,7 +114,7 @@
                     url: '<?php echo base_url(); ?>/cajas/buscarPorCodigo/' +
                         codigo_cajas,
                     dataType: 'json',
-                    success: function (resultado) {
+                    success: function(resultado) {
                         if (resultado == 0) {
                             $(tagCodigo).val('');
                         } else {
@@ -198,7 +166,7 @@
                 $.ajax({
                     url: '<?php echo base_url(); ?>/vehiculos/buscarPorMaximo/' + id,
                     dataType: 'json',
-                    success: function (resultado) {
+                    success: function(resultado) {
                         if (resultado == 0) {
                             $(tagmaximo).val('');
                         } else {
@@ -243,14 +211,14 @@
                 cantidadd = parseFloat(document.getElementById("cantidad").value) || 0;
 
             document.getElementById("cantidad").value = cantidad_elementos / capasidadd;
-        } catch (e) { }
+        } catch (e) {}
 
         try {
             var altoo = parseFloat(document.getElementById("alto").value) || 0,
                 largoo = parseFloat(document.getElementById("largo").value) || 0,
                 anchoo = parseFloat(document.getElementById("ancho").value) || 0,
                 factor =
-                    parseFloat(document.getElementById("factor_de_riesgo").value) || 0,
+                parseFloat(document.getElementById("factor_de_riesgo").value) || 0,
                 cantidadd = parseFloat(document.getElementById("cantidad").value) || 0;
             //Math.ceil sirve para redondear el valor
             document.getElementById("num_vol").value =
@@ -264,7 +232,7 @@
                 url: "<?php echo base_url(); ?>/vehiculos/buscarPorMaximo/" +
                     document.getElementById("num_vol").value,
                 dataType: "json",
-                success: function (resultado) {
+                success: function(resultado) {
                     if (resultado == 0) {
                         document.getElementById("maximo").value = "";
                     } else {
@@ -303,7 +271,7 @@
 
             document.getElementById("peso_total").value =
                 cantidad_elementos * pesoo * cantidadd;
-        } catch (e) { }
+        } catch (e) {}
 
     }
 </script>

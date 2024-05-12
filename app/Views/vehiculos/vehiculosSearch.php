@@ -61,13 +61,13 @@
                                                 width="100" /></td>
 
                                         <td><a href="<?php echo base_url() . '/vehiculos/editar/' . $vehiculo['id']; ?>"
-                                                class="btn btn-warning"><i class="fa-solid fa-pen-to-square"></i></a></td>
+                                                class="btn btn-warning"><i class="fa-solid fa-pen-to-square">Editar</i></a></td>
 
                                         <td><a href="#"
                                                 data-href="<?php echo base_url() . '/vehiculos/eliminar/' . $vehiculo['id']; ?>"
                                                 data-bs-toggle="modal" data-bs-target="#modal-confirma"
                                                 data-bs-placement="top" title="Eliminar Registro" class="btn btn-dark"><i
-                                                    class="fa-solid fa-trash-can"></i></a> </td>
+                                                    class="fa-solid fa-trash-can">Eliminar</i></a> </td>
                                     </tr>
                                 <?php } ?>
                             </tbody>
