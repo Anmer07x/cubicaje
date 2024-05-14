@@ -29,23 +29,14 @@
                     <label></i>Clasificación</label>
                     <input class="form-control" id="clasificacion" name="clasificacion" type="text" value="<?php echo $datos['clasificacion']; ?>" required />
                 </div>
-
-
-
                 <div class="form-group">
-
                     <a href="<?php echo base_url(); ?>/vehiculos" class="btn btn-warning">Regresar</a>
                     <button data-bs-toggle="modal" data-bs-target="#modal-confirma" data-bs-placement="top" title="Guardar Registro" type="submit" class="btn btn-dark">Guardar</button>
                 </div>
-
-
             </div>
-
-
-
         </form>
-
     </div>
+    
     <div class="blocked">
         <h2>Imagen del vehículo</h2>
         <div class="columna">
@@ -56,7 +47,6 @@
             <input type="file" id="img_vehiculo" name="img_vehiculo" accept="image/*" style="display:none;" onchange="loadFile(event)" />
         </div>
     </div>
-
 </div>
 
 <script>

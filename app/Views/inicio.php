@@ -25,9 +25,7 @@ $user_session = session();
       <div class="banner">
         <div class="banner-content">
           <h1>¡Bienvenido(a), <?php echo $user_session->nombre; ?> </h1>
-          <p>Aquí en nuestra plataforma, te damos la bienvenida a un <br>
-            espacio lleno de oportunidades para que des rienda suelta <br>
-            a tu creatividad y talento. </p>
+          <p>Nuestro objetivo es ayudarles a calcular el volumen necesario para sus cargas de manera eficiente y precisa, garantizando así la mejor utilización de los recursos y la reducción de costos, explora nuestras herramientas, recursos y descubre cómo podemos facilitar tus operaciones logísticas. <br> <strong>¡Gracias por elegirnos y esperamos servirte con excelencia!</strong></p>
         </div>
         <img src="<?php echo base_url(); ?>/images/banner.png" alt="Banner Image">
       </div>

@@ -5,50 +5,50 @@
             <h2>Datos de la caja</h2>
             <div class="column">
                 <div class="input-group">
-                    <label for="codigo">Código:</label>
+                    <label for="codigo">Código: &nbsp;</label>
                     <input class="form-control" id="codigo_cajas" name="codigo_cajas" type="number" placeholder="Escribe el codigo y enter" onkeyup="buscarProducto(event, this, this.value)" autofocus />
 
                     <label for="codigo_cajas" id="resultado_error" style="color: red">
                 </div>
                 <div class="input-group">
-                    <label for="tipo-caja">Tipo de caja:</label>
+                    <label for="tipo-caja">Tipo de caja: &nbsp;</label>
                     <input class="form-control" id="tipo" name="tipo" type="text" value="" oninput="treal()" disabled />
                 </div>
                 <div class="input-group">
-                    <label for="mercancia">Mercancía:</label>
+                    <label for="mercancia">Mercancía: &nbsp;</label>
                     <input class="form-control" id="mercancia" name="mercancia" type="text" value="" oninput="treal()" disabled />
                 </div>
                 <div class="input-group">
-                    <label for="capacidad">Capacidad de la caja:</label>
-                    <input class="form-control" id="capacidad" name="capacidad" type="number" value="" oninput="treal()" disabled />
+                    <label for="capacidad">Capacidad de la caja: &nbsp; </label>
+                    <input class="form-control" id="capacidad" name="capacidad" type="text" value="" oninput="treal()" disabled />
                 </div>
                 <div class="input-group">
-                    <label for="alto">Alto/m:</label>
-                    <input class="form-control" id="alto" name="alto" type="number" value="" sted="0.001" oninput="treal()()" disabled />
+                    <label for="alto">Alto/m: &nbsp;</label>
+                    <input class="form-control" id="alto" name="alto" type="text" value="" sted="0.001" oninput="treal()()" disabled />
                 </div>
                 <div class="input-group">
-                    <label for="largo">Largo/m:</label>
-                    <input class="form-control" id="largo" name="largo" type="number" sted="0.001" value="" oninput="treal()()" disabled />
+                    <label for="largo">Largo/m: &nbsp;</label>
+                    <input class="form-control" id="largo" name="largo" type="text" sted="0.001" value="" oninput="treal()()" disabled />
                 </div>
                 <div class="input-group">
-                    <label for="ancho">Ancho/m:</label>
-                    <input class="form-control" id="ancho" name="ancho" type="number" sted="0.001" value="" oninput="treal()" disabled />
+                    <label for="ancho">Ancho/m: &nbsp;</label>
+                    <input class="form-control" id="ancho" name="ancho" type="text" sted="0.001" value="" oninput="treal()" disabled />
                 </div>
                 <div class="input-group">
-                    <label for="cantidad-elementos">Cantidad de elementos:</label>
-                    <input class="form-control" id="piezas_caja" name="piezas_caja" sted="0.001" type="number" value="" oninput="treal()" disabled />
+                    <label for="cantidad-elementos">Cantidad de elementos: &nbsp;</label>
+                    <input class="form-control" id="piezas_caja" name="piezas_caja" sted="0.001" type="text" value="" oninput="treal()" disabled />
                 </div>
                 <div class="input-group">
-                    <label for="cantidad-cajas">Cantidad de cajas:</label>
-                    <input class="form-control" id="cantidad" name="cantidad" type="number" value="" oninput="treal()" disabled />
+                    <label for="cantidad-cajas">Cantidad de cajas: &nbsp;</label>
+                    <input class="form-control" id="cantidad" name="cantidad" type="text" value="" oninput="treal()" disabled />
                 </div>
                 <div class="input-group">
-                    <label for="peso-caja">Peso de caja en kg:</label>
-                    <input class="form-control" id="peso_piezas_kg" name="peso_piezas_kg" sted="0.001" type="number" value="" oninput="treal()" disabled />
+                    <label for="peso-caja">Peso de caja en kg: &nbsp;</label>
+                    <input class="form-control" id="peso_piezas_kg" name="peso_piezas_kg" sted="0.001" type="text" value="" oninput="treal()" disabled />
                 </div>
                 <div class="input-group">
-                    <label for="factor-riesgo">Factor de riesgo:</label>
-                    <input class="form-control" id="factor_de_riesgo" name="factor_de_riesgo" sted="0.001" type="number" value="" oninput="treal()" disabled />
+                    <label for="factor-riesgo">Factor de riesgo: &nbsp;</label>
+                    <input class="form-control" id="factor_de_riesgo" name="factor_de_riesgo" sted="0.001" type="text" value="" oninput="treal()" disabled />
                 </div>
             </div>
         </div>
@@ -57,32 +57,32 @@
             <h2>Datos del vehículo</h2>
             <div class="column">
                 <div class="input-group">
-                    <label for="volumen">Volumen/m3:</label>
-                    <input class="form-control" id="num_vol" name="num_vol" type="number" sted="0.001" value="" oninput="treal()" disabled />
+                    <label for="volumen">Volumen/m3: &nbsp;</label>
+                    <input class="form-control" id="num_vol" name="num_vol"  sted="0.001" type="text" value="" oninput="treal()" disabled />
                 </div>
                 <div class="input-group">
-                    <label for="peso-total">Peso total/kg:</label>
-                    <input class="form-control" id="peso_total" name="peso_total" sted="0.001" type="number" value="" oninput="treal()" disabled />
+                    <label for="peso-total">Peso total/kg: &nbsp;</label>
+                    <input class="form-control" id="peso_total" name="peso_total" sted="0.001" type="text" value="" oninput="treal()" disabled />
                 </div>
                 <div class="input-group">
-                    <label for="vehiculo">Vehículo:</label>
-                    <input class="form-control" id="vehiculos" name="vehiculos" sted="0.001" type="tex" value="" oninput="treal()" disabled />
+                    <label for="vehiculo">Vehículo: &nbsp;</label>
+                    <input class="form-control" id="vehiculos" name="vehiculos" sted="0.001" type="text" value="" oninput="treal()" disabled />
 
                 </div>
                 <div class="input-group">
-                    <label for="tipo-vehiculo">Tipo de vehículo:</label>
+                    <label for="tipo-vehiculo">Tipo de vehículo: &nbsp;</label>
                     <input class="form-control" id="tipo_vehiculos" name="tipo_vehiculos" type="text" value="" oninput="treal()" disabled />
                 </div>
                 <div class="input-group">
-                    <label for="empresa">Empresa:</label>
+                    <label for="empresa">Empresa: &nbsp;</label>
                     <input class="form-control" id="empresa" name="empresa" type="text" disabled />
                 </div>
                 <div class="input-group">
-                    <label for="clasificacion">Clasificación:</label>
+                    <label for="clasificacion">Clasificación: &nbsp;</label>
                     <input class="form-control" id="clasificacion" name="clasificacion" type="text" disabled />
                 </div>
                 <div class="input-group">
-                    <label for="Vehicle">Vehículo:</label>
+                    <label for="Vehicle">Vehículo: &nbsp;</label>
                     <img class="image" id="img_vehiculos" alt="Vehiculo">
                 </div>
             </div>

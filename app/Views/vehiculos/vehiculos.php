@@ -23,6 +23,7 @@
                     <div class="row-search">
                         <input type="text" name="search" class="form-control" autocomplete="off" placeholder="Buscar...">
                         <button type="submit"><i class="fas fa-search"></i></button>
+                        <a href="<?php echo base_url(); ?>/vehiculos/nuevo" class="btn btn-warning">+</a>
                     </div>
                 </form>
             </div>
