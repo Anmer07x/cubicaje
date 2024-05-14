@@ -15,61 +15,69 @@ $user_session = session();
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Inicia sesión</title>
+    <title>Reestablecer</title>
 
     <!-- Custom fonts for this template-->
-    <link href="<?php echo base_url(); ?>/css/dataTable.css" rel="stylesheet" />
-    <link href="<?php echo base_url(); ?>/css/styles.css" rel="stylesheet" />
-    <script src="<?php echo base_url(); ?>/js/all.js"></script>
+    <link href="<?php echo base_url(); ?>/css/style.css" rel="stylesheet" />
+    <link rel="icon" type="image/x-icon" href="<?php echo base_url(); ?>/images/pila-de-cubos.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+
 </head>
 
 <body class="bg-light">
-    <img src="/fondo.png" alt="" title="Claretiano">
-    <?php print_r($user_session->nombre); ?>
+
+
+    <div class="header">
+        <div class="logo-container">
+            <div class="initials">SCU</div>
+            <div class="bar"></div>
+            <img src="<?php echo base_url(); ?>/images/logoU.png" alt="Logo">
+        </div>
+    </div>
+    <div class="body-background"></div>
     <div class="container py-5 h-100">
         <div class="row d-flex justify-content-center align-items-center h-100">
             <div class="col-12 col-md-8 col-lg-6 col-xl-5">
                 <div class="card shadow-2-strong" style="border-radius: 1rem;">
                     <div class="card-body p-5 text-center">
+                        <form method="POST" class="containerRegister" action="<?php echo base_url(); ?>/usuarios/recovery">
+
+                            <img class="logoLogin" src="<?php echo base_url(); ?>/images/logoU.png" alt="">
+                            <input class="input" type="email" id="usuario" name="usuario" placeholder="Ingresa tu correo..." required>
+                            <button class="buttonSubmit" type="submi">Verificar</button>
+                            <button type="button" class="buttonCancel" onclick="window.location.href='<?php echo base_url(); ?>'">Cancelar</button>
 
 
-                        <img src="<?php echo base_url() . '/images/logotipo.png' ?>" class="img-responsive"
-                            type="center" width="200" />
-
-                        </br></br>
-                        <h3 class="mb-2">Recuperar contraseña</h3>
-
-                        <form method="POST" action="<?php echo base_url(); ?>/usuarios/recovery">
-                            <div class="form-outline mb-6">
-                                <label class="control-label" for="usuario" >Correo</label>
-                                <input type="email" id="usuario" name="usuario" class="form-control"
-                                    placeholder="Ingresa tu correo..." required/>
-                            </div>
                             </br>
-                            <button class="btn btn-warning"  type="submi">Enviar</button>
+
+
 
                             <hr class="my-4">
 
                     </div>
-                    <?php if(isset($validation)) { ?>
-                    <div class="alert alert-danger">
-                        <?php echo $validation->listErrors(); ?>
-                    </div>
+                    <?php if (isset($validation)) { ?>
+                        <div class="alert alert-danger">
+                            <?php echo $validation->listErrors(); ?>
+                        </div>
                     <?php } ?>
 
-                    <?php if(isset($error)) { ?>
-                    <div class="alert alert-danger">
-                        <?php echo $error; ?>
-                    </div>
+                    <?php if (isset($error)) { ?>
+                        <div class="alert alert-danger">
+                            <?php echo $error; ?>
+                        </div>
                     <?php } ?>
                     </form>
+
+                    <div class="help-box">
+                        <a href="https://www.uniclaretiana.edu.co/#atencion">
+                            <i class="fas fa-question-circle"></i> Ayuda
+                        </a>
+                    </div>
                 </div>
 
             </div>
 
-            <script src="<?php echo base_url(); ?>/js/bootstrap.bundle.min.js"></script>
-            <script src="<?php echo base_url(); ?>/js/scripts.js"></script>
-            <script src="<?php echo base_url(); ?>/js/simple-datatables@latest.js"></script>
+
 
 </body>
 

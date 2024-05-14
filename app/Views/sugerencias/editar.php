@@ -14,7 +14,7 @@
             <div class="column">
 
                 <div class="input-group">
-                    <label></i> Código Cajas</label>
+                    <label></i> Código Cajas &nbsp;</label>
                     <input class="form-control" id="codigo_cajas" name="codigo_cajas" type="text" value="<?php echo $datos['codigo_cajas']; ?>" autofocus required />
                 </div>
 

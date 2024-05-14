@@ -214,7 +214,7 @@ class Usuarios extends BaseController
                 $paracorrreo ="usuario";
                 $titulo ="Recuperar contraseña";
                 $mensaje ="Para recuperar tu contraseña sigue los pasos.";
-                $tucorreo ="From: cristobapa09@gmail.com";
+                $tucorreo ="From: mena.r1307@gmail.com";
 
                 if(mail($paracorrreo,$titulo,$mensaje,$tucorreo))
                 {

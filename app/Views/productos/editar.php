@@ -5,27 +5,27 @@
         <?php \Config\Services::validation()->listErrors(); ?>
 
         <form method="POST" action="<?php echo base_url(); ?>/productos/actualizar" autocomplete="off">
-        <input type="hidden" id="id" class="content-center " name="id" value="<?php echo $producto['id']; ?>" />
-        <?php csrf_field(); ?>
+            <input type="hidden" id="id" class="content-center " name="id" value="<?php echo $producto['id']; ?>" />
+            <?php csrf_field(); ?>
 
             <div class="column">
-               
+
                 <div class="input-group">
-                    <label>Código</label>
-                    <input class="form-control" id="codigo" name="codigo" type="text" value="<?php  echo $producto['codigo']; ?>" autofocus required />
-                                                                                               
+                    <label>Código: &nbsp;</label>
+                    <input class="form-control" id="codigo" name="codigo" type="text" value="<?php echo $producto['codigo']; ?>" autofocus required />
+
                 </div>
                 <div class="input-group">
-                    <label>Nombre</label>
+                    <label>Nombre: &nbsp;</label>
                     <input class="form-control" id="nombre" name="nombre" type="text" value="<?php echo $producto['nombre']; ?>" required />
                 </div>
                 <div class="input-group">
-                    <label></i> Tipo</label>
+                    <label></i> Tipo: &nbsp;</label>
                     <input class="form-control" id="tipo" name="tipo" type="text" value="<?php echo $producto['tipo']; ?>" required />
                 </div>
 
                 <div class="input-group">
-                    <label>Caja</label>
+                    <label>Caja: &nbsp;: &nbsp; </label>
                     <select class="form-control" id="id_caja" name="id_caja" required>
                         <option value="">Seleccionar caja</option>
                         <?php foreach ($cajas as $caja) { ?>
@@ -39,7 +39,7 @@
                 </div>
 
                 <div class="input-group">
-                    <label>Vehículo</label>
+                    <label>Vehículo: &nbsp; </label>
                     <select class="form-control" id="id_vehiculo" name="id_vehiculo" required>
                         <option value="">Seleccionar Vehículo</option>
                         <?php foreach ($vehiculos as $vehiculo) { ?>
@@ -53,22 +53,22 @@
                 </div>
 
                 <div class="input-group">
-                    <label>Cantidad</label>
-                    <input class="form-control" id="cantidad" name="cantidad" type="number" value="<?php echo $producto['cantidad']; ?>" required />
+                    <label>Cantidad: &nbsp; </label>
+                    <input class="form-control" id="cantidad" name="cantidad" type="text" value="<?php echo $producto['cantidad']; ?>" required />
                 </div>
 
                 <div class="input-group">
-                    <label></i> Vol.m3</label>
-                    <input class="form-control" id="vol_m" name="vol_m" type="number" value="<?php echo $producto['vol_m']; ?>" required />
+                    <label></i> Vol.m3: &nbsp; </label>
+                    <input class="form-control" id="vol_m" name="vol_m" type="text" value="<?php echo $producto['vol_m']; ?>" required />
                 </div>
 
                 <div class="input-group">
-                    <label>Peso/total</label>
-                    <input class="form-control" id="peso_total" name="peso_total" type="number" value="<?php echo $producto['peso_total']; ?>" required />
+                    <label>Peso/total: &nbsp; </label>
+                    <input class="form-control" id="peso_total" name="peso_total" type="text" value="<?php echo $producto['peso_total']; ?>" required />
                 </div>
 
                 <div class="input-group">
-                    <label>Es inventariable</label>
+                    <label>Es inventariable: &nbsp;</label>
                     <select id="inventariable" name="inventariable" class="form-control">
                         <option value="1" <?php if ($producto['inventariable'] == 1) {
                                                 echo 'selected';
@@ -91,7 +91,7 @@
         <h2>Imagen cajas</h2>
         <div class="columna">
             <div class="image-container" onclick="document.getElementById('img_producto').click()">
-                <img src="<?php echo base_url() . '/images/productos/' . $producto['id'] . '.jpg'; ?>" alt="Imagen del producto" class="img-responsive" width="200" />
+                <img src="<?php echo base_url() . '/images/productos/' . $producto['id'] . '.jpg'; ?>" alt="Imagen del producto" class="img-responsive"  />
                 <div class="overlay">Click para cambiar imagen</div>
             </div>
             <input type="file" id="img_producto" name="img_producto" accept="image/*" style="display:none;" onchange="loadFile(event)" />
