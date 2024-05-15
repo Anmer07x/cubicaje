@@ -45,8 +45,7 @@ $user_session = session();
                             <img class="logoLogin" src="<?php echo base_url(); ?>/images/logoU.png" alt="">
                             <input class="input" type="email" id="usuario" name="usuario" placeholder="Ingresa tu correo..." required>
                             <button class="buttonSubmit" type="submi">Verificar</button>
-                            <button type="button" class="buttonCancel" onclick="window.location.href='<?php echo base_url(); ?>'">Cancelar</button>
-
+                            <button class="buttonCancel" onclick="location.href='<?php echo base_url(); ?> /">Cancelar</button>
 
                             </br>
 
