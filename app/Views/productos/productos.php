@@ -28,7 +28,7 @@
                                         <table id="datatablesSimple">
                                             <thead>
                                                 <tr>
-                                                    <th>Id</th>
+                                                    
                                                     <th>Código</th>
                                                     <th>Nombre</th>
                                                     <th>Tipo</th>
@@ -61,7 +61,7 @@
                 datos.forEach(function (dato) {
                     var row = document.createElement('tr');
                     row.innerHTML = `
-                <td>${dato.id}</td>
+                
                 <td>${dato.codigo}</td>
                 <td>${dato.nombre}</td>
                 <td>${dato.tipo}</td>

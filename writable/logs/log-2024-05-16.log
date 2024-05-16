@@ -1,0 +1,7 @@
+CRITICAL - 2024-05-16 10:51:45 --> Trying to access array offset on value of type null
+#0 C:\xampp\htdocs\cubicaje\app\Controllers\Usuarios.php(361): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Trying to acces...', 'C:\\xampp\\htdocs...', 361)
+#1 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(832): App\Controllers\Usuarios->valida()
+#2 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(419): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Usuarios))
+#3 C:\xampp\htdocs\cubicaje\system\CodeIgniter.php(326): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 C:\xampp\htdocs\cubicaje\public\index.php(37): CodeIgniter\CodeIgniter->run()
+#5 {main}

@@ -31,7 +31,7 @@
                                     <table id="datatablesSimple">
                                         <thead>
                                             <tr>
-                                                <th>Id</th>
+
                                                 <th>Código Cajas</th>
                                                 <th>Tipo</th>
                                                 <th>Cantidad</th>
@@ -50,7 +50,7 @@
                                             <?php foreach ($datos as $dato) { ?>
 
                                                 <tr>
-                                                    <td><?php echo $dato['id']; ?></td>
+
                                                     <td><?php echo $dato['codigo_cajas']; ?></td>
                                                     <td><?php echo $dato['tipo']; ?></td>
                                                     <td><?php echo $dato['cantidad']; ?></td>
