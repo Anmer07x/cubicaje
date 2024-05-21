@@ -115,9 +115,9 @@
         <div class="modal-dialog1 modal-lg">
             <div class="modal-content1">
                 <div class="modal-header1">
-                    <h5 class="modal-title1" id="modelModalLabel">Modelo 3D</h5>
-                    <button type="button" class="close1" data-dismiss="modal" aria-label="Close">
-                    </button>
+                    <h5 class="modal-title1 " id="modelModalLabel">Modelo 3D</h5>
+               
+                   <br>
                 </div>
                 <div class="modal-body1">
                     <div id="threejs-container" style="width: 100%; height: 500px;"></div>
@@ -160,7 +160,7 @@
                 const camera = new THREE.PerspectiveCamera(75, $('#threejs-container').width() / $('#threejs-container').height(), 0.1, 1000);
                 const renderer = new THREE.WebGLRenderer();
                 renderer.setSize($('#threejs-container').width(), $('#threejs-container').height());
-                renderer.setClearColor(0xffffff, 1); // Establece el fondo blanco
+                renderer.setClearColor(0xCDCDCD , 1); // Establece el fondo blanco
                 document.getElementById('threejs-container').appendChild(renderer.domElement);
 
                 // Añadir luz
@@ -179,7 +179,7 @@
                 // Cargar el archivo glTF
                 const loader = new THREE.GLTFLoader();
                 loader.load(
-                    '<?php echo base_url() . '/3D/camion.glb'; ?>',
+                    '<?php echo base_url() . '/3D/1.glb'; ?>',
                     function(gltf) {
                         // Objeto cargado exitosamente, puedes agregarlo a la escena
                         const object = gltf.scene;
@@ -194,7 +194,9 @@
                 );
 
                 // Posición de la cámara
-                camera.position.z = 5;
+                camera.position.z = 2;
+                camera.position.y = 3;
+                camera.position.x = 7;
 
                 // Controles de órbita
                 const controls = new THREE.OrbitControls(camera, renderer.domElement);

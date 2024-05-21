@@ -238,7 +238,6 @@ tbody tr:hover {
   border-radius: 5px; /* Borde redondeado para los botones */
 }
 
-
 /* Estilos para el modal */
 .modal-dialog1 {
   position: relative;
@@ -249,7 +248,7 @@ tbody tr:hover {
 }
 
 .modal-content1 {
-  background-color: #ffffff5f; /* Color de fondo del modal */
+  background-color: #cdcdcd; /* Color de fondo del modal */
   border-radius: 10px; /* Borde redondeado */
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); /* Sombra */
   top: 10px;
@@ -263,7 +262,6 @@ tbody tr:hover {
 
 .modal-body1 {
   padding: 15px;
- 
 }
 
 .modal-title1 {
@@ -272,12 +270,18 @@ tbody tr:hover {
   font-weight: bold;
   font-size: 45px;
   text-shadow: 1px 1px 2px #000000;
+  top: 15px;
 }
 
 .modal-footer .btnFooter1 {
   background-color: orange;
-
-  
+  border-radius: 10px;
+  text-decoration: none;
+  font-weight: bold;
+  border-color: orange  ;
+  font-size: 20px;
+  text-shadow: 1px 1px 2px #000000;
+  top: 10px;
   text-transform: uppercase;
   position: relative;
 }
@@ -286,7 +290,7 @@ tbody tr:hover {
   position: relative;
   right: 121px;
 }
-  
+
 #threejs-container {
   width: 100%; /* Ancho del contenedor */
   height: 400px; /* Altura del contenedor */
