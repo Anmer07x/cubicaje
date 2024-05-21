@@ -100,7 +100,6 @@
   z-index: 999;
   color: orange;
   text-shadow: 2px 2px 1px #000000;
-
 }
 
 .table-container {
@@ -158,31 +157,36 @@ tbody tr:hover {
 }
 /* Estilo para el fondo oscuro detrás del modal */
 .modal-backdrop {
-    background-color: rgba(0, 0, 0, 0.99); /* Ajusta la opacidad según tus preferencias */
+  background-color: rgba(
+    0,
+    0,
+    0,
+    0.99
+  ); /* Ajusta la opacidad según tus preferencias */
 }
 
 /* Estilo para el modal */
 .modal-content {
-    background-color: #fff; /* Color de fondo del modal */
-    border-radius: 10px; /* Borde redondeado */
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra */
+  background-color: #fff; /* Color de fondo del modal */
+  border-radius: 10px; /* Borde redondeado */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3); /* Sombra */
 }
 
 .modal-header {
-    background-color: orange; /* Color de fondo del encabezado del modal */
-    border-bottom: none; /* Sin borde inferior */
+  background-color: orange; /* Color de fondo del encabezado del modal */
+  border-bottom: none; /* Sin borde inferior */
 }
 
 .modal-body {
-    padding: 20px; /* Espaciado interno del cuerpo del modal */
+  padding: 20px; /* Espaciado interno del cuerpo del modal */
 }
 
 .modal-footer {
-    background-color: #f0f0f0; /* Color de fondo del pie del modal */
-    border-top: none; /* Sin borde superior */
+  background-color: #f0f0f0; /* Color de fondo del pie del modal */
+  border-top: none; /* Sin borde superior */
 }
 
-.canc{
+.canc {
   position: relative;
   right: 121px;
 }
@@ -195,8 +199,8 @@ tbody tr:hover {
   color: black;
   border-radius: 5px;
 }
-.no{
-background-color: white;
+.no {
+  background-color: white;
   border: 2px solid orange;
   width: 50px;
   height: 30px;
@@ -204,7 +208,7 @@ background-color: white;
   border-radius: 5px;
   text-transform: uppercase;
 }
-.si{
+.si {
   font-weight: 700;
   text-align: center;
   background-color: orange;
@@ -217,7 +221,7 @@ background-color: white;
   cursor: pointer;
   text-transform: uppercase;
 }
-.close{
+.close {
   text-align: center;
   border: 2px solid orange;
   border-radius: 10px;
@@ -225,14 +229,74 @@ background-color: white;
   left: 200px;
   text-transform: uppercase;
   font-weight: bold;
-  font-size: 20px ;
+  font-size: 20px;
 }
-
 
 /* Estilo para los botones dentro del modal */
 .modal-footer .btn {
-    margin-right: 10px; /* Margen derecho entre los botones */
-    border-radius: 5px; /* Borde redondeado para los botones */
+  margin-right: 10px; /* Margen derecho entre los botones */
+  border-radius: 5px; /* Borde redondeado para los botones */
+}
+
+
+/* Estilos para el modal */
+.modal-dialog1 {
+  position: relative;
+  margin: 10% auto; /* Centra vertical y horizontalmente */
+  margin-top: 30px;
+  width: 80%; /* Ancho del modal en porcentaje */
+  height: 80%;
+}
+
+.modal-content1 {
+  background-color: #ffffff5f; /* Color de fondo del modal */
+  border-radius: 10px; /* Borde redondeado */
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.9); /* Sombra */
+  top: 10px;
+}
+
+.modal-header1 {
+  background-color: orange; /* Color de fondo del encabezado del modal */
+  border-bottom: none; /* Sin borde inferior */
+  top: 10px;
+}
+
+.modal-body1 {
+  padding: 15px;
+ 
+}
+
+.modal-title1 {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 45px;
+  text-shadow: 1px 1px 2px #000000;
+}
+
+.modal-footer .btnFooter1 {
+  background-color: orange;
+
+  
+  text-transform: uppercase;
+  position: relative;
+}
+
+.canc1 {
+  position: relative;
+  right: 121px;
+}
+  
+#threejs-container {
+  width: 100%; /* Ancho del contenedor */
+  height: 400px; /* Altura del contenedor */
+  position: relative; /* Posición relativa para posicionar correctamente el canvas */
+}
+
+#threejs-container canvas {
+  width: auto; /* Ancho del canvas igual al del contenedor */
+  height: auto; /* Altura del canvas igual al del contenedor */
+  display: block; /* Mostrar el canvas como bloque */
 }
 
 /**/
