@@ -35,17 +35,18 @@ $user_session = session();
                 <div class="collapse-btn" onclick="toggleMenu()">
                     <i class="fas fa-chevron-left"></i>
                 </div>
+                
             </div>
         </div>
         <div class="menu-item"><a class="nav-link" href="<?php echo base_url();?>/inicio"><i class="fas fa-home"></i><span>Inicio</span></a></div>
-        <div class="menu-item"><a class="nav-link" href="<?php echo base_url();?>/productos"><i class="fas fa-box-open"></i><span>Mercancias</span></a></div>
+        <div class="menu-item"><a class="nav-link" href="<?php echo base_url();?>/productos"><i class="fa fa-shopping-basket"></i><span>Mercancias</span></a></div>
         <div class="menu-item"><a class="nav-link" href="<?php echo base_url();?>/cajas"><i class="fas fa-box-open"></i><span>Cajas</span></a></div>
         <div class="menu-item"><a class="nav-link" href="<?php echo base_url();?>/vehiculos"><i class="fas fa-truck-moving"></i></i><span>Vehiculos</span></a></div>
         <div class="menu-item with-submenu"><i class="fas fa-cogs"></i><span>Sugerencias</span> <i class="arrow-icon fas fa-chevron-down"></i></div>
         <div class="submenu">
             <div class="submenu-item"><a href="<?php echo base_url();?>/sugerencias/nuevo"><i class="fas fa-search"></i><span>Consultar Mercancias</span></a></div>
             <div class="submenu-item"><a href="<?php echo base_url();?>/sugerencias"><i class="fas fa-search"></i><span>Consultar Cajas</span></a></div>
-            <div class="submenu-item"><a href="./sugerencias/eliminados.php"><i class="fas fa-search"></i><span>Consultar Vehiculos</span></a></div>
+            <div class="submenu-item"><a href="<?php echo base_url();?>/sugerencias/eliminados"><i class="fas fa-search"></i><span>Consultar Vehiculos</span></a></div>
         </div>
         <div class="menu-item"> <a class="nav-link" href="<?php echo base_url(); ?>/calcular"><i class="fas fa-calculator"></i><span>Calcular
                     Cubicaje</span></a></div>

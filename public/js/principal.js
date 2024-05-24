@@ -321,4 +321,3 @@ function adjustTableMargin() {
 
 // Llama a la función para ajustar el margen de la tabla cuando la página se carga y cuando el menú se expande o colapsa
 window.onload = adjustTableMargin;
-

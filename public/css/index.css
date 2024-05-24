@@ -299,6 +299,8 @@ body{
     .profile.collapsed .collapse-btn i {
     transform: rotate(180deg); /* Rota la flecha hacia afuera */
     }
+
+    
  /* Banner */
 
  .banner {

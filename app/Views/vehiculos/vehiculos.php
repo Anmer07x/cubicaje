@@ -51,7 +51,7 @@
                                     <th>Imagen</th>
                                     <th>Ver 3D</th>
                                     <th>Editar</th>
-                                    <th>Eliminar</th>
+                                    <!-- <th>Eliminar</th> -->
                                 </tr>
                             </thead>
 
@@ -72,8 +72,8 @@
 
                                         <td><a href="<?php echo base_url() . '/vehiculos/editar/' . $dato['id']; ?>" class="btn btn-warning"><i class="fa fa-pencil-square-o">Editar</i></a></td>
 
-                                        <td><a href="#" data-href="<?php echo base_url() . '/vehiculos/eliminar/' . $dato['id']; ?>" data-toggle="modal" data-target="#modal-confirma" class="btn btn-dark eliminarVehiculo">
-                                                <i class="fa-solid fa-trash-can">Eliminar</i></a></td>
+                                            <!-- <td><a href="#" data-href="<?php echo base_url() . '/vehiculos/eliminar/' . $dato['id']; ?>" data-toggle="modal" data-target="#modal-confirma" class="btn btn-dark eliminarVehiculo">
+                                                    <i class="fa-solid fa-trash-can">Eliminar</i></a></td> -->
 
 
                                     </tr>
@@ -116,8 +116,8 @@
             <div class="modal-content1">
                 <div class="modal-header1">
                     <h5 class="modal-title1 " id="modelModalLabel">Modelo 3D</h5>
-               
-                   <br>
+
+                    <br>
                 </div>
                 <div class="modal-body1">
                     <div id="threejs-container" style="width: 100%; height: 500px;"></div>
@@ -160,7 +160,7 @@
                 const camera = new THREE.PerspectiveCamera(75, $('#threejs-container').width() / $('#threejs-container').height(), 0.1, 1000);
                 const renderer = new THREE.WebGLRenderer();
                 renderer.setSize($('#threejs-container').width(), $('#threejs-container').height());
-                renderer.setClearColor(0xCDCDCD , 1); // Establece el fondo blanco
+                renderer.setClearColor(0xCDCDCD, 1); // Establece el fondo blanco
                 document.getElementById('threejs-container').appendChild(renderer.domElement);
 
                 // Añadir luz
@@ -179,7 +179,7 @@
                 // Cargar el archivo glTF
                 const loader = new THREE.GLTFLoader();
                 loader.load(
-                    '<?php echo base_url() . '/3D/1.glb'; ?>',
+                    '<?php echo base_url() . '/3D/2.glb'; ?>',
                     function(gltf) {
                         // Objeto cargado exitosamente, puedes agregarlo a la escena
                         const object = gltf.scene;
@@ -208,6 +208,13 @@
                     renderer.render(scene, camera);
                 }
                 animate();
+            });
+
+            //Se recarga la página al hacer clic en el botón cerrar
+            document.addEventListener('DOMContentLoaded', function() {
+                document.querySelector('.btnFooter1').addEventListener('click', function() {
+                    location.reload();
+                });
             });
         </script>
 

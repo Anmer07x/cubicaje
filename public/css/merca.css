@@ -243,8 +243,8 @@ tbody tr:hover {
   position: relative;
   margin: 10% auto; /* Centra vertical y horizontalmente */
   margin-top: 30px;
-  width: 80%; /* Ancho del modal en porcentaje */
-  height: 80%;
+  width: 60%; /* Ancho del modal en porcentaje */
+  height: 60%;
 }
 
 .modal-content1 {
