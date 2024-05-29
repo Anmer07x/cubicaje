@@ -79,8 +79,10 @@
                         <td><svg id="barcode-${dato.id}"></svg></td>
                         <td><a href="<?php echo base_url(); ?>/productos/editar/${dato.id}" class="btn btn-warning">
                             <i class="fa-solid fa-pen-to-square"></i> Editar</i></a></td>
-                        <td><a href="#" data-href="<?php echo base_url(); ?>/productos/eliminar/${dato.id}" class="btn btn-dark eliminarProducto">
-                            <i class="fa-solid fa-trash-can">Eliminar</i></a></td>
+                        <td><a href="#" data-href="<?php echo base_url(); ?>/productos/eliminar/${dato.id}" class="btn btn-dark eliminarProducto"
+                        data-bs-toggle="modal"
+                                                                data-bs-target="#modal-confirma" data-bs-placement="top"
+                                                                title="Eliminar Registro"<i class="fa-solid fa-trash-can">Eliminar</i></a></td>
                     `;
                         tableBody.appendChild(row);
 
@@ -118,6 +120,7 @@
                     });
                 });
             </script>
+            <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
             <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
         </main>
         <!-- Modal -->

@@ -2,7 +2,6 @@
 $user_session = session();
 ?>
 
-
 <!doctype html>
 <html lang="en">
 
