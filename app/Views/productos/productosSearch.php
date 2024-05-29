@@ -7,6 +7,7 @@
     <title>Generador de Códigos de Barras</title>
     <link rel="stylesheet" href="<?php echo base_url(); ?>/css/merca.css">
     <script src="https://cdn.jsdelivr.net/npm/jsbarcode@3.11.5/dist/JsBarcode.all.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
 </head>
 
 <body>
@@ -78,21 +79,20 @@
                         <td><img src="<?php echo base_url(); ?>/images/productos/${producto.id}.jpg" width="80" /></td>
                         <td><svg id="barcode-${producto.id}"></svg></td>
                         <td><a href="<?php echo base_url(); ?>/productos/editar/${producto.id}" class="btn btn-warning">
-                            <i class="fa-solid fa-pen-to-square"></i> Editar</i></a></td>
-                        <td><a href="#" data-href="<?php echo base_url(); ?>/productos/eliminar/${producto.id}" class="btn btn-dark eliminarProducto">
-                            <i class="fa-solid fa-trash-can">Eliminar</i></a></td>
+                            <i class="fa-solid fa-pen-to-square"></i> Editar</a></td>
+                        <td><a href="#" data-href="<?php echo base_url(); ?>/productos/eliminar/${producto.id}" class="btn btn-dark eliminarProducto"
+                            data-bs-toggle="modal" data-bs-target="#modal-confirma"><i class="fa-solid fa-trash-can"></i> Eliminar</a></td>
                     `;
                         tableBody.appendChild(row);
 
-                        var barcodeText = `${producto.codigo} - ${producto.nombre}`;
-
-                        JsBarcode(`#barcode-${producto.id}`, barcodeText, {
+                        JsBarcode(`#barcode-${producto.id}`, producto.codigo, {
                             format: "CODE128",
                             lineColor: "#000000",
-                            width: 1,
+                            width: 1.2,
                             height: 25,
+                            displayValue: true,
                             text: `${producto.codigo}`,
-                            displayValue: true
+                            fontSize: 12
                         });
                     });
 
@@ -107,18 +107,24 @@
                         item.addEventListener('click', function (event) {
                             event.preventDefault(); // Evita la acción por defecto del enlace
                             var url = this.getAttribute('data-href'); // Obtiene la URL de eliminación
-                            // Abre el modal de confirmación
+
+                            // Guardar la URL de eliminación en el botón "Sí"
+                            var confirmButton = document.querySelector('#confirmarEliminacion');
+                            confirmButton.setAttribute('data-url', url);
+
+                            // Mostrar el modal de confirmación
                             var modal = new bootstrap.Modal(document.getElementById('modal-confirma'));
                             modal.show();
-                            // Al hacer clic en el botón 'Si', llama a la función para eliminar el producto
-                            document.querySelector('.si').addEventListener('click', function () {
-                                eliminarProducto(url);
-                            });
                         });
+                    });
+
+                    // Manejar el clic en el botón "Sí" del modal de confirmación
+                    document.querySelector('#confirmarEliminacion').addEventListener('click', function () {
+                        var url = this.getAttribute('data-url');
+                        eliminarProducto(url);
                     });
                 });
             </script>
-            <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.1.3/js/bootstrap.bundle.min.js"></script>
         </main>
         <!-- Modal -->
         <div class="modal fade" id="modal-confirma" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel"
@@ -127,16 +133,14 @@
                 <div class="modal-content">
                     <div class="modal-header">
                         <h5 class="modal-title" id="exampleModalLabel">Eliminar registro</h5>
-                        <button type="button" class="close" data-bs-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
                     </div>
                     <div class="modal-body">
                         <p>¿Desea eliminar este registro?</p>
                     </div>
                     <div class="modal-footer">
-                        <button type="button" class="no" data-bs-dismiss="modal">No</button>
-                        <a class="si">Si</a>
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">No</button>
+                        <button type="button" class="btn btn-primary" id="confirmarEliminacion">Sí</button>
                     </div>
                 </div>
             </div>
