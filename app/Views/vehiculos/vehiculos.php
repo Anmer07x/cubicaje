@@ -98,7 +98,8 @@
         </div>
     </div>
 
-    <div class="modal 3D" id="modelModal" tabindex="-1" aria-labelledby="modelModalLabel" aria-hidden="true">
+    <div class="modal 3D" id="modelModal" tabindex="-1" aria-labelledby="modelModalLabel" aria-hidden="true"
+        data-backdrop="static" data-keyboard="false">
         <div class="modal-dialog modal-lg">
             <div class="modal-content">
                 <div class="modal-header">
@@ -120,7 +121,10 @@
             document.querySelectorAll('.view-3d').forEach(item => {
                 item.addEventListener('click', function (event) {
                     var vehicleId = this.getAttribute('data-id');
-                    var modal = new bootstrap.Modal(document.getElementById('modelModal'));
+                    var modal = new bootstrap.Modal(document.getElementById('modelModal'), {
+                        backdrop: 'static',
+                        keyboard: false
+                    });
                     modal.show();
 
                     // Configurar Three.js cuando se muestre el modal
