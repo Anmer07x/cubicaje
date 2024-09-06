@@ -7,7 +7,6 @@
                 <div class="input-group">
                     <label for="codigo">Código: &nbsp;</label>
                     <input class="form-control" id="codigo_cajas" name="codigo_cajas" type="number" placeholder="Escribe el codigo y enter" onkeyup="buscarProducto(event, this, this.value)" autofocus />
-
                     <label for="codigo_cajas" id="resultado_error" style="color: red">
                 </div>
                 <div class="input-group">
